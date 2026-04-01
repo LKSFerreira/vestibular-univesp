@@ -1,0 +1,126 @@
+.pagina {
+  max-width: var(--largura-conteudo);
+  margin: 0 auto;
+  padding: var(--espaco-8) var(--espaco-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-8);
+  min-height: 100dvh;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-4);
+}
+
+.voltar {
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-secundario);
+  transition: color var(--transicao-rapida);
+  width: fit-content;
+}
+
+.voltar:hover {
+  color: var(--cor-primaria-500);
+}
+
+.contexto {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+}
+
+.etiqueta {
+  font-size: var(--tamanho-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--cor-primaria-500);
+  font-weight: var(--peso-semibold);
+}
+
+.titulo {
+  font-size: var(--tamanho-3xl);
+  font-weight: var(--peso-bold);
+}
+
+.objetivo {
+  color: var(--cor-texto-secundario);
+  line-height: var(--altura-linha-relaxada);
+}
+
+.erro {
+  color: var(--cor-alerta-500);
+  font-weight: var(--peso-medio);
+}
+
+.conteudo {
+  flex: 1;
+}
+
+.placeholder {
+  padding: var(--espaco-10);
+  background: var(--cor-superficie);
+  border: 2px dashed var(--cor-borda);
+  border-radius: var(--raio-xl);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-4);
+  align-items: center;
+}
+
+.dica {
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-terciario);
+  max-width: 480px;
+  line-height: var(--altura-linha-relaxada);
+}
+
+.preRequisitos {
+  padding: var(--espaco-6);
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+}
+
+.preRequisitosTitulo {
+  font-size: var(--tamanho-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--cor-texto-terciario);
+  margin-bottom: var(--espaco-3);
+}
+
+.preRequisitosLista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espaco-2);
+}
+
+.preRequisitoLink {
+  padding: var(--espaco-1) var(--espaco-3);
+  background: var(--cor-primaria-50);
+  color: var(--cor-primaria-600);
+  border-radius: var(--raio-completo);
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-medio);
+  transition:
+    background var(--transicao-rapida),
+    color var(--transicao-rapida);
+}
+
+.preRequisitoLink:hover {
+  background: var(--cor-primaria-100);
+  color: var(--cor-primaria-700);
+}
+
+@media (max-width: 640px) {
+  .pagina {
+    padding: var(--espaco-5) var(--espaco-4);
+  }
+
+  .titulo {
+    font-size: var(--tamanho-2xl);
+  }
+}

@@ -1,70 +1,137 @@
----
-trigger: always_on
----
+<div align="center">
+  <h1>Vestibular UNIVESP</h1>
+  <p>
+    <strong>Plataforma web interativa de aprendizado adaptativo para matemática e preparação acadêmica.</strong>
+  </p>
+  <p>
+    O foco do produto é identificar lacunas reais de compreensão, regredir com contexto até o pré-requisito correto
+    e devolver o estudante ao problema original sem quebrar o fluxo de raciocínio.
+  </p>
+  <p>
+    <img alt="Status do projeto" src="https://img.shields.io/badge/status-fundação%20técnica-0F766E?style=for-the-badge">
+    <img alt="Fase atual" src="https://img.shields.io/badge/fase-scaffold%20concluído-1D4ED8?style=for-the-badge">
+    <img alt="MVP" src="https://img.shields.io/badge/mvp-matemática%20adaptativa-F59E0B?style=for-the-badge">
+  </p>
+</div>
 
-# 🚀 Vibe Coding Workspace & Infraestrutura de Projetos
+## Stack Técnica
 
-Bem-vindo ao seu **Template Base para Projetos**. Este repositório funciona como uma **"Caixa de Ferramentas" (Toolbox)** gerenciada por Agentes IA que atuarão como seus parceiros de desenvolvimento. Ele contém templates dinâmicos, pipelines de ambientes Docker otimizados e regras de comportamento para organizar, documentar e acelerar a entrega de qualquer projeto profissional.
+| Camada | Tecnologia |
+| --- | --- |
+| Frontend | React 19 + TypeScript (Vite) |
+| Renderização math | KaTeX |
+| Gráficos interativos | D3.js + SVG |
+| Animações | Framer Motion |
+| State management | Zustand |
+| Roteamento | React Router v7 |
+| Estilos | CSS Modules + Custom Properties |
+| Testes | Vitest + Testing Library |
+| Lint/Format | ESLint 9 + Prettier |
+| Deploy | Vercel (free tier) |
+| Persistência (MVP) | localStorage |
 
-Este guia explica o ecossistema de fluxos (`Workflows`) para iniciar um projeto de engenharia de software do zero ou como padronizar repositórios em andamento.
+## Arquitetura
 
----
+```
+┌──────────────────────────────────────────────────┐
+│                   BROWSER (SPA)                  │
+│                                                  │
+│  Páginas ─── Componentes ─── Hooks ─── Stores    │
+│                     │                            │
+│          ┌──────────┴──────────┐                 │
+│          │  Domínio (TS puro)  │                 │
+│          │                     │                 │
+│          │ Grafo · Sessão ·    │                 │
+│          │ Motor · Progresso · │                 │
+│          │ Telemetria          │                 │
+│          └──────────┬──────────┘                 │
+│                     │                            │
+│          ┌──────────┴──────────┐                 │
+│          │   Infraestrutura    │                 │
+│          │   (localStorage)    │                 │
+│          └─────────────────────┘                 │
+└──────────────────────────────────────────────────┘
+```
 
-## 🛠️ O Que é Este Repositório?
+> A camada de domínio é TypeScript puro sem dependência de framework. O motor adaptativo, sessão e grafo são testáveis isoladamente.
 
-Este repositório fornece a base arquitetural para novos projetos e padronizações. Suas pastas ocultas contêm o núcleo operacional do template:
+## Setup Local
 
-- **`.agents/workflows/`**: Comandos Slash (ex: `/init`) que definem passos lógicos estritos para o Agente executar.
-- **`.agents/templates/`**: Blueprints e arquivos de referência "Ouro" para infraestrutura, Docker e ambientes de desenvolvimento.
-- **`.agents/rules/`**: Diretrizes de estilo, linguagem e comportamento para manter consistência arquitetural e qualidade de entrega.
+```bash
+# Instalar dependências
+npm install
 
----
+# Iniciar dev server
+npm run dev
 
-## 🧭 O Fluxo de Trabalho (Workflows)
+# Rodar testes
+npm run test
 
-Abaixo descrevemos o ciclo de vida completo do uso dos comandos e em qual ordem eles devem ser acionados pelo chat:
+# Typecheck
+npm run typecheck
 
-### 🌟 1. Inicializando um NOVO Projeto
+# Lint
+npm run lint
 
-Quando você clonar ou esvaziar a raiz para começar uma nova ideia:
+# Build de produção
+npm run build
+```
 
-1. **`/init`** (Gerador de Contexto Inicial)
-   - **O que faz:** Analisa os arquivos para detectar a stack predominante. Gera automaticamente as documentações vitais (`.metadocs/roadmap.md`, regras `.agents/rules/<linguagem>.md` e o `README.md` do repositório) e assina a tag de linguagem do agente responsável pelo projeto.
-   - **Quando usar:** No primeiro prompt do projeto, logo após inserir os arquivos base ou gerar o boilerplate inicial.
+## Estrutura do Repositório
 
-2. **`/setup_docker`** (Bootstrapping de Infraestrutura)
-   - **O que faz:** Pega as arquiteturas dos templates "Ouro" e constrói a pasta `.docker/` real na raiz do seu projeto. Cria os arquivos locais `.env` e o utilitário `dev.sh` (Injetando IP dinâmico para hot-reload confiável em qualquer SO).
-   - **Quando usar:** Logo em seguida ao `/init`, para ter seu ambiente Docker e Banco de Dados rodando em questão de segundos.
+```text
+.
+├── .agents/                    # Regras, skills e workflows do agente
+├── .metadocs/                  # Roadmap, arquitetura, decisões de stack
+│   ├── arquitetura.md          # Documento de arquitetura do sistema
+│   ├── decisoes_de_stack.md    # ADR com decisões técnicas
+│   └── roadmap.md              # Roadmap de evolução do projeto
+├── src/
+│   ├── dominio/                # Lógica pura (zero dependência de framework)
+│   │   ├── grafo/              # Grafo de conhecimento
+│   │   ├── sessao/             # Máquina de estados da sessão
+│   │   ├── motor/              # Motor adaptativo (interpretador + avaliador)
+│   │   ├── progresso/          # Cálculo de nível de domínio
+│   │   └── telemetria/         # Event bus de telemetria
+│   ├── conteudo/               # Dados do grafo versionados como TS
+│   ├── componentes/            # Componentes React
+│   ├── hooks/                  # Custom hooks
+│   ├── paginas/                # Páginas/rotas
+│   ├── infraestrutura/         # Adapters de persistência
+│   └── estilos/                # Design system (tokens, reset, animações)
+├── AGENTS.md
+├── PRD.md
+├── README.md
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── vitest.config.ts
+```
 
----
+## Documentação
 
-### 🔄 2. Retornando ao Seu Projeto (Novo Chat)
+| Documento | Finalidade |
+| --- | --- |
+| [PRD.md](./PRD.md) | Requisitos de produto, MVP, domínio, UX/UI e direcionadores |
+| [.metadocs/arquitetura.md](./.metadocs/arquitetura.md) | Arquitetura do sistema, camadas, máquina de estados e fluxo de dados |
+| [.metadocs/decisoes_de_stack.md](./.metadocs/decisoes_de_stack.md) | ADR com 10 decisões técnicas documentadas |
+| [.metadocs/roadmap.md](./.metadocs/roadmap.md) | Roadmap de evolução do projeto |
+| [AGENTS.md](./AGENTS.md) | Regras operacionais do agente |
 
-Devido ao limite de contexto, frequentemente você abrirá novas janelas de chat para continuar um projeto em dias diferentes. Evite o caos com uma reconexão padronizada:
+## Trilha do MVP
 
-1. **`/novo_chat`** (Sincronização de Contexto e Auditoria)
-   - **O que faz:** Força o Agente a ler silenciosamente o `.metadocs/roadmap.md`, regras do repositório e os manifestos para entender onde o trabalho parou. Ele fará uma auditoria e comparará o código atual com o que diz o roadmap.
-   - **Quando usar:** **SEMPRE** que você abrir uma nova janela de chat da IA. Nunca retome o trabalho antes de usar este comando para realinhar o contexto.
+A trilha inicial do MVP é **Função do 2º Grau**, com 7 nós de conhecimento:
 
----
+1. Operações Algébricas Básicas
+2. Fatoração
+3. Equação do 2º Grau
+4. Discriminante (Delta)
+5. Raízes (Bhaskara)
+6. Leitura de Gráfico de Parábola
+7. Função Quadrática Completa
 
-### 💻 3. Desenvolvimento Diário e Entrega Contínua
+O motor adaptativo monitora as interações do usuário e decide automaticamente quando regredir para um pré-requisito, reforçar o conceito atual ou avançar.
 
-Enquanto você trabalha ("vibe coding"), use os ajudantes de versionamento restrito e atômico:
+## Licenciamento
 
-1. **`/commits`** (Gerador de Commits Padronizados)
-   - **O que faz:** Avalia o seu `git diff`, analisa as mudanças e formata mensagens baseadas em emojis (ex: `:sparkles: feat`, `:bug: fix`, `:recycle: refactor`), reforçando atomicidade e rastreabilidade.
-   - **Quando usar:** Sempre que a alteração atual fechar um ciclo lógico de funcionamento no código.
-
-2. **`/pull_requests`** (Formatador de Entregas e Revisão)
-   - **O que faz:** Lê o seu `git diff` comparado com a branch principal, cruza isso com o andamento do `.metadocs/roadmap.md` e gera um texto formatado, descritivo e pronto de Pull Request para você abrir no GitHub ou similar.
-   - **Quando usar:** Quando uma fase inteira do roadmap for concluída e estiver pronta para revisão e merge.
-
----
-
-## 💡 Melhores Práticas de Vibe Coding
-
-- **Use e Abuse do Roadmap**: A IA perde contexto facilmente em projetos extensos. O segredo da consistência é sempre manter um passo a passo perfeitamente refletido no `.metadocs/roadmap.md`.
-- **Arquitetura Multi-stage e Documentação Formal**: Seus contêineres usam a estratégia de Ouro desenhada na subpasta `.docker/`. Modifique suas dependências via arquivo de pacotes nativos da linguagem e, no _rebuild_, o cache do Docker ajudará a manter as atualizações rápidas. Documentação de classes, métodos e contratos públicos deve continuar explícita e útil para manutenção.
-
-> Desenvolva rápido e deixe fluir na 'vibe', mas deixe o Agente manter a estrutura viva e formal para você. Conte sempre com o seu IA focado em engenharia de software, rastreabilidade e qualidade de entrega.
+Licença ainda não definida.

@@ -1,0 +1,114 @@
+:root {
+  /* ─── Paleta Principal ─── */
+  --cor-primaria-50: hsl(210, 100%, 97%);
+  --cor-primaria-100: hsl(210, 96%, 93%);
+  --cor-primaria-200: hsl(210, 90%, 84%);
+  --cor-primaria-300: hsl(210, 85%, 72%);
+  --cor-primaria-400: hsl(210, 80%, 58%);
+  --cor-primaria-500: hsl(210, 78%, 46%);
+  --cor-primaria-600: hsl(210, 82%, 38%);
+  --cor-primaria-700: hsl(210, 80%, 30%);
+  --cor-primaria-800: hsl(210, 70%, 24%);
+  --cor-primaria-900: hsl(210, 60%, 18%);
+
+  /* ─── Acento (feedback positivo, progresso) ─── */
+  --cor-acento-400: hsl(160, 65%, 45%);
+  --cor-acento-500: hsl(160, 70%, 38%);
+  --cor-acento-600: hsl(160, 72%, 30%);
+
+  /* ─── Alerta (erros, regressão) ─── */
+  --cor-alerta-400: hsl(0, 72%, 58%);
+  --cor-alerta-500: hsl(0, 70%, 48%);
+
+  /* ─── Aviso (hesitação, atenção) ─── */
+  --cor-aviso-400: hsl(38, 90%, 55%);
+  --cor-aviso-500: hsl(38, 85%, 48%);
+
+  /* ─── Neutros ─── */
+  --cor-fundo: hsl(220, 20%, 97%);
+  --cor-superficie: hsl(0, 0%, 100%);
+  --cor-superficie-elevada: hsl(0, 0%, 100%);
+  --cor-borda: hsl(220, 15%, 88%);
+  --cor-texto-primario: hsl(220, 25%, 12%);
+  --cor-texto-secundario: hsl(220, 10%, 45%);
+  --cor-texto-terciario: hsl(220, 8%, 62%);
+  --cor-texto-invertido: hsl(0, 0%, 100%);
+
+  /* ─── Tipografia ─── */
+  --fonte-principal: 'Inter', system-ui, -apple-system, sans-serif;
+  --fonte-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  --tamanho-xs: 0.75rem;
+  --tamanho-sm: 0.875rem;
+  --tamanho-base: 1rem;
+  --tamanho-lg: 1.125rem;
+  --tamanho-xl: 1.25rem;
+  --tamanho-2xl: 1.5rem;
+  --tamanho-3xl: 1.875rem;
+  --tamanho-4xl: 2.25rem;
+
+  --peso-normal: 400;
+  --peso-medio: 500;
+  --peso-semibold: 600;
+  --peso-bold: 700;
+
+  --altura-linha-apertada: 1.25;
+  --altura-linha-normal: 1.5;
+  --altura-linha-relaxada: 1.75;
+
+  /* ─── Espaçamento ─── */
+  --espaco-1: 0.25rem;
+  --espaco-2: 0.5rem;
+  --espaco-3: 0.75rem;
+  --espaco-4: 1rem;
+  --espaco-5: 1.25rem;
+  --espaco-6: 1.5rem;
+  --espaco-8: 2rem;
+  --espaco-10: 2.5rem;
+  --espaco-12: 3rem;
+  --espaco-16: 4rem;
+  --espaco-20: 5rem;
+
+  /* ─── Bordas ─── */
+  --raio-sm: 0.375rem;
+  --raio-md: 0.5rem;
+  --raio-lg: 0.75rem;
+  --raio-xl: 1rem;
+  --raio-completo: 9999px;
+
+  /* ─── Sombras ─── */
+  --sombra-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.05);
+  --sombra-md: 0 4px 6px -1px hsl(0 0% 0% / 0.07), 0 2px 4px -2px hsl(0 0% 0% / 0.05);
+  --sombra-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.08), 0 4px 6px -4px hsl(0 0% 0% / 0.04);
+
+  /* ─── Transições ─── */
+  --transicao-rapida: 150ms ease;
+  --transicao-normal: 250ms ease;
+  --transicao-lenta: 400ms ease;
+
+  /* ─── Layout ─── */
+  --largura-maxima: 1200px;
+  --largura-conteudo: 800px;
+}
+
+/* ─── Dark Mode ─── */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-fundo: hsl(220, 20%, 8%);
+    --cor-superficie: hsl(220, 18%, 12%);
+    --cor-superficie-elevada: hsl(220, 16%, 16%);
+    --cor-borda: hsl(220, 12%, 22%);
+    --cor-texto-primario: hsl(220, 15%, 92%);
+    --cor-texto-secundario: hsl(220, 8%, 60%);
+    --cor-texto-terciario: hsl(220, 6%, 42%);
+  }
+}
+
+/* ─── Respeitar preferência de motion ─── */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transicao-rapida: 0ms;
+    --transicao-normal: 0ms;
+    --transicao-lenta: 0ms;
+  }
+}
