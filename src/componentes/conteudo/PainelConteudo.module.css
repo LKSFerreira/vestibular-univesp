@@ -1,0 +1,228 @@
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── Tela da Ementa (Home) ─── */
+
+.ementa {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-8);
+  animation: entrar-suave var(--transicao-normal) ease-out;
+  padding-bottom: var(--espaco-16);
+}
+
+.ementaCabecalho {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-4);
+}
+
+.ementaTitulo {
+  font-size: var(--tamanho-3xl);
+  font-weight: var(--peso-bold);
+  color: var(--cor-texto-primario);
+}
+
+.ementaDescricao {
+  font-size: var(--tamanho-base);
+  color: var(--cor-texto-secundario);
+  line-height: var(--altura-linha-relaxada);
+  max-width: 620px;
+}
+
+.ementaDescricao em {
+  color: var(--cor-texto-terciario);
+  font-style: italic;
+}
+
+.indiceDisciplinas {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-6);
+}
+
+.indiceDisciplina {
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  overflow: hidden;
+}
+
+.indiceDisciplinaTitulo {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-3);
+  padding: var(--espaco-4) var(--espaco-5);
+  font-size: var(--tamanho-lg);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-primario);
+  border-bottom: 1px solid var(--cor-borda);
+  background: var(--cor-superficie-elevada);
+}
+
+.indiceDisciplinaIcone {
+  font-size: var(--tamanho-xl);
+}
+
+.indiceTopicos {
+  display: flex;
+  flex-direction: column;
+}
+
+.indiceTopicoBotao {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-3);
+  width: 100%;
+  padding: var(--espaco-3) var(--espaco-5) var(--espaco-3) var(--espaco-8);
+  text-align: left;
+  color: var(--cor-texto-primario);
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-normal);
+  border-bottom: 1px solid hsl(220, 12%, 14%);
+  transition:
+    background var(--transicao-rapida),
+    color var(--transicao-rapida);
+}
+
+.indiceTopicoBotao:last-child {
+  border-bottom: none;
+}
+
+.indiceTopicoBotao:hover:not(:disabled) {
+  background: hsl(210, 78%, 46%, 0.06);
+  color: var(--cor-primaria-400);
+}
+
+.indiceTopicoBotao[data-em-breve='true'] {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.indiceTopicoNome {
+  flex: 1;
+}
+
+.indicePeso {
+  font-size: var(--tamanho-xs);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-acento-400);
+  background: hsl(160, 65%, 45%, 0.1);
+  padding: 2px var(--espaco-2);
+  border-radius: var(--raio-sm);
+  white-space: nowrap;
+}
+
+.indiceBadgeEmBreve {
+  padding: 2px var(--espaco-2);
+  font-size: 0.65rem;
+  font-weight: var(--peso-medio);
+  color: var(--cor-texto-terciario);
+  background: hsl(220, 12%, 18%);
+  border-radius: var(--raio-completo);
+  white-space: nowrap;
+}
+
+/* ─── Estado indisponível ─── */
+
+.estadoIndisponivel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--espaco-4);
+  text-align: center;
+  padding: var(--espaco-8);
+  animation: entrar-suave var(--transicao-normal) ease-out;
+}
+
+.estadoIndisponivelIcone {
+  font-size: 3rem;
+  opacity: 0.6;
+}
+
+.estadoIndisponivelTitulo {
+  font-size: var(--tamanho-2xl);
+  font-weight: var(--peso-bold);
+  color: var(--cor-texto-primario);
+}
+
+.estadoIndisponivelTexto {
+  font-size: var(--tamanho-base);
+  color: var(--cor-texto-secundario);
+  max-width: 420px;
+  line-height: var(--altura-linha-relaxada);
+}
+
+/* ─── Conteúdo do Tópico ─── */
+
+.conteudo {
+  animation: aparecer-conteudo var(--transicao-lenta) ease-out;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-8);
+  padding-bottom: var(--espaco-12);
+}
+
+.etiquetaDisciplina {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  font-size: var(--tamanho-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--cor-primaria-400);
+  font-weight: var(--peso-semibold);
+}
+
+.tituloTopico {
+  font-size: var(--tamanho-3xl);
+  font-weight: var(--peso-bold);
+  color: var(--cor-texto-primario);
+  line-height: var(--altura-linha-apertada);
+}
+
+.cabecalhoConteudo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-3);
+}
+
+.resumo {
+  font-size: var(--tamanho-lg);
+  color: var(--cor-texto-secundario);
+  line-height: var(--altura-linha-relaxada);
+  border-left: 3px solid var(--cor-primaria-500);
+  padding-left: var(--espaco-4);
+}
+
+.explicacao {
+  font-size: var(--tamanho-base);
+  color: var(--cor-texto-primario);
+  line-height: var(--altura-linha-relaxada);
+  white-space: pre-line;
+}
+
+.badgePeso {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-1);
+  padding: var(--espaco-1) var(--espaco-3);
+  font-size: var(--tamanho-xs);
+  font-weight: var(--peso-medio);
+  color: var(--cor-acento-400);
+  background: hsl(160, 65%, 45%, 0.1);
+  border-radius: var(--raio-completo);
+}
+
+.metaInfo {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-3);
+}

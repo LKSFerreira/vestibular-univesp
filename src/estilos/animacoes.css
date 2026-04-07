@@ -38,10 +38,51 @@
   }
 }
 
+@keyframes deslizar-da-esquerda {
+  from {
+    opacity: 0;
+    transform: translateX(-16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes expandir-accordion {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 600px;
+  }
+}
+
+@keyframes aparecer-conteudo {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 .animacao-entrar {
   animation: entrar-suave var(--transicao-normal) ease-out;
 }
 
 .animacao-pulsar {
   animation: pulsar 2s ease-in-out infinite;
+}
+
+.animacao-deslizar {
+  animation: deslizar-da-esquerda var(--transicao-normal) ease-out;
+}
+
+.animacao-conteudo {
+  animation: aparecer-conteudo var(--transicao-lenta) ease-out;
 }

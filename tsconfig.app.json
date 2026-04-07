@@ -33,7 +33,8 @@
       "@paginas/*": ["src/paginas/*"],
       "@conteudo/*": ["src/conteudo/*"],
       "@infraestrutura/*": ["src/infraestrutura/*"],
-      "@estilos/*": ["src/estilos/*"]
+      "@estilos/*": ["src/estilos/*"],
+      "@stores/*": ["src/stores/*"]
     }
   },
   "include": ["src"]

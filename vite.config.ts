@@ -13,6 +13,7 @@ export default defineConfig({
       '@conteudo': path.resolve(__dirname, 'src/conteudo'),
       '@infraestrutura': path.resolve(__dirname, 'src/infraestrutura'),
       '@estilos': path.resolve(__dirname, 'src/estilos'),
+      '@stores': path.resolve(__dirname, 'src/stores'),
     },
   },
 });

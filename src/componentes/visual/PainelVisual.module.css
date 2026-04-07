@@ -1,0 +1,138 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--espaco-6);
+}
+
+.estadoVazio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--espaco-5);
+  text-align: center;
+  animation: entrar-suave var(--transicao-normal) ease-out;
+  height: 100%;
+}
+
+.estadoVazioIcone {
+  font-size: 3.5rem;
+  opacity: 0.5;
+}
+
+.estadoVazioTitulo {
+  font-size: var(--tamanho-xl);
+  font-weight: var(--peso-bold);
+  color: var(--cor-texto-primario);
+}
+
+.estadoVazioTexto {
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-terciario);
+  max-width: 260px;
+  line-height: var(--altura-linha-relaxada);
+}
+
+.estatisticas {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-4);
+  padding: var(--espaco-4) var(--espaco-6);
+  background: hsl(220, 18%, 14%);
+  border-radius: var(--raio-lg);
+  border: 1px solid var(--cor-borda);
+}
+
+.estatisticaItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.estatisticaValor {
+  font-size: var(--tamanho-2xl);
+  font-weight: var(--peso-bold);
+  color: var(--cor-primaria-400);
+}
+
+.estatisticaRotulo {
+  font-size: var(--tamanho-xs);
+  color: var(--cor-texto-terciario);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.estatisticaDivisor {
+  width: 1px;
+  height: 32px;
+  background: var(--cor-borda);
+}
+
+.conteudoVisual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--espaco-6);
+  height: 100%;
+  width: 100%;
+  animation: aparecer-conteudo var(--transicao-lenta) ease-out;
+}
+
+.imagemContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 0;
+  padding: var(--espaco-4);
+}
+
+.imagem {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: var(--raio-lg);
+}
+
+.placeholderImagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--espaco-4);
+  width: 100%;
+  max-width: 360px;
+  aspect-ratio: 4 / 3;
+  background: hsl(220, 18%, 14%);
+  border: 2px dashed var(--cor-borda);
+  border-radius: var(--raio-xl);
+  text-align: center;
+  padding: var(--espaco-6);
+}
+
+.placeholderIcone {
+  font-size: 2.5rem;
+  opacity: 0.5;
+}
+
+.placeholderTexto {
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-terciario);
+  line-height: var(--altura-linha-relaxada);
+  max-width: 260px;
+}
+
+.legendaVisual {
+  font-size: var(--tamanho-xs);
+  color: var(--cor-texto-terciario);
+  text-align: center;
+  max-width: 320px;
+  line-height: var(--altura-linha-relaxada);
+  padding-bottom: var(--espaco-4);
+}

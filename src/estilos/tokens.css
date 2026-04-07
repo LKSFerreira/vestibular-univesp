@@ -24,15 +24,27 @@
   --cor-aviso-400: hsl(38, 90%, 55%);
   --cor-aviso-500: hsl(38, 85%, 48%);
 
-  /* ─── Neutros ─── */
-  --cor-fundo: hsl(220, 20%, 97%);
-  --cor-superficie: hsl(0, 0%, 100%);
-  --cor-superficie-elevada: hsl(0, 0%, 100%);
-  --cor-borda: hsl(220, 15%, 88%);
-  --cor-texto-primario: hsl(220, 25%, 12%);
-  --cor-texto-secundario: hsl(220, 10%, 45%);
-  --cor-texto-terciario: hsl(220, 8%, 62%);
-  --cor-texto-invertido: hsl(0, 0%, 100%);
+  /* ─── Neutros (Dark Mode como padrão) ─── */
+  --cor-fundo: hsl(220, 20%, 8%);
+  --cor-superficie: hsl(220, 18%, 12%);
+  --cor-superficie-elevada: hsl(220, 16%, 16%);
+  --cor-borda: hsl(220, 12%, 22%);
+  --cor-texto-primario: hsl(220, 15%, 92%);
+  --cor-texto-secundario: hsl(220, 8%, 60%);
+  --cor-texto-terciario: hsl(220, 6%, 42%);
+  --cor-texto-invertido: hsl(220, 20%, 8%);
+
+  /* ─── Sidebar / Ementa ─── */
+  --cor-sidebar-fundo: hsl(220, 20%, 10%);
+  --cor-sidebar-borda: hsl(220, 12%, 18%);
+  --cor-sidebar-hover: hsl(220, 18%, 16%);
+  --cor-sidebar-ativa: hsl(210, 78%, 46%);
+  --cor-sidebar-texto: hsl(220, 10%, 72%);
+  --cor-sidebar-titulo: hsl(220, 15%, 88%);
+
+  /* ─── Painel Visual ─── */
+  --cor-visual-fundo: hsl(220, 22%, 9%);
+  --cor-visual-borda: hsl(220, 12%, 18%);
 
   /* ─── Tipografia ─── */
   --fonte-principal: 'Inter', system-ui, -apple-system, sans-serif;
@@ -76,32 +88,23 @@
   --raio-xl: 1rem;
   --raio-completo: 9999px;
 
-  /* ─── Sombras ─── */
-  --sombra-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.05);
-  --sombra-md: 0 4px 6px -1px hsl(0 0% 0% / 0.07), 0 2px 4px -2px hsl(0 0% 0% / 0.05);
-  --sombra-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.08), 0 4px 6px -4px hsl(0 0% 0% / 0.04);
+  /* ─── Sombras (ajustadas para dark) ─── */
+  --sombra-sm: 0 1px 3px 0 hsl(0 0% 0% / 0.3);
+  --sombra-md: 0 4px 8px -1px hsl(0 0% 0% / 0.4), 0 2px 4px -2px hsl(0 0% 0% / 0.2);
+  --sombra-lg: 0 10px 20px -3px hsl(0 0% 0% / 0.5), 0 4px 8px -4px hsl(0 0% 0% / 0.2);
 
   /* ─── Transições ─── */
   --transicao-rapida: 150ms ease;
   --transicao-normal: 250ms ease;
   --transicao-lenta: 400ms ease;
+  --transicao-sidebar: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 
   /* ─── Layout ─── */
   --largura-maxima: 1200px;
   --largura-conteudo: 800px;
-}
-
-/* ─── Dark Mode ─── */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --cor-fundo: hsl(220, 20%, 8%);
-    --cor-superficie: hsl(220, 18%, 12%);
-    --cor-superficie-elevada: hsl(220, 16%, 16%);
-    --cor-borda: hsl(220, 12%, 22%);
-    --cor-texto-primario: hsl(220, 15%, 92%);
-    --cor-texto-secundario: hsl(220, 8%, 60%);
-    --cor-texto-terciario: hsl(220, 6%, 42%);
-  }
+  --largura-sidebar: 280px;
+  --largura-sidebar-recolhida: 0px;
+  --largura-painel-visual: 38%;
 }
 
 /* ─── Respeitar preferência de motion ─── */
@@ -110,5 +113,6 @@
     --transicao-rapida: 0ms;
     --transicao-normal: 0ms;
     --transicao-lenta: 0ms;
+    --transicao-sidebar: 0ms;
   }
 }

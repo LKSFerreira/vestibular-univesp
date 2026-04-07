@@ -4,8 +4,15 @@
 @import './reset.css';
 @import './animacoes.css';
 
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
 #root {
-  min-height: 100dvh;
+  height: 100dvh;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
