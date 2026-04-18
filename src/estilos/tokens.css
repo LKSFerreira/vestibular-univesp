@@ -116,3 +116,10 @@
     --transicao-sidebar: 0ms;
   }
 }
+
+/* ─── Mobile / Tablet ─── */
+@media (max-width: 768px) {
+  :root {
+    --altura-nav-mobile: 56px;
+  }
+}

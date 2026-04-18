@@ -1,5 +1,7 @@
+import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { EMENTA_VESTIBULAR } from '@conteudo/ementa';
 import { useNavegacaoStore } from '@stores/navegacaoStore';
+import { IndicadorProgresso } from '@componentes/conteudo/IndicadorProgresso';
 import type { Disciplina, Topico } from '@conteudo/tipos';
 import styles from './PainelEmenta.module.css';
 
@@ -14,6 +16,9 @@ function IconeRecolher() {
 }
 
 export function PainelEmenta() {
+  const prefereMovimentoReduzido = useReducedMotion();
+  const duracao = prefereMovimentoReduzido ? 0 : 0.25;
+
   const alternarPainel = useNavegacaoStore((estado) => estado.alternarPainelEsquerdo);
   const disciplinaExpandidaId = useNavegacaoStore((estado) => estado.disciplinaExpandidaId);
   const expandirDisciplina = useNavegacaoStore((estado) => estado.expandirDisciplina);
@@ -69,23 +74,36 @@ export function PainelEmenta() {
                 </span>
               </button>
 
-              <div className={styles.listaTopicos} data-expandida={expandida}>
-                {disciplina.topicos.map((topico) => (
-                  <button
-                    key={topico.id}
-                    className={styles.botaoTopico}
-                    data-ativo={verificarTopicoAtivo(disciplina.id, topico.id)}
-                    data-em-breve={!!topico.emBreve}
-                    onClick={() => tratarCliqueTopico(disciplina, topico)}
-                    disabled={!!topico.emBreve}
+              <AnimatePresence initial={false}>
+                {expandida && (
+                  <motion.div
+                    className={styles.listaTopicos}
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: duracao }}
+                    style={{ overflow: 'hidden' }}
                   >
-                    {topico.titulo}
-                    {topico.emBreve && (
-                      <span className={styles.badgeEmBreve}>em breve</span>
-                    )}
-                  </button>
-                ))}
-              </div>
+                    {disciplina.topicos.map((topico) => (
+                      <button
+                        key={topico.id}
+                        className={styles.botaoTopico}
+                        data-ativo={verificarTopicoAtivo(disciplina.id, topico.id)}
+                        data-em-breve={!!topico.emBreve}
+                        onClick={() => tratarCliqueTopico(disciplina, topico)}
+                        disabled={!!topico.emBreve}
+                      >
+                        {topico.titulo}
+                        {topico.emBreve ? (
+                          <span className={styles.badgeEmBreve}>em breve</span>
+                        ) : (
+                          <IndicadorProgresso topicoId={topico.id} />
+                        )}
+                      </button>
+                    ))}
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
           );
         })}

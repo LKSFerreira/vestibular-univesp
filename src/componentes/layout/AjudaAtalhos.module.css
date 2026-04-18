@@ -1,0 +1,104 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(0 0% 0% / 0.6);
+  animation: surgir var(--transicao-rapida) ease-out;
+}
+
+.modal {
+  background: var(--cor-superficie-elevada);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  box-shadow: var(--sombra-md);
+  width: 340px;
+  max-width: 90vw;
+  animation: escalar-entrada var(--transicao-normal) ease-out;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--espaco-4) var(--espaco-5);
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.titulo {
+  font-size: var(--tamanho-base);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-primario);
+}
+
+.botaoFechar {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--raio-md);
+  color: var(--cor-texto-terciario);
+  font-size: var(--tamanho-sm);
+  cursor: pointer;
+  transition: background var(--transicao-rapida), color var(--transicao-rapida);
+}
+
+.botaoFechar:hover {
+  background: hsl(0 0% 100% / 0.06);
+  color: var(--cor-texto-primario);
+}
+
+.lista {
+  list-style: none;
+  padding: var(--espaco-3) var(--espaco-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-3);
+  padding: var(--espaco-2) 0;
+}
+
+.tecla {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  padding: var(--espaco-1) var(--espaco-2);
+  font-size: var(--tamanho-xs);
+  font-family: var(--fonte-mono);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-primario);
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-sm);
+  white-space: nowrap;
+}
+
+.descricao {
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-secundario);
+}
+
+@keyframes surgir {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes escalar-entrada {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

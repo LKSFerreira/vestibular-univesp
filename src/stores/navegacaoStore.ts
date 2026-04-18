@@ -8,6 +8,7 @@ interface TopicoAtivo {
 
 interface EstadoNavegacao {
   painelEsquerdoAberto: boolean;
+  painelDireitoAberto: boolean;
   disciplinaExpandidaId: string | null;
   topicoSelecionadoPorDisciplina: Record<string, string>;
   topicoAtivo: TopicoAtivo | null;
@@ -15,6 +16,8 @@ interface EstadoNavegacao {
 
 interface AcoesNavegacao {
   alternarPainelEsquerdo: () => void;
+  alternarPainelDireito: () => void;
+  fecharPaineis: () => void;
   expandirDisciplina: (disciplinaId: string) => void;
   selecionarTopico: (disciplinaId: string, topicoId: string) => void;
   irParaEmenta: () => void;
@@ -26,12 +29,19 @@ export const useNavegacaoStore = create<StoreNavegacao>()(
   persist(
     (set) => ({
       painelEsquerdoAberto: true,
+      painelDireitoAberto: false,
       disciplinaExpandidaId: null,
       topicoSelecionadoPorDisciplina: {},
       topicoAtivo: null,
 
       alternarPainelEsquerdo: () =>
         set((estado) => ({ painelEsquerdoAberto: !estado.painelEsquerdoAberto })),
+
+      alternarPainelDireito: () =>
+        set((estado) => ({ painelDireitoAberto: !estado.painelDireitoAberto })),
+
+      fecharPaineis: () =>
+        set({ painelEsquerdoAberto: false, painelDireitoAberto: false }),
 
       expandirDisciplina: (disciplinaId) =>
         set((estado) => ({

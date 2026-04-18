@@ -1,0 +1,46 @@
+.indicador {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-1);
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.ponto {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--raio-completo);
+  flex-shrink: 0;
+  transition: background var(--transicao-rapida);
+}
+
+.ponto[data-nivel='nao_iniciado'] {
+  background: var(--cor-texto-terciario);
+}
+
+.ponto[data-nivel='fragil'] {
+  background: var(--cor-alerta-400);
+}
+
+.ponto[data-nivel='em_progresso'] {
+  background: var(--cor-aviso-400);
+}
+
+.ponto[data-nivel='dominado'] {
+  background: var(--cor-acento-400);
+}
+
+.rotulo {
+  font-size: 0.65rem;
+  font-weight: var(--peso-medio);
+  color: var(--cor-texto-terciario);
+  white-space: nowrap;
+}
+
+.contagem {
+  font-size: 0.6rem;
+  font-weight: var(--peso-medio);
+  color: var(--cor-texto-terciario);
+  opacity: 0.8;
+  white-space: nowrap;
+}

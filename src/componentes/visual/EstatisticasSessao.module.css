@@ -1,0 +1,151 @@
+/* ─── Estatísticas da Sessão ─── */
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-4);
+}
+
+.titulo {
+  font-size: var(--tamanho-lg);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-primario);
+}
+
+/* ─── Cards de Estatísticas ─── */
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--espaco-3);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--espaco-3) var(--espaco-4);
+  background: hsl(220, 18%, 14%);
+  border-radius: var(--raio-md);
+  border: 1px solid var(--cor-borda);
+}
+
+.cardIcone {
+  font-size: var(--tamanho-base);
+  margin-bottom: var(--espaco-1);
+}
+
+.cardValor {
+  font-size: var(--tamanho-xl);
+  font-weight: var(--peso-bold);
+  color: var(--cor-primaria-400);
+  font-family: var(--fonte-mono);
+}
+
+.cardRotulo {
+  font-size: var(--tamanho-xs);
+  color: var(--cor-texto-terciario);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ─── Seção de Sugestão ─── */
+
+.secao {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+}
+
+.secaoTitulo {
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-secundario);
+}
+
+.sugestaoCard {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-3);
+  padding: var(--espaco-3) var(--espaco-4);
+  background: hsl(210, 30%, 14%);
+  border-radius: var(--raio-md);
+  border: 1px solid hsl(210, 40%, 22%);
+}
+
+.sugestaoIcone {
+  font-size: var(--tamanho-lg);
+  flex-shrink: 0;
+}
+
+.sugestaoInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.sugestaoNome {
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-medio);
+  color: var(--cor-texto-primario);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sugestaoMotivo {
+  font-size: var(--tamanho-xs);
+  color: var(--cor-texto-terciario);
+}
+
+/* ─── Lista de Tópicos Frágeis ─── */
+
+.listaFrageis {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+}
+
+.fragilItem {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  padding: var(--espaco-2) var(--espaco-3);
+  background: hsl(0, 20%, 13%);
+  border-radius: var(--raio-sm);
+  border: 1px solid hsl(0, 20%, 20%);
+}
+
+.fragilPonto {
+  width: 6px;
+  height: 6px;
+  border-radius: var(--raio-completo);
+  background: var(--cor-alerta-400);
+  flex-shrink: 0;
+}
+
+.fragilNome {
+  font-size: var(--tamanho-xs);
+  color: var(--cor-texto-secundario);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fragilScore {
+  font-size: var(--tamanho-xs);
+  color: var(--cor-alerta-400);
+  font-family: var(--fonte-mono);
+  flex-shrink: 0;
+}
+
+.mensagemVazia {
+  font-size: var(--tamanho-xs);
+  color: var(--cor-texto-terciario);
+  font-style: italic;
+  padding: var(--espaco-2) 0;
+}

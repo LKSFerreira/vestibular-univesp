@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espaco-2);
+}
+
+.titulo {
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-secundario);
+  text-align: center;
+}
+
+.svgContainer {
+  width: 100%;
+  max-width: 360px;
+}
+
+.legenda {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-3);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.legendaItem {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-1);
+  font-size: 0.65rem;
+  color: var(--cor-texto-terciario);
+}
+
+.legendaCor {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}

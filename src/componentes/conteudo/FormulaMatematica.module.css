@@ -1,0 +1,24 @@
+/* ─── FormulaMatematica ─── */
+
+.formulaInline {
+  display: inline;
+  margin: 0 var(--espaco-1);
+  vertical-align: baseline;
+}
+
+.formulaBloco {
+  display: block;
+  text-align: center;
+  margin: var(--espaco-4) 0;
+  padding: var(--espaco-3) 0;
+  overflow-x: auto;
+}
+
+/* ─── TextoComFormulas ─── */
+
+.textoComFormulas {
+  font-size: var(--tamanho-base);
+  color: var(--cor-texto-primario);
+  line-height: var(--altura-linha-relaxada);
+  white-space: pre-line;
+}

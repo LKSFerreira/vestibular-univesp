@@ -3,8 +3,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: var(--espaco-6);
+  gap: var(--espaco-6);
+  overflow-y: auto;
 }
 
 .estadoVazio {
@@ -14,7 +15,6 @@
   justify-content: center;
   gap: var(--espaco-5);
   text-align: center;
-  animation: entrar-suave var(--transicao-normal) ease-out;
   height: 100%;
 }
 
@@ -80,7 +80,6 @@
   gap: var(--espaco-6);
   height: 100%;
   width: 100%;
-  animation: aparecer-conteudo var(--transicao-lenta) ease-out;
 }
 
 .imagemContainer {
@@ -135,4 +134,147 @@
   max-width: 320px;
   line-height: var(--altura-linha-relaxada);
   padding-bottom: var(--espaco-4);
+}
+
+/* ─── Dashboard de Progresso ─── */
+
+.dashboard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-4);
+}
+
+.dashboardTitulo {
+  font-size: var(--tamanho-lg);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-primario);
+}
+
+.listaDisciplinas {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-3);
+}
+
+.disciplinaProgresso {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+}
+
+.disciplinaProgressoTitulo {
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-medio);
+  color: var(--cor-texto-secundario);
+}
+
+.topicosProgresso {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+}
+
+.topicoProgressoItem {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  padding: var(--espaco-1) var(--espaco-2);
+  border-radius: var(--raio-sm);
+}
+
+.topicoProgressoPonto {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--raio-completo);
+  flex-shrink: 0;
+}
+
+.topicoProgressoNome {
+  font-size: var(--tamanho-xs);
+  color: var(--cor-texto-secundario);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.topicoProgressoScore {
+  font-size: var(--tamanho-xs);
+  color: var(--cor-texto-terciario);
+  font-family: var(--fonte-mono);
+  flex-shrink: 0;
+}
+
+/* ─── Status do Tópico ─── */
+
+.statusTopico {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  padding: var(--espaco-3) var(--espaco-4);
+  background: var(--cor-superficie);
+  border-radius: var(--raio-md);
+  border: 1px solid var(--cor-borda);
+  width: 100%;
+}
+
+.statusPonto {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--raio-completo);
+  flex-shrink: 0;
+}
+
+.statusTexto {
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-medio);
+  color: var(--cor-texto-primario);
+}
+
+.statusScore {
+  font-size: var(--tamanho-xs);
+  color: var(--cor-texto-terciario);
+  margin-left: auto;
+  font-family: var(--fonte-mono);
+}
+
+/* ─── Responsive: Tablet ≤768px ─── */
+
+@media (max-width: 768px) {
+  .container {
+    padding: var(--espaco-4);
+  }
+
+  .estatisticas {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--espaco-3);
+    padding: var(--espaco-3) var(--espaco-4);
+  }
+
+  .estatisticaDivisor {
+    display: none;
+  }
+
+  .placeholderImagem {
+    max-width: 100%;
+  }
+}
+
+/* ─── Responsive: Mobile ≤480px ─── */
+
+@media (max-width: 480px) {
+  .container {
+    padding: var(--espaco-3);
+  }
+
+  .placeholderImagem {
+    aspect-ratio: 16 / 9;
+  }
+
+  .estatisticaValor {
+    font-size: var(--tamanho-xl);
+  }
 }

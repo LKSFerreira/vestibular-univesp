@@ -1,0 +1,280 @@
+/* ─── Quiz: Container ─── */
+
+.quizContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-6);
+}
+
+/* ─── Progresso ─── */
+
+.progresso {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-secundario);
+}
+
+.barraProgresso {
+  flex: 1;
+  height: 4px;
+  background: var(--cor-borda);
+  border-radius: var(--raio-completo);
+  margin-left: var(--espaco-4);
+  overflow: hidden;
+}
+
+.barraProgressoPreenchida {
+  height: 100%;
+  background: var(--cor-primaria-500);
+  border-radius: var(--raio-completo);
+  transition: width var(--transicao-normal);
+}
+
+/* ─── Dificuldade ─── */
+
+.dificuldade {
+  display: inline-flex;
+  padding: var(--espaco-1) var(--espaco-3);
+  font-size: var(--tamanho-xs);
+  font-weight: var(--peso-semibold);
+  border-radius: var(--raio-completo);
+  text-transform: capitalize;
+}
+
+.dificuldade[data-nivel='facil'] {
+  color: var(--cor-acento-400);
+  background: hsl(160, 65%, 45%, 0.12);
+}
+
+.dificuldade[data-nivel='medio'] {
+  color: var(--cor-aviso-400);
+  background: hsl(38, 90%, 55%, 0.12);
+}
+
+.dificuldade[data-nivel='dificil'] {
+  color: var(--cor-alerta-400);
+  background: hsl(0, 72%, 58%, 0.12);
+}
+
+/* ─── Enunciado ─── */
+
+.enunciado {
+  font-size: var(--tamanho-lg);
+  font-weight: var(--peso-medio);
+  color: var(--cor-texto-primario);
+  line-height: var(--altura-linha-relaxada);
+}
+
+/* ─── Alternativas ─── */
+
+.alternativas {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+  list-style: none;
+}
+
+.alternativa {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-3);
+  width: 100%;
+  padding: var(--espaco-3) var(--espaco-4);
+  font-size: var(--tamanho-base);
+  color: var(--cor-texto-primario);
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-md);
+  cursor: pointer;
+  text-align: left;
+  transition:
+    background var(--transicao-rapida),
+    border-color var(--transicao-rapida);
+}
+
+.alternativa:hover:not(:disabled) {
+  background: var(--cor-superficie-elevada);
+  border-color: var(--cor-primaria-600);
+}
+
+.alternativa:focus-visible {
+  outline: 2px solid var(--cor-primaria-400);
+  outline-offset: 2px;
+}
+
+.alternativa:disabled {
+  cursor: default;
+}
+
+.alternativa[data-estado='correta'] {
+  background: hsl(160, 65%, 45%, 0.1);
+  border-color: var(--cor-acento-400);
+  color: var(--cor-acento-400);
+}
+
+.alternativa[data-estado='incorreta'] {
+  background: hsl(0, 72%, 58%, 0.1);
+  border-color: var(--cor-alerta-400);
+  color: var(--cor-alerta-400);
+}
+
+.letraAlternativa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-semibold);
+  border-radius: var(--raio-completo);
+  background: var(--cor-superficie-elevada);
+  color: var(--cor-texto-secundario);
+  flex-shrink: 0;
+}
+
+.alternativa[data-estado='correta'] .letraAlternativa {
+  background: var(--cor-acento-500);
+  color: var(--cor-texto-invertido);
+}
+
+.alternativa[data-estado='incorreta'] .letraAlternativa {
+  background: var(--cor-alerta-500);
+  color: var(--cor-texto-invertido);
+}
+
+/* ─── Explicação ─── */
+
+.explicacao {
+  padding: var(--espaco-4);
+  background: hsl(210, 78%, 46%, 0.06);
+  border: 1px solid hsl(210, 78%, 46%, 0.15);
+  border-radius: var(--raio-md);
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-secundario);
+  line-height: var(--altura-linha-relaxada);
+}
+
+.explicacaoTitulo {
+  font-weight: var(--peso-semibold);
+  color: var(--cor-primaria-300);
+  margin-bottom: var(--espaco-2);
+}
+
+/* ─── Botão Próxima ─── */
+
+.botaoProxima {
+  align-self: flex-end;
+  padding: var(--espaco-2) var(--espaco-6);
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-invertido);
+  background: var(--cor-primaria-500);
+  border-radius: var(--raio-md);
+  cursor: pointer;
+  transition: background var(--transicao-rapida);
+}
+
+.botaoProxima:hover {
+  background: var(--cor-primaria-400);
+}
+
+.botaoProxima:focus-visible {
+  outline: 2px solid var(--cor-primaria-400);
+  outline-offset: 2px;
+}
+
+/* ─── Resultado Final ─── */
+
+.resultado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espaco-4);
+  padding: var(--espaco-8);
+  text-align: center;
+}
+
+.resultadoPontuacao {
+  font-size: var(--tamanho-3xl);
+  font-weight: var(--peso-bold);
+  color: var(--cor-texto-primario);
+}
+
+.resultadoTexto {
+  font-size: var(--tamanho-base);
+  color: var(--cor-texto-secundario);
+}
+
+.botaoRefazer {
+  padding: var(--espaco-2) var(--espaco-6);
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-primaria-400);
+  background: transparent;
+  border: 1px solid var(--cor-primaria-600);
+  border-radius: var(--raio-md);
+  cursor: pointer;
+  transition:
+    background var(--transicao-rapida),
+    border-color var(--transicao-rapida);
+}
+
+.botaoRefazer:hover {
+  background: hsl(210, 78%, 46%, 0.08);
+  border-color: var(--cor-primaria-400);
+}
+
+.botaoRefazer:focus-visible {
+  outline: 2px solid var(--cor-primaria-400);
+  outline-offset: 2px;
+}
+
+/* ─── Responsive: Tablet ≤768px ─── */
+
+@media (max-width: 768px) {
+  .alternativa {
+    min-height: 44px;
+    padding: var(--espaco-3) var(--espaco-4);
+  }
+
+  .botaoProxima {
+    min-height: 44px;
+    align-self: stretch;
+    text-align: center;
+  }
+
+  .botaoRefazer {
+    min-height: 44px;
+  }
+
+  .barraProgresso {
+    margin-left: var(--espaco-3);
+  }
+}
+
+/* ─── Responsive: Mobile ≤480px ─── */
+
+@media (max-width: 480px) {
+  .enunciado {
+    font-size: var(--tamanho-base);
+  }
+
+  .resultado {
+    padding: var(--espaco-4);
+  }
+
+  .explicacao {
+    font-size: var(--tamanho-sm);
+  }
+
+  .letraAlternativa {
+    width: 32px;
+    height: 32px;
+  }
+
+  .botaoProxima {
+    padding: var(--espaco-3) var(--espaco-4);
+  }
+}
