@@ -1,5 +1,5 @@
 ---
-name: NomeDaSkill
+name: nome_da_skill
 description: Uma frase clara sobre o que essa skill faz e em que momento o agente deve usá-la.
 ---
 

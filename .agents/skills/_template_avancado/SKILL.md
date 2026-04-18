@@ -1,5 +1,5 @@
 ---
-name: NomeDaSkillAvancada
+name: nome_da_skill_avancada
 description: Descrição da skill complexa que utiliza scripts ou templates para execução de tarefas.
 ---
 
