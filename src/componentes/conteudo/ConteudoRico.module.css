@@ -1,0 +1,147 @@
+/* ─── ConteudoRico: Renderizador Markdown ─── */
+
+.conteudoRico {
+  font-size: var(--tamanho-base);
+  color: var(--cor-texto-primario);
+  line-height: var(--altura-linha-relaxada);
+}
+
+/* ─── Headings ─── */
+
+.h2 {
+  font-size: var(--tamanho-xl);
+  font-weight: var(--peso-bold);
+  color: var(--cor-primaria-300);
+  margin-top: var(--espaco-8);
+  margin-bottom: var(--espaco-3);
+  padding-bottom: var(--espaco-2);
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.h3 {
+  font-size: var(--tamanho-lg);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-primario);
+  margin-top: var(--espaco-6);
+  margin-bottom: var(--espaco-2);
+}
+
+.h4 {
+  font-size: var(--tamanho-base);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-secundario);
+  margin-top: var(--espaco-4);
+  margin-bottom: var(--espaco-2);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ─── Parágrafo ─── */
+
+.paragrafo {
+  margin-bottom: var(--espaco-4);
+  white-space: pre-line;
+}
+
+.paragrafo strong {
+  color: var(--cor-primaria-200);
+  font-weight: var(--peso-semibold);
+}
+
+/* ─── Listas ─── */
+
+.listaNaoOrdenada,
+.listaOrdenada {
+  margin: var(--espaco-2) 0 var(--espaco-4);
+  padding-left: var(--espaco-6);
+}
+
+.listaNaoOrdenada {
+  list-style: disc;
+}
+
+.listaOrdenada {
+  list-style: decimal;
+}
+
+.itemLista {
+  margin-bottom: var(--espaco-2);
+  line-height: var(--altura-linha-relaxada);
+}
+
+.itemLista strong {
+  color: var(--cor-primaria-200);
+  font-weight: var(--peso-semibold);
+}
+
+/* ─── Tabela ─── */
+
+.tabelaContainer {
+  overflow-x: auto;
+  margin: var(--espaco-4) 0;
+  border-radius: var(--raio-md);
+  border: 1px solid var(--cor-borda);
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--tamanho-sm);
+}
+
+.tabelaCabecalho {
+  background: var(--cor-superficie-elevada);
+  color: var(--cor-primaria-200);
+  font-weight: var(--peso-semibold);
+  padding: var(--espaco-3) var(--espaco-4);
+  text-align: left;
+  border-bottom: 2px solid var(--cor-borda);
+}
+
+.tabelaCelula {
+  padding: var(--espaco-2) var(--espaco-4);
+  border-bottom: 1px solid var(--cor-borda);
+  vertical-align: top;
+}
+
+.tabela tbody tr:hover {
+  background: hsl(220 18% 14% / 0.6);
+}
+
+/* ─── Callout / Blockquote ─── */
+
+.callout {
+  display: flex;
+  gap: var(--espaco-3);
+  margin: var(--espaco-4) 0;
+  padding: var(--espaco-4);
+  background: var(--cor-superficie-elevada);
+  border-left: 3px solid var(--cor-primaria-400);
+  border-radius: 0 var(--raio-md) var(--raio-md) 0;
+}
+
+.calloutIcone {
+  font-size: var(--tamanho-xl);
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+
+.calloutCorpo {
+  flex: 1;
+}
+
+.calloutCorpo p {
+  margin-bottom: var(--espaco-1);
+}
+
+.calloutCorpo p:last-child {
+  margin-bottom: 0;
+}
+
+/* ─── Separador ─── */
+
+.separador {
+  border: none;
+  border-top: 1px solid var(--cor-borda);
+  margin: var(--espaco-8) 0;
+}

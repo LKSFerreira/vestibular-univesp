@@ -12,7 +12,6 @@
   display: flex;
   flex-direction: column;
   gap: var(--espaco-8);
-  animation: entrar-suave var(--transicao-normal) ease-out;
   padding-bottom: var(--espaco-16);
 }
 
@@ -139,7 +138,6 @@
   gap: var(--espaco-4);
   text-align: center;
   padding: var(--espaco-8);
-  animation: entrar-suave var(--transicao-normal) ease-out;
 }
 
 .estadoIndisponivelIcone {
@@ -163,7 +161,6 @@
 /* ─── Conteúdo do Tópico ─── */
 
 .conteudo {
-  animation: aparecer-conteudo var(--transicao-lenta) ease-out;
   display: flex;
   flex-direction: column;
   gap: var(--espaco-8);
@@ -209,6 +206,262 @@
   white-space: pre-line;
 }
 
+/* ─── Seções de Conteúdo Expandido ─── */
+
+.secao {
+  padding: var(--espaco-5);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-4);
+}
+
+.secaoRica {
+  margin-bottom: var(--espaco-4);
+}
+
+.secaoTitulo {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  font-size: var(--tamanho-lg);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-primario);
+}
+
+/* Tipos visuais de seção rica */
+.secao_destaque {
+  padding: var(--espaco-4);
+  background: hsl(210, 78%, 46%, 0.06);
+  border-left: 3px solid var(--cor-primaria-400);
+  border-radius: 0 var(--raio-md) var(--raio-md) 0;
+}
+
+.secao_importante {
+  padding: var(--espaco-4);
+  background: hsl(38, 90%, 55%, 0.06);
+  border-left: 3px solid var(--cor-aviso-400);
+  border-radius: 0 var(--raio-md) var(--raio-md) 0;
+}
+
+.secao_formula {
+  padding: var(--espaco-4);
+  background: hsl(210, 78%, 46%, 0.04);
+  border: 1px solid hsl(210, 78%, 46%, 0.12);
+  border-radius: var(--raio-md);
+}
+
+.secao_exemplo {
+  padding: var(--espaco-4);
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-md);
+}
+
+.secaoIcone {
+  font-size: var(--tamanho-xl);
+  flex-shrink: 0;
+}
+
+/* ─── Fórmulas-Chave (azul) ─── */
+
+.secaoFormulas {
+  composes: secao;
+  background: hsl(210, 78%, 46%, 0.05);
+  border-color: hsl(210, 78%, 46%, 0.15);
+}
+
+.listaFormulas {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-3);
+  list-style: none;
+}
+
+.itemFormula {
+  padding: var(--espaco-3) var(--espaco-4);
+  background: hsl(210, 78%, 46%, 0.06);
+  border-radius: var(--raio-md);
+  font-family: var(--fonte-mono);
+  font-size: var(--tamanho-sm);
+  color: var(--cor-primaria-200);
+  line-height: var(--altura-linha-relaxada);
+}
+
+/* ─── Dicas de Prova (verde) ─── */
+
+.secaoDicas {
+  composes: secao;
+  background: hsl(160, 65%, 45%, 0.05);
+  border-color: hsl(160, 65%, 45%, 0.15);
+}
+
+.listaDicas {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+  list-style: none;
+}
+
+.itemDica {
+  padding-left: var(--espaco-4);
+  position: relative;
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-secundario);
+  line-height: var(--altura-linha-relaxada);
+}
+
+.itemDica::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--cor-acento-400);
+  font-weight: var(--peso-bold);
+}
+
+/* ─── Erros Comuns (âmbar) ─── */
+
+.secaoErros {
+  composes: secao;
+  background: hsl(38, 90%, 55%, 0.05);
+  border-color: hsl(38, 90%, 55%, 0.15);
+}
+
+.listaErros {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+  list-style: none;
+}
+
+.itemErro {
+  padding-left: var(--espaco-4);
+  position: relative;
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-secundario);
+  line-height: var(--altura-linha-relaxada);
+}
+
+.itemErro::before {
+  content: '✗';
+  position: absolute;
+  left: 0;
+  color: var(--cor-aviso-400);
+  font-weight: var(--peso-bold);
+}
+
+/* ─── Exemplos Resolvidos (accordion) ─── */
+
+.secaoExemplos {
+  composes: secao;
+  background: var(--cor-superficie);
+}
+
+.listaExemplos {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-3);
+}
+
+.exemploItem {
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-md);
+  overflow: hidden;
+}
+
+.exemploSumario {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-3);
+  width: 100%;
+  padding: var(--espaco-3) var(--espaco-4);
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-medio);
+  color: var(--cor-texto-primario);
+  background: var(--cor-superficie-elevada);
+  cursor: pointer;
+  text-align: left;
+  transition: background var(--transicao-rapida);
+}
+
+.exemploSumario:hover {
+  background: hsl(220, 16%, 20%);
+}
+
+.exemploSumario:focus-visible {
+  outline: 2px solid var(--cor-primaria-400);
+  outline-offset: -2px;
+}
+
+.exemploSeta {
+  font-size: var(--tamanho-xs);
+  color: var(--cor-texto-terciario);
+  transition: transform var(--transicao-rapida);
+  flex-shrink: 0;
+}
+
+.exemploSeta[data-aberto='true'] {
+  transform: rotate(90deg);
+}
+
+.exemploConteudo {
+  padding: var(--espaco-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-3);
+}
+
+.exemploPassos {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+  list-style: none;
+  counter-reset: passo;
+}
+
+.exemploPasso {
+  counter-increment: passo;
+  display: flex;
+  gap: var(--espaco-3);
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-secundario);
+  line-height: var(--altura-linha-relaxada);
+}
+
+.exemploPasso::before {
+  content: counter(passo) '.';
+  font-weight: var(--peso-semibold);
+  color: var(--cor-primaria-400);
+  flex-shrink: 0;
+  min-width: 20px;
+}
+
+.exemploResposta {
+  padding: var(--espaco-3) var(--espaco-4);
+  background: hsl(160, 65%, 45%, 0.08);
+  border-radius: var(--raio-md);
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-acento-400);
+}
+
+/* ─── Seção de Exercícios ─── */
+
+.secaoExercicios {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-5);
+  padding-top: var(--espaco-4);
+  border-top: 1px solid var(--cor-borda);
+}
+
+.secaoExerciciosTitulo {
+  font-size: var(--tamanho-2xl);
+  font-weight: var(--peso-bold);
+  color: var(--cor-texto-primario);
+}
+
 .badgePeso {
   display: inline-flex;
   align-items: center;
@@ -225,4 +478,162 @@
   display: flex;
   align-items: center;
   gap: var(--espaco-3);
+}
+
+/* ─── Responsive: Tablet ≤768px ─── */
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .ementaTitulo {
+    font-size: var(--tamanho-2xl);
+  }
+
+  .tituloTopico {
+    font-size: var(--tamanho-2xl);
+  }
+
+  .secao {
+    padding: var(--espaco-4);
+  }
+
+  .indiceTopicoBotao {
+    padding: var(--espaco-3) var(--espaco-4) var(--espaco-3) var(--espaco-6);
+    min-height: 44px;
+  }
+
+  .exemploSumario {
+    min-height: 44px;
+  }
+}
+
+/* ─── Responsive: Mobile ≤480px ─── */
+
+@media (max-width: 480px) {
+  .ementaTitulo {
+    font-size: var(--tamanho-xl);
+  }
+
+  .tituloTopico {
+    font-size: var(--tamanho-xl);
+  }
+
+  .resumo {
+    font-size: var(--tamanho-base);
+  }
+
+  .explicacao {
+    font-size: var(--tamanho-sm);
+  }
+
+  .ementa {
+    gap: var(--espaco-6);
+  }
+
+  .conteudo {
+    gap: var(--espaco-6);
+  }
+
+  .secao {
+    padding: var(--espaco-3);
+  }
+
+  .itemFormula {
+    font-size: var(--tamanho-xs);
+  }
+}
+
+/* ─── Barra de Navegação entre Tópicos ─── */
+
+.barraNavegacao {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--espaco-4);
+  padding-top: var(--espaco-6);
+  border-top: 1px solid var(--cor-borda);
+  margin-top: var(--espaco-4);
+}
+
+.botaoNavegar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+  padding: var(--espaco-3) var(--espaco-4);
+  max-width: 45%;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-md);
+  background: var(--cor-superficie);
+  cursor: pointer;
+  text-align: left;
+  transition:
+    background var(--transicao-rapida),
+    border-color var(--transicao-rapida);
+}
+
+.botaoNavegar:hover {
+  background: var(--cor-superficie-elevada);
+  border-color: var(--cor-primaria-500);
+}
+
+.botaoProximo {
+  text-align: right;
+  margin-left: auto;
+}
+
+.navegarDirecao {
+  font-size: var(--tamanho-xs);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-primaria-400);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.navegarTitulo {
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-secundario);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ─── FAB — Ir para Exercícios ─── */
+
+.fabExercicios {
+  position: fixed;
+  bottom: var(--espaco-6);
+  right: var(--espaco-6);
+  z-index: 50;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--tamanho-xl);
+  background: var(--cor-primaria-500);
+  border: none;
+  border-radius: var(--raio-completo);
+  box-shadow: var(--sombra-md);
+  cursor: pointer;
+  transition:
+    transform var(--transicao-rapida),
+    background var(--transicao-rapida);
+  animation: surgir-fab var(--transicao-rapida) ease-out;
+}
+
+.fabExercicios:hover {
+  background: var(--cor-primaria-400);
+  transform: scale(1.1);
+}
+
+@keyframes surgir-fab {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

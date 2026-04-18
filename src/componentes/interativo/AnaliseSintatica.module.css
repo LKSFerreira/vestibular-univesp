@@ -1,0 +1,402 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-6);
+  padding: var(--espaco-6);
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espaco-4);
+}
+
+.titulo {
+  font-size: var(--tamanho-xl);
+  font-weight: var(--peso-bold);
+  color: var(--cor-texto-primario);
+}
+
+.placar {
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-secundario);
+  background: var(--cor-superficie);
+  padding: var(--espaco-1) var(--espaco-3);
+  border-radius: var(--raio-completo);
+  border: 1px solid var(--cor-borda);
+}
+
+.areaFrase {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--espaco-2);
+  padding: var(--espaco-6);
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  min-height: 5rem;
+  line-height: var(--altura-linha-relaxada);
+}
+
+.parte {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-1);
+  padding: var(--espaco-1) var(--espaco-3);
+  font-size: var(--tamanho-lg);
+  font-weight: var(--peso-medio);
+  color: var(--cor-texto-primario);
+  background: var(--cor-superficie-elevada);
+  border: 2px solid var(--cor-borda);
+  border-radius: var(--raio-md);
+  cursor: pointer;
+  transition:
+    background var(--transicao-rapida),
+    border-color var(--transicao-rapida),
+    transform var(--transicao-rapida),
+    box-shadow var(--transicao-rapida);
+  user-select: none;
+}
+
+.parte:hover:not([data-estado='correto']):not([data-estado='incorreto']) {
+  border-color: var(--cor-primaria-400);
+  box-shadow: var(--sombra-sm);
+}
+
+.parte:focus-visible {
+  outline: 2px solid var(--cor-primaria-400);
+  outline-offset: 2px;
+}
+
+.parte[data-estado='correto'] {
+  cursor: default;
+  animation: confirmar var(--transicao-normal) ease-out;
+}
+
+.parte[data-estado='incorreto'] {
+  cursor: default;
+  animation: tremer 400ms ease;
+}
+
+.parte[data-estado='selecionado'] {
+  border-color: var(--cor-primaria-400);
+  box-shadow: 0 0 0 2px hsl(210, 80%, 58%, 0.25);
+}
+
+.parte[data-funcao='sujeito'] {
+  background: hsl(210, 80%, 55%, 0.15);
+  border-color: hsl(210, 80%, 55%);
+  color: hsl(210, 80%, 70%);
+}
+
+.parte[data-funcao='verbo'] {
+  background: hsl(0, 70%, 55%, 0.15);
+  border-color: hsl(0, 70%, 55%);
+  color: hsl(0, 70%, 70%);
+}
+
+.parte[data-funcao='objeto-direto'] {
+  background: hsl(140, 60%, 45%, 0.15);
+  border-color: hsl(140, 60%, 45%);
+  color: hsl(140, 60%, 60%);
+}
+
+.parte[data-funcao='objeto-indireto'] {
+  background: hsl(50, 80%, 50%, 0.15);
+  border-color: hsl(50, 80%, 50%);
+  color: hsl(50, 80%, 65%);
+}
+
+.parte[data-funcao='adjunto-adverbial'] {
+  background: hsl(270, 60%, 55%, 0.15);
+  border-color: hsl(270, 60%, 55%);
+  color: hsl(270, 60%, 70%);
+}
+
+.parte[data-funcao='predicativo'] {
+  background: hsl(30, 80%, 55%, 0.15);
+  border-color: hsl(30, 80%, 55%);
+  color: hsl(30, 80%, 70%);
+}
+
+.indicadorCorreto {
+  font-size: var(--tamanho-sm);
+  margin-left: var(--espaco-1);
+}
+
+.painelClassificacao {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espaco-2);
+  padding: var(--espaco-4);
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  animation: entrar-suave var(--transicao-normal) ease-out;
+}
+
+.instrucao {
+  width: 100%;
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-secundario);
+  margin-bottom: var(--espaco-1);
+}
+
+.botaoFuncao {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  padding: var(--espaco-2) var(--espaco-4);
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-medio);
+  font-family: var(--fonte-principal);
+  border: 2px solid transparent;
+  border-radius: var(--raio-md);
+  cursor: pointer;
+  transition:
+    transform var(--transicao-rapida),
+    opacity var(--transicao-rapida),
+    box-shadow var(--transicao-rapida);
+}
+
+.botaoFuncao:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--sombra-sm);
+}
+
+.botaoFuncao:focus-visible {
+  outline: 2px solid var(--cor-primaria-400);
+  outline-offset: 2px;
+}
+
+.botaoFuncao:active {
+  transform: translateY(0);
+}
+
+.botaoFuncao[data-funcao='sujeito'] {
+  background: hsl(210, 80%, 55%, 0.15);
+  border-color: hsl(210, 80%, 55%);
+  color: hsl(210, 80%, 70%);
+}
+
+.botaoFuncao[data-funcao='verbo'] {
+  background: hsl(0, 70%, 55%, 0.15);
+  border-color: hsl(0, 70%, 55%);
+  color: hsl(0, 70%, 70%);
+}
+
+.botaoFuncao[data-funcao='objeto-direto'] {
+  background: hsl(140, 60%, 45%, 0.15);
+  border-color: hsl(140, 60%, 45%);
+  color: hsl(140, 60%, 60%);
+}
+
+.botaoFuncao[data-funcao='objeto-indireto'] {
+  background: hsl(50, 80%, 50%, 0.15);
+  border-color: hsl(50, 80%, 50%);
+  color: hsl(50, 80%, 65%);
+}
+
+.botaoFuncao[data-funcao='adjunto-adverbial'] {
+  background: hsl(270, 60%, 55%, 0.15);
+  border-color: hsl(270, 60%, 55%);
+  color: hsl(270, 60%, 70%);
+}
+
+.botaoFuncao[data-funcao='predicativo'] {
+  background: hsl(30, 80%, 55%, 0.15);
+  border-color: hsl(30, 80%, 55%);
+  color: hsl(30, 80%, 70%);
+}
+
+.corFuncao {
+  display: inline-block;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: var(--raio-completo);
+}
+
+.corFuncao[data-funcao='sujeito'] {
+  background: hsl(210, 80%, 55%);
+}
+
+.corFuncao[data-funcao='verbo'] {
+  background: hsl(0, 70%, 55%);
+}
+
+.corFuncao[data-funcao='objeto-direto'] {
+  background: hsl(140, 60%, 45%);
+}
+
+.corFuncao[data-funcao='objeto-indireto'] {
+  background: hsl(50, 80%, 50%);
+}
+
+.corFuncao[data-funcao='adjunto-adverbial'] {
+  background: hsl(270, 60%, 55%);
+}
+
+.corFuncao[data-funcao='predicativo'] {
+  background: hsl(30, 80%, 55%);
+}
+
+.feedback {
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-medio);
+  padding: var(--espaco-2) var(--espaco-4);
+  border-radius: var(--raio-md);
+  animation: entrar-suave var(--transicao-normal) ease-out;
+}
+
+.feedback[data-tipo='correto'] {
+  background: hsl(160, 65%, 45%, 0.1);
+  color: var(--cor-acento-400);
+  border: 1px solid hsl(160, 65%, 45%, 0.3);
+}
+
+.feedback[data-tipo='incorreto'] {
+  background: hsl(0, 72%, 58%, 0.1);
+  color: var(--cor-alerta-400);
+  border: 1px solid hsl(0, 72%, 58%, 0.3);
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espaco-4);
+  flex-wrap: wrap;
+}
+
+.legenda {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espaco-3);
+}
+
+.itemLegenda {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-1);
+  font-size: var(--tamanho-xs);
+  color: var(--cor-texto-terciario);
+}
+
+.botaoProximaFrase {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  padding: var(--espaco-2) var(--espaco-4);
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-semibold);
+  font-family: var(--fonte-principal);
+  color: var(--cor-texto-invertido);
+  background: var(--cor-primaria-500);
+  border: none;
+  border-radius: var(--raio-md);
+  cursor: pointer;
+  transition:
+    background var(--transicao-rapida),
+    transform var(--transicao-rapida);
+}
+
+.botaoProximaFrase:hover {
+  background: var(--cor-primaria-400);
+  transform: translateY(-1px);
+}
+
+.botaoProximaFrase:focus-visible {
+  outline: 2px solid var(--cor-primaria-400);
+  outline-offset: 2px;
+}
+
+.botaoProximaFrase:active {
+  transform: translateY(0);
+}
+
+@keyframes confirmar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes tremer {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  15% {
+    transform: translateX(-6px);
+  }
+  30% {
+    transform: translateX(5px);
+  }
+  45% {
+    transform: translateX(-4px);
+  }
+  60% {
+    transform: translateX(3px);
+  }
+  75% {
+    transform: translateX(-2px);
+  }
+}
+
+@keyframes entrar-suave {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: var(--espaco-4);
+    gap: var(--espaco-4);
+  }
+
+  .areaFrase {
+    padding: var(--espaco-4);
+  }
+
+  .parte {
+    font-size: var(--tamanho-base);
+  }
+
+  .rodape {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 480px) {
+  .cabecalho {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .painelClassificacao {
+    padding: var(--espaco-3);
+  }
+
+  .botaoFuncao {
+    padding: var(--espaco-2) var(--espaco-3);
+    font-size: var(--tamanho-xs);
+  }
+}

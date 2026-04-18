@@ -1,0 +1,281 @@
+/* ─── LinhaDoTempo: Container ─── */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-6);
+  height: 100%;
+  min-height: 0;
+}
+
+/* ─── Seletor de Era (Tabs) ─── */
+
+.abas {
+  display: flex;
+  gap: var(--espaco-2);
+  padding: var(--espaco-2);
+  background: var(--cor-superficie);
+  border-radius: var(--raio-lg);
+  border: 1px solid var(--cor-borda);
+  flex-shrink: 0;
+}
+
+.aba {
+  flex: 1;
+  padding: var(--espaco-2) var(--espaco-3);
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-medio);
+  color: var(--cor-texto-secundario);
+  background: transparent;
+  border: none;
+  border-radius: var(--raio-md);
+  cursor: pointer;
+  transition:
+    background var(--transicao-rapida),
+    color var(--transicao-rapida);
+  line-height: var(--altura-linha-normal);
+  white-space: nowrap;
+}
+
+.aba:hover {
+  color: var(--cor-texto-primario);
+  background: var(--cor-superficie-elevada);
+}
+
+.abaAtiva {
+  color: var(--cor-texto-invertido);
+  background: var(--cor-primaria-400);
+  font-weight: var(--peso-semibold);
+}
+
+.abaAtiva:hover {
+  background: var(--cor-primaria-500);
+  color: var(--cor-texto-invertido);
+}
+
+/* ─── Área Rolável ─── */
+
+.areaRolavel {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--espaco-4) var(--espaco-2);
+  min-height: 0;
+}
+
+/* ─── Linha do Tempo ─── */
+
+.linhaDoTempo {
+  position: relative;
+  padding-left: 80px;
+}
+
+.linhaVertical {
+  position: absolute;
+  left: 68px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--cor-primaria-400);
+  opacity: 0.3;
+}
+
+/* ─── Evento ─── */
+
+.evento {
+  position: relative;
+  margin-bottom: var(--espaco-6);
+  cursor: pointer;
+}
+
+.evento:last-child {
+  margin-bottom: 0;
+}
+
+/* ─── Nó (Círculo na linha) ─── */
+
+.no {
+  position: absolute;
+  left: -18px;
+  top: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: var(--raio-completo);
+  background: var(--cor-primaria-400);
+  border: 2px solid var(--cor-superficie);
+  box-shadow: 0 0 0 2px var(--cor-primaria-400);
+  transition:
+    transform var(--transicao-normal),
+    background var(--transicao-normal),
+    box-shadow var(--transicao-normal);
+  z-index: 1;
+}
+
+.noExpandido {
+  width: 16px;
+  height: 16px;
+  left: -20px;
+  top: 2px;
+  background: var(--cor-acento-400);
+  box-shadow: 0 0 0 3px var(--cor-acento-400), 0 0 12px hsl(160, 65%, 45%, 0.3);
+  transform: scale(1.1);
+}
+
+/* ─── Ano ─── */
+
+.ano {
+  position: absolute;
+  left: -80px;
+  top: 2px;
+  width: 56px;
+  text-align: right;
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-semibold);
+  font-family: var(--fonte-mono);
+  color: var(--cor-texto-secundario);
+  transition: color var(--transicao-rapida);
+  line-height: var(--altura-linha-normal);
+}
+
+.anoExpandido {
+  color: var(--cor-acento-400);
+}
+
+/* ─── Conteúdo do Evento ─── */
+
+.conteudo {
+  padding: var(--espaco-3) var(--espaco-4);
+  border-radius: var(--raio-lg);
+  border: 1px solid transparent;
+  transition:
+    background var(--transicao-rapida),
+    border-color var(--transicao-rapida);
+}
+
+.conteudo:hover {
+  background: var(--cor-superficie);
+  border-color: var(--cor-borda);
+}
+
+.conteudoExpandido {
+  background: var(--cor-superficie-elevada);
+  border-color: var(--cor-borda);
+  box-shadow: var(--sombra-md);
+}
+
+.conteudoExpandido:hover {
+  background: var(--cor-superficie-elevada);
+}
+
+.titulo {
+  font-size: var(--tamanho-base);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-primario);
+  line-height: var(--altura-linha-apertada);
+  margin: 0 0 var(--espaco-1) 0;
+}
+
+.descricaoCurta {
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-secundario);
+  line-height: var(--altura-linha-normal);
+  margin: 0;
+}
+
+/* ─── Painel Expandido ─── */
+
+.painelExpandido {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows var(--transicao-normal);
+}
+
+.painelExpandidoAberto {
+  grid-template-rows: 1fr;
+}
+
+.painelConteudo {
+  overflow: hidden;
+}
+
+.detalhe {
+  padding-top: var(--espaco-4);
+  border-top: 1px solid var(--cor-borda);
+  margin-top: var(--espaco-3);
+}
+
+.detalheTexto {
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-primario);
+  line-height: var(--altura-linha-relaxada);
+  margin: 0 0 var(--espaco-3) 0;
+}
+
+.consequenciasRotulo {
+  font-size: var(--tamanho-xs);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-acento-400);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 var(--espaco-2) 0;
+}
+
+.consequenciasTexto {
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-secundario);
+  line-height: var(--altura-linha-relaxada);
+  margin: 0;
+}
+
+/* ─── Indicador de Período (Badge) ─── */
+
+.periodo {
+  display: inline-block;
+  font-size: var(--tamanho-xs);
+  font-weight: var(--peso-medio);
+  padding: var(--espaco-1) var(--espaco-2);
+  border-radius: var(--raio-sm);
+  margin-bottom: var(--espaco-2);
+  line-height: 1;
+}
+
+.periodo[data-cor='colonial'] {
+  color: hsl(38, 90%, 55%);
+  background: hsl(38, 90%, 55%, 0.12);
+}
+
+.periodo[data-cor='vargas'] {
+  color: hsl(270, 60%, 65%);
+  background: hsl(270, 60%, 65%, 0.12);
+}
+
+.periodo[data-cor='geral'] {
+  color: hsl(190, 70%, 55%);
+  background: hsl(190, 70%, 55%, 0.12);
+}
+
+/* ─── Responsivo ─── */
+
+@media (max-width: 768px) {
+  .abas {
+    flex-direction: column;
+  }
+
+  .aba {
+    white-space: normal;
+    text-align: center;
+  }
+
+  .linhaDoTempo {
+    padding-left: 64px;
+  }
+
+  .linhaVertical {
+    left: 52px;
+  }
+
+  .ano {
+    left: -64px;
+    width: 44px;
+    font-size: var(--tamanho-xs);
+  }
+}

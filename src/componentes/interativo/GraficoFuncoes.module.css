@@ -1,0 +1,228 @@
+/* ─── GraficoFuncoes: Container ─── */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-4);
+  width: 100%;
+}
+
+/* ─── Seletor de Tipo ─── */
+
+.seletorTipo {
+  display: flex;
+  gap: var(--espaco-2);
+}
+
+.botaoTipo {
+  flex: 1;
+  padding: var(--espaco-2) var(--espaco-4);
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-secundario);
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-md);
+  cursor: pointer;
+  transition:
+    background var(--transicao-rapida),
+    border-color var(--transicao-rapida),
+    color var(--transicao-rapida);
+}
+
+.botaoTipo:hover {
+  background: var(--cor-superficie-elevada);
+  border-color: var(--cor-primaria-600);
+}
+
+.botaoTipo:focus-visible {
+  outline: 2px solid var(--cor-primaria-400);
+  outline-offset: 2px;
+}
+
+.botaoTipo[data-ativo='true'] {
+  color: var(--cor-texto-invertido);
+  background: var(--cor-primaria-500);
+  border-color: var(--cor-primaria-500);
+}
+
+/* ─── Equação ─── */
+
+.equacao {
+  text-align: center;
+  font-size: var(--tamanho-lg);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-primario);
+  line-height: var(--altura-linha-relaxada);
+  padding: var(--espaco-2) 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* ─── Gráfico SVG ─── */
+
+.graficoWrapper {
+  width: 100%;
+  aspect-ratio: 1;
+  max-width: 560px;
+  margin: 0 auto;
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  overflow: hidden;
+}
+
+.graficoSvg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ─── Controles (Sliders) ─── */
+
+.controles {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-3);
+}
+
+.controleGrupo {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-3);
+}
+
+.controleLabel {
+  min-width: 80px;
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-secundario);
+  white-space: nowrap;
+}
+
+.controleSlider {
+  flex: 1;
+  height: 6px;
+  appearance: none;
+  background: var(--cor-borda);
+  border-radius: var(--raio-completo);
+  outline: none;
+  cursor: pointer;
+}
+
+.controleSlider::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: var(--cor-primaria-400);
+  border-radius: var(--raio-completo);
+  cursor: grab;
+  transition: transform var(--transicao-rapida);
+}
+
+.controleSlider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+.controleSlider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: var(--cor-primaria-400);
+  border: none;
+  border-radius: var(--raio-completo);
+  cursor: grab;
+}
+
+.controleSlider:focus-visible {
+  outline: 2px solid var(--cor-primaria-400);
+  outline-offset: 2px;
+}
+
+.controleValor {
+  min-width: 40px;
+  text-align: right;
+  font-size: var(--tamanho-sm);
+  font-weight: var(--peso-medio);
+  color: var(--cor-texto-primario);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ─── Informações (Raízes / Vértice) ─── */
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espaco-2);
+}
+
+.infoTag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espaco-1);
+  padding: var(--espaco-1) var(--espaco-3);
+  font-size: var(--tamanho-xs);
+  font-weight: var(--peso-semibold);
+  border-radius: var(--raio-completo);
+  font-variant-numeric: tabular-nums;
+}
+
+.infoTag[data-tipo='raiz'] {
+  color: var(--cor-acento-400);
+  background: hsl(160, 65%, 45%, 0.12);
+}
+
+.infoTag[data-tipo='vertice'] {
+  color: var(--cor-aviso-400);
+  background: hsl(38, 90%, 55%, 0.12);
+}
+
+.infoTag[data-tipo='sem-raiz'] {
+  color: var(--cor-texto-terciario);
+  background: var(--cor-superficie-elevada);
+}
+
+/* ─── Responsive: Tablet ≤768px ─── */
+
+@media (max-width: 768px) {
+  .seletorTipo {
+    flex-direction: column;
+  }
+
+  .botaoTipo {
+    min-height: 44px;
+    text-align: center;
+  }
+
+  .controleGrupo {
+    flex-wrap: wrap;
+  }
+
+  .controleLabel {
+    min-width: 60px;
+  }
+}
+
+/* ─── Responsive: Mobile ≤480px ─── */
+
+@media (max-width: 480px) {
+  .equacao {
+    font-size: var(--tamanho-base);
+  }
+
+  .graficoWrapper {
+    aspect-ratio: 4 / 3;
+  }
+
+  .controleSlider {
+    height: 8px;
+  }
+
+  .controleSlider::-webkit-slider-thumb {
+    width: 22px;
+    height: 22px;
+  }
+
+  .controleSlider::-moz-range-thumb {
+    width: 22px;
+    height: 22px;
+  }
+}

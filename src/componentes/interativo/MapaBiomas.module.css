@@ -1,0 +1,269 @@
+/* ─── Container ─── */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-4);
+}
+
+.titulo {
+  font-size: var(--tamanho-2xl);
+  font-weight: var(--peso-bold);
+  color: var(--cor-texto-primario);
+  margin: 0;
+}
+
+.conteudo {
+  display: flex;
+  gap: var(--espaco-6);
+  align-items: flex-start;
+}
+
+/* ─── Mapa SVG ─── */
+
+.mapa {
+  flex: 1;
+  max-width: 420px;
+  height: auto;
+}
+
+.biomaPath {
+  cursor: pointer;
+  stroke: rgba(0, 0, 0, 0.3);
+  stroke-width: 1;
+  stroke-linejoin: round;
+  transition:
+    filter var(--transicao-normal),
+    stroke var(--transicao-normal),
+    stroke-width var(--transicao-rapida);
+}
+
+.biomaPath:hover {
+  filter: brightness(1.3);
+  stroke: rgba(255, 255, 255, 0.8);
+  stroke-width: 2.5;
+}
+
+.biomaPath:focus-visible {
+  outline: none;
+  stroke: var(--cor-primaria-400);
+  stroke-width: 2.5;
+}
+
+.biomaPath[data-ativo] {
+  stroke: #fff;
+  stroke-width: 2.5;
+  filter: brightness(1.15) drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+}
+
+.biomaLabel {
+  font-size: 20px;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* ─── Lateral (legenda + cartão) ─── */
+
+.lateral {
+  flex: 1;
+  min-width: 280px;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-4);
+}
+
+/* ─── Legenda ─── */
+
+.legenda {
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  padding: var(--espaco-4);
+}
+
+.legendaTitulo {
+  font-size: var(--tamanho-lg);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-primario);
+  margin: 0 0 var(--espaco-3);
+}
+
+.legendaLista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+}
+
+.legendaItem {
+  display: flex;
+  align-items: center;
+  gap: var(--espaco-2);
+  padding: var(--espaco-2) var(--espaco-3);
+  border: none;
+  background: transparent;
+  border-radius: var(--raio-md);
+  cursor: pointer;
+  color: var(--cor-texto-primario);
+  font-size: var(--tamanho-sm);
+  font-family: inherit;
+  width: 100%;
+  text-align: left;
+  transition: background var(--transicao-rapida);
+}
+
+.legendaItem:hover {
+  background: var(--cor-superficie-elevada);
+}
+
+.legendaItem[data-ativo] {
+  background: var(--cor-superficie-elevada);
+  font-weight: var(--peso-semibold);
+}
+
+.legendaCor {
+  width: 14px;
+  height: 14px;
+  border-radius: var(--raio-sm);
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.legendaArea {
+  margin-left: auto;
+  color: var(--cor-texto-secundario);
+  font-size: var(--tamanho-xs);
+}
+
+/* ─── Cartão de Detalhes ─── */
+
+.cartaoDetalhe {
+  position: relative;
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  padding: var(--espaco-5);
+  animation: fadeIn 250ms ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cartaoHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--espaco-1);
+  margin-bottom: var(--espaco-4);
+  text-align: center;
+}
+
+.cartaoEmoji {
+  font-size: var(--tamanho-3xl);
+  line-height: 1;
+}
+
+.cartaoNome {
+  font-size: var(--tamanho-xl);
+  font-weight: var(--peso-bold);
+  color: var(--cor-texto-primario);
+  margin: 0;
+}
+
+.cartaoArea {
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-secundario);
+}
+
+.cartaoInfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-3);
+  margin: 0;
+}
+
+.cartaoLinha {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+}
+
+.cartaoLinha dt {
+  font-size: var(--tamanho-xs);
+  font-weight: var(--peso-semibold);
+  color: var(--cor-texto-secundario);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cartaoLinha dd {
+  margin: 0;
+  font-size: var(--tamanho-sm);
+  color: var(--cor-texto-primario);
+  line-height: var(--altura-linha-relaxada);
+}
+
+.cartaoFechar {
+  position: absolute;
+  top: var(--espaco-2);
+  right: var(--espaco-2);
+  background: none;
+  border: none;
+  color: var(--cor-texto-terciario);
+  font-size: var(--tamanho-lg);
+  cursor: pointer;
+  padding: var(--espaco-1) var(--espaco-2);
+  border-radius: var(--raio-sm);
+  transition:
+    color var(--transicao-rapida),
+    background var(--transicao-rapida);
+  line-height: 1;
+}
+
+.cartaoFechar:hover {
+  color: var(--cor-texto-primario);
+  background: var(--cor-superficie-elevada);
+}
+
+/* ─── Instrução (placeholder) ─── */
+
+.instrucao {
+  color: var(--cor-texto-terciario);
+  font-size: var(--tamanho-sm);
+  text-align: center;
+  padding: var(--espaco-6) var(--espaco-4);
+  font-style: italic;
+  margin: 0;
+}
+
+/* ─── Responsivo ─── */
+
+@media (max-width: 768px) {
+  .conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mapa {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .lateral {
+    min-width: unset;
+    max-width: 100%;
+    width: 100%;
+  }
+}
