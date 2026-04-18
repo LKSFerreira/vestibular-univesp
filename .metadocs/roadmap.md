@@ -9,7 +9,9 @@
 - [x] Arquitetura inicial do sistema definida e documentada.
 - [x] Stack do frontend, backend, persistência e telemetria decidida.
 - [x] Repositório da aplicação scaffoldado.
+- [x] Camada local de estudo expandida com ementa, conteúdo rico, quizzes, progresso e painel visual multi-disciplina.
 - [ ] MVP funcional implementado para a trilha de `função do 2º grau`.
+- [ ] Integração ponta a ponta entre a UX atual e o motor adaptativo ainda não concluída.
 
 ## Como este roadmap deve ser usado
 
@@ -20,11 +22,18 @@
 
 ## Premissas e Limites do MVP
 
-- [x] O MVP permanece restrito ao domínio de `matemática`.
-- [x] A trilha inicial permanece restrita ao tema `função do 2º grau`.
-- [x] O objetivo do MVP é validar a mecânica de regressão adaptativa, não cobrir múltiplas disciplinas.
+- [x] O norte do MVP adaptativo permanece restrito ao domínio de `matemática`.
+- [x] A trilha principal de validação permanece restrita ao tema `função do 2º grau`.
+- [x] O objetivo central continua sendo validar a mecânica de regressão adaptativa, não a cobertura completa de múltiplas disciplinas.
+- [x] A implementação local já contém uma camada expandida de estudo multi-disciplina, tratada como shell de conteúdo, navegação e progresso.
 - [x] O produto deve priorizar `interação visual`, `diagnóstico adaptativo`, `retomada contextual` e `telemetria`.
 - [ ] Funcionalidades fora de escopo, como `gamificação profunda`, `marketplace`, `pagamentos` e `app mobile nativo`, devem continuar bloqueadas até revisão formal do PRD.
+
+## Nota de Consistência
+
+- [x] Este roadmap continua orientando o `MVP adaptativo`.
+- [x] A base local já avançou em `UX/UI`, `conteúdo`, `dashboard` e `visualizações interativas` além do escopo originalmente descrito.
+- [x] Essas entregas devem ser interpretadas como suporte à experiência de estudo e não como prova de que o fluxo adaptativo principal já está concluído.
 
 ---
 
@@ -133,7 +142,7 @@ Arquivos e artefatos de referência:
 
 - [x] ~~Versionar `.docker/compose.yaml`~~ — Decisão: sem Docker no MVP. Vite dev server via `npm run dev`.
 - [x] ~~Alinhar `dev.sh` e `exec.sh`~~ — Substituído por scripts npm padronizados.
-- [ ] Criar `.env.example` com as variáveis mínimas necessárias.
+- [x] Criar `.env.example` com as variáveis mínimas necessárias.
 - [x] Garantir que a aplicação local possa ser iniciada de forma determinística.
 
 Arquivos e artefatos de referência:
@@ -145,7 +154,7 @@ Arquivos e artefatos de referência:
 - [x] Configurar `typecheck`.
 - [x] Configurar `test runner`.
 - [x] Preparar comandos padrão para desenvolvimento e validação local.
-- [ ] Definir critério mínimo para merge futuro.
+- [x] Definir critério mínimo para merge futuro.
 
 Arquivos e artefatos de referência:
 - `package.json`
@@ -166,10 +175,10 @@ Transformar os conceitos do PRD em estruturas concretas de dados, contratos e co
 
 ### Etapa 3.1: Grafo de conhecimento
 
-- [ ] Definir o schema de `Nó de Conhecimento`.
-- [ ] Definir o schema de `Dependência`.
-- [ ] Definir como serão representados `critérios de domínio`, `pré-requisitos`, `objetivos de aprendizagem` e `recursos associados`.
-- [ ] Modelar a trilha inicial de `função do 2º grau` com nós suficientes para regressão real.
+- [x] Definir o schema de `Nó de Conhecimento`.
+- [x] Definir o schema de `Dependência`.
+- [x] Definir como serão representados `critérios de domínio`, `pré-requisitos`, `objetivos de aprendizagem` e `recursos associados`.
+- [x] Modelar a trilha inicial de `função do 2º grau` com nós suficientes para regressão real.
 
 Arquivos e artefatos esperados:
 - `.metadocs/modelo_de_conteudo.md`
@@ -200,9 +209,9 @@ Arquivos e artefatos esperados:
 - contratos de eventos na aplicação
 
 Critério de conclusão da fase:
-- [ ] O domínio do MVP está modelado em nível suficiente para implementação.
-- [ ] O conteúdo da trilha inicial está representado de forma versionável.
-- [ ] Existe taxonomia de eventos pronta para instrumentação.
+- [x] O domínio do MVP está modelado em nível suficiente para implementação.
+- [x] O conteúdo da trilha inicial está representado de forma versionável.
+- [x] Existe taxonomia inicial de eventos pronta para instrumentação.
 
 ---
 

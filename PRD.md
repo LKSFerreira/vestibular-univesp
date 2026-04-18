@@ -1,5 +1,7 @@
 # Product Requirements Document (PRD)
 
+> **Nota de consistência documental (2026-04-18):** este PRD continua sendo o norte do `MVP adaptativo`, restrito a matemática e à trilha de função do 2º grau. A implementação atual do workspace já inclui uma camada expandida de estudo com múltiplas disciplinas, quizzes, dashboard e visualizações, mas isso não substitui a validação do fluxo adaptativo ponta a ponta descrito neste documento.
+
 ## 1. Nome Provisório do Produto
 Plataforma de Aprendizado Adaptativo com Regressão Dinâmica de Conhecimento
 

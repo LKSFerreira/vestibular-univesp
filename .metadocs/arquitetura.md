@@ -4,6 +4,8 @@
 
 O sistema é uma **SPA (Single Page Application)** centrada em uma experiência de aprendizagem adaptativa. A lógica core é inteiramente client-side, com persistência local no MVP.
 
+> Estado atual da implementação: a aplicação já opera com um layout de estudo em `3 painéis`, ementa multi-disciplina, conteúdo rico, quizzes, visualizações interativas e dashboard de progresso. O motor adaptativo continua sendo o norte do produto, mas ainda não está ligado ponta a ponta à UX principal.
+
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                        BROWSER (SPA)                        │
@@ -59,7 +61,12 @@ Lógica pura TypeScript, **zero dependência de React ou framework**. Testável 
 
 ### 2. Conteúdo (`src/conteudo/`)
 
-Dados do grafo de conhecimento versionados como TypeScript. A trilha "Função do 2º Grau" possui 7 nós:
+O conteúdo está dividido em dois eixos:
+
+- **Eixo adaptativo**: grafo versionado da trilha `Função do 2º Grau`, com 7 nós.
+- **Eixo de estudo expandido**: ementa do vestibular, tópicos por disciplina, seções ricas, exercícios e metadados visuais.
+
+A trilha "Função do 2º Grau" possui 7 nós:
 
 ```
 Operações Algébricas → Fatoração → Equação 2º Grau → Discriminante → Raízes → Leitura Gráfico → Função Quadrática
@@ -68,14 +75,21 @@ Operações Algébricas → Fatoração → Equação 2º Grau → Discriminante
 ### 3. Componentes (`src/componentes/`)
 
 Componentes React organizados por responsabilidade:
-- `ui/` — Primitivos do design system
-- `interativos/` — Componentes de manipulação visual (gráficos, equações)
-- `sessao/` — Componentes da sessão adaptativa
-- `progresso/` — Visualização de progresso
+- `layout/` — Estrutura principal da experiência de estudo
+- `ementa/` — Navegação por disciplinas e tópicos
+- `conteudo/` — Renderização textual, fórmulas, exemplos e quizzes
+- `visual/` — Dashboard, gráficos de desempenho e painel de progresso
+- `interativo/` — Simulações e visualizações por disciplina
 
 ### 4. Infraestrutura (`src/infraestrutura/`)
 
 Adapters de persistência. No MVP, `localStorage`. Projetado para substituição por Supabase/Firebase sem alterar domínio nem componentes.
+
+## Observação sobre Fluxos
+
+- O diretório `src/paginas/` ainda preserva um fluxo legado baseado em rotas.
+- O ponto de entrada atual da aplicação usa `LayoutEstudo` como shell principal.
+- O domínio adaptativo permanece válido e testado, mas sua integração com a camada nova de conteúdo ainda é incremental.
 
 ## Motor Adaptativo — Máquina de Estados
 
