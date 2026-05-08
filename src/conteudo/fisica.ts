@@ -12,7 +12,7 @@ export const disciplinaFisica: Disciplina = {
       conteudo: {
         resumo: 'Cinemática, Leis de Newton, trabalho e energia mecânica.',
         explicacao:
-          'A mecânica é o pilar da física no vestibular. Domine as equações de cinemática e as três leis de Newton.\n\nCinemática — Movimento Uniforme (MU):\nS = S₀ + v·t\n\nCinemática — Movimento Uniformemente Variado (MUV):\nS = S₀ + v₀·t + (a·t²)/2\nv = v₀ + a·t\n\nLeis de Newton:\n1ª Lei (Inércia): corpo em repouso tende a permanecer em repouso\n2ª Lei (F = m·a): força é proporcional à aceleração\n3ª Lei (Ação e Reação): toda força tem uma reação igual e oposta\n\nEnergia: Ec = mv²/2 | Ep = mgh | Em = Ec + Ep (conservação)',
+          'A mecânica é o pilar da física no vestibular. Domine as equações de cinemática e as três leis de Newton.\n\nCinemática: Movimento Uniforme (MU):\nS = S₀ + v·t\n\nCinemática: Movimento Uniformemente Variado (MUV):\nS = S₀ + v₀·t + (a·t²)/2\nv = v₀ + a·t\n\nLeis de Newton:\n1ª Lei (Inércia): corpo em repouso tende a permanecer em repouso\n2ª Lei (F = m·a): força é proporcional à aceleração\n3ª Lei (Ação e Reação): toda força tem uma reação igual e oposta\n\nEnergia: Ec = mv²/2 | Ep = mgh | Em = Ec + Ep (conservação)',
         secoes: [
           {
             titulo: 'Introdução à Mecânica',
@@ -21,7 +21,7 @@ export const disciplinaFisica: Disciplina = {
 
 A Mecânica se divide em três grandes áreas:
 
-- **Cinemática**: descreve *como* os corpos se movem — posição, velocidade e aceleração — sem se preocupar com as causas do movimento.
+- **Cinemática**: descreve *como* os corpos se movem: posição, velocidade e aceleração: sem se preocupar com as causas do movimento.
 - **Dinâmica**: estuda *por que* os corpos se movem, analisando as forças que atuam sobre eles (Leis de Newton).
 - **Trabalho e Energia**: apresenta os conceitos de trabalho mecânico, energia cinética, energia potencial e o princípio da conservação da energia.
 
@@ -175,7 +175,7 @@ $$\\Delta s = 50 \\text{ m}$$
 
 ---
 
-**1ª Lei de Newton — Lei da Inércia**
+**1ª Lei de Newton: Lei da Inércia**
 
 > *Um corpo em repouso tende a permanecer em repouso, e um corpo em movimento retilíneo uniforme tende a permanecer nesse estado, a menos que uma força resultante não nula atue sobre ele.*
 
@@ -185,13 +185,13 @@ A inércia é a resistência que um corpo oferece à mudança de seu estado de m
 
 ---
 
-**2ª Lei de Newton — Princípio Fundamental da Dinâmica**
+**2ª Lei de Newton: Princípio Fundamental da Dinâmica**
 
 $$\\vec{F}_R = m \\cdot \\vec{a}$$
 
 A força resultante ($F_R$) sobre um corpo é igual ao produto de sua massa ($m$) pela aceleração ($a$) adquirida. Consequências diretas:
 
-- Se $F_R = 0$, então $a = 0$ (equilíbrio — parado ou MRU).
+- Se $F_R = 0$, então $a = 0$ (equilíbrio: parado ou MRU).
 - Para mesma força, maior massa → menor aceleração.
 - Para mesma massa, maior força → maior aceleração.
 
@@ -199,7 +199,7 @@ A força resultante ($F_R$) sobre um corpo é igual ao produto de sua massa ($m$
 
 ---
 
-**3ª Lei de Newton — Ação e Reação**
+**3ª Lei de Newton: Ação e Reação**
 
 > *Quando um corpo A exerce uma força sobre um corpo B, o corpo B exerce simultaneamente sobre A uma força de mesma intensidade, mesma direção e sentido oposto.*
 
@@ -275,13 +275,13 @@ onde $F$ é a intensidade da força (N), $d$ é o deslocamento (m) e $\\theta$ �
           {
             titulo: 'Energia Cinética e Potencial Gravitacional',
             tipo: 'formula',
-            corpo: `**Energia Cinética** — energia associada ao movimento:
+            corpo: `**Energia Cinética**: energia associada ao movimento:
 
 $$E_c = \\frac{m \\cdot v^2}{2}$$
 
 Depende da massa e do **quadrado** da velocidade. Ao dobrar a velocidade, a energia cinética quadruplica. Um corpo em repouso tem $E_c = 0$.
 
-**Energia Potencial Gravitacional** — energia armazenada pela posição (altura):
+**Energia Potencial Gravitacional**: energia armazenada pela posição (altura):
 
 $$E_p = m \\cdot g \\cdot h$$
 
@@ -441,12 +441,12 @@ $$v = \\sqrt{400} = 20 \\text{ m/s}$$
       conteudo: {
         resumo: 'Corrente elétrica, resistência, Lei de Ohm, circuitos série e paralelo, potência e consumo de energia.',
         explicacao:
-          'A Eletrodinâmica estuda o movimento de cargas elétricas em circuitos.\n\nConceitos fundamentais:\n• Corrente elétrica (i): fluxo ordenado de cargas. i = ΔQ/Δt (unidade: Ampere)\n• Diferença de potencial (U): "força" que impulsiona as cargas (unidade: Volt)\n• Resistência (R): oposição ao fluxo de corrente (unidade: Ohm — Ω)\n\nLei de Ohm: U = R × i\n\nAssociação de resistores:\n• Série: Req = R₁ + R₂ + ... (mesma corrente em todos, tensão se divide)\n• Paralelo: 1/Req = 1/R₁ + 1/R₂ + ... (mesma tensão em todos, corrente se divide)\n\nPotência elétrica: P = U × i = R × i² = U²/R (unidade: Watt)\n\nConsumo de energia: E = P × Δt\n• 1 kWh = 1.000 W × 1 hora = 3,6 × 10⁶ J',
+          'A Eletrodinâmica estuda o movimento de cargas elétricas em circuitos.\n\nConceitos fundamentais:\n• Corrente elétrica (i): fluxo ordenado de cargas. i = ΔQ/Δt (unidade: Ampere)\n• Diferença de potencial (U): "força" que impulsiona as cargas (unidade: Volt)\n• Resistência (R): oposição ao fluxo de corrente (unidade: Ohm: Ω)\n\nLei de Ohm: U = R × i\n\nAssociação de resistores:\n• Série: Req = R₁ + R₂ + ... (mesma corrente em todos, tensão se divide)\n• Paralelo: 1/Req = 1/R₁ + 1/R₂ + ... (mesma tensão em todos, corrente se divide)\n\nPotência elétrica: P = U × i = R × i² = U²/R (unidade: Watt)\n\nConsumo de energia: E = P × Δt\n• 1 kWh = 1.000 W × 1 hora = 3,6 × 10⁶ J',
         secoes: [
           {
             titulo: 'Introdução à Eletrodinâmica',
             tipo: 'texto',
-            corpo: `A **Eletrodinâmica** é o ramo da Física que estuda o movimento ordenado de cargas elétricas — a corrente elétrica — e os fenômenos associados a ela em circuitos. Com peso de 30% na prova de Física da UNIVESP, é o segundo tema mais importante da disciplina.
+            corpo: `A **Eletrodinâmica** é o ramo da Física que estuda o movimento ordenado de cargas elétricas: a corrente elétrica: e os fenômenos associados a ela em circuitos. Com peso de 30% na prova de Física da UNIVESP, é o segundo tema mais importante da disciplina.
 
 Os conceitos centrais da eletrodinâmica são:
 
@@ -546,11 +546,11 @@ $$\\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\frac{1}{R_3} + \\ldots
 
 A resistência equivalente em paralelo é sempre **menor** que o menor resistor individual.
 
-**Caso especial — dois resistores em paralelo:**
+**Caso especial: dois resistores em paralelo:**
 
 $$R_{eq} = \\frac{R_1 \\cdot R_2}{R_1 + R_2}$$
 
-**Caso especial — $n$ resistores iguais de valor $R$:**
+**Caso especial: $n$ resistores iguais de valor $R$:**
 
 $$R_{eq} = \\frac{R}{n}$$
 
@@ -780,15 +780,15 @@ $$\\text{Custo} = 346{,}8 \\times 0{,}75 = \\text{R\\$} \\; 260{,}10$$
             tipo: 'texto',
             corpo: `Existem três escalas termométricas principais utilizadas em Física:
 
-**Celsius (°C)** — escala mais utilizada no Brasil e na maioria dos países:
+**Celsius (°C)**: escala mais utilizada no Brasil e na maioria dos países:
 - Ponto de fusão da água: $0 \\text{ °C}$
 - Ponto de ebulição da água: $100 \\text{ °C}$
 
-**Fahrenheit (°F)** — usada nos Estados Unidos:
+**Fahrenheit (°F)**: usada nos Estados Unidos:
 - Ponto de fusão da água: $32 \\text{ °F}$
 - Ponto de ebulição da água: $212 \\text{ °F}$
 
-**Kelvin (K)** — escala absoluta, usada em cálculos científicos:
+**Kelvin (K)**: escala absoluta, usada em cálculos científicos:
 - Ponto de fusão da água: $273 \\text{ K}$
 - Ponto de ebulição da água: $373 \\text{ K}$
 - **Zero absoluto**: $0 \\text{ K} = -273 \\text{ °C}$ (menor temperatura possível, onde a agitação molecular é mínima)
@@ -885,10 +885,10 @@ onde:
 
 **Curva de aquecimento da água** (partindo do gelo a $-20 \\text{ °C}$):
 
-1. **Aquecimento do gelo** ($-20$ a $0 \\text{ °C}$): $Q = m \\cdot c_{gelo} \\cdot \\Delta T$ — temperatura sobe
-2. **Fusão** ($0 \\text{ °C}$, constante): $Q = m \\cdot L_f$ — patamar horizontal no gráfico
-3. **Aquecimento da água** ($0$ a $100 \\text{ °C}$): $Q = m \\cdot c_{agua} \\cdot \\Delta T$ — temperatura sobe
-4. **Vaporização** ($100 \\text{ °C}$, constante): $Q = m \\cdot L_v$ — patamar horizontal no gráfico
+1. **Aquecimento do gelo** ($-20$ a $0 \\text{ °C}$): $Q = m \\cdot c_{gelo} \\cdot \\Delta T$: temperatura sobe
+2. **Fusão** ($0 \\text{ °C}$, constante): $Q = m \\cdot L_f$: patamar horizontal no gráfico
+3. **Aquecimento da água** ($0$ a $100 \\text{ °C}$): $Q = m \\cdot c_{agua} \\cdot \\Delta T$: temperatura sobe
+4. **Vaporização** ($100 \\text{ °C}$, constante): $Q = m \\cdot L_v$: patamar horizontal no gráfico
 5. **Aquecimento do vapor** (acima de $100 \\text{ °C}$): temperatura sobe novamente
 
 > **Ponto crucial:** Durante a mudança de estado (patamares 2 e 4), **a temperatura NÃO varia**. Todo o calor é usado para romper (ou formar) ligações intermoleculares.`,
@@ -922,7 +922,7 @@ $$m_1 \\cdot c_1 \\cdot (T_f - T_1) + m_2 \\cdot c_2 \\cdot (T_f - T_2) = 0$$
             tipo: 'texto',
             corpo: `Quando um corpo é aquecido, suas moléculas vibram com maior amplitude, fazendo com que o corpo se expanda. A dilatação térmica pode ser linear, superficial ou volumétrica.
 
-**Dilatação Linear** (em uma dimensão — comprimento):
+**Dilatação Linear** (em uma dimensão: comprimento):
 
 $$\\Delta L = L_0 \\cdot \\alpha \\cdot \\Delta T$$
 
@@ -930,13 +930,13 @@ onde $L_0$ é o comprimento inicial, $\\alpha$ é o coeficiente de dilatação l
 
 O comprimento final: $L_f = L_0 + \\Delta L = L_0 (1 + \\alpha \\cdot \\Delta T)$
 
-**Dilatação Superficial** (em duas dimensões — área):
+**Dilatação Superficial** (em duas dimensões: área):
 
 $$\\Delta A = A_0 \\cdot \\beta \\cdot \\Delta T$$
 
 onde $\\beta = 2\\alpha$ é o coeficiente de dilatação superficial.
 
-**Dilatação Volumétrica** (em três dimensões — volume):
+**Dilatação Volumétrica** (em três dimensões: volume):
 
 $$\\Delta V = V_0 \\cdot \\gamma \\cdot \\Delta T$$
 
@@ -1056,7 +1056,7 @@ $$L_f = L_0 + \\Delta L = 2 + 0{,}0024 = 2{,}0024 \\text{ m}$$
         ],
         dicasProva: [
           'Na conversão de escalas, use a relação °C/5 = (°F - 32)/9 = (K - 273)/5',
-          'Durante a mudança de estado físico, a temperatura NÃO varia — use Q = mL',
+          'Durante a mudança de estado físico, a temperatura NÃO varia: use Q = mL',
           'No equilíbrio térmico, calor cedido pelo corpo quente = calor recebido pelo corpo frio',
           'Questões de dilatação pedem atenção ao coeficiente correto (α linear, β superficial, γ volumétrico)',
         ],
@@ -1064,7 +1064,7 @@ $$L_f = L_0 + \\Delta L = 2 + 0{,}0024 = 2{,}0024 \\text{ m}$$
           'Esquecer que durante a mudança de estado a temperatura permanece constante (patamar no gráfico)',
           'Confundir calor sensível (Q = mcΔT) com calor latente (Q = mL)',
           'Não converter Celsius para Kelvin quando a fórmula exige temperatura absoluta (K = °C + 273)',
-          'Errar sinais no equilíbrio térmico — calor cedido é negativo, calor recebido é positivo',
+          'Errar sinais no equilíbrio térmico: calor cedido é negativo, calor recebido é positivo',
         ],
         exemplosResolvidos: [
           {
@@ -1195,8 +1195,8 @@ A imagem formada por um espelho plano é:
 
 Espelhos esféricos são superfícies refletoras com formato de uma calota esférica. Podem ser:
 
-- **Côncavo** (superfície refletora interna): convergente — concentra os raios em um foco real.
-- **Convexo** (superfície refletora externa): divergente — espalha os raios; o foco é virtual (atrás do espelho).
+- **Côncavo** (superfície refletora interna): convergente: concentra os raios em um foco real.
+- **Convexo** (superfície refletora externa): divergente: espalha os raios; o foco é virtual (atrás do espelho).
 
 **Elementos geométricos:**
 - **Centro de curvatura** ($C$): centro da esfera que origina o espelho.
@@ -1455,7 +1455,7 @@ $$\\lambda = \\frac{3 \\times 10^8}{10^8} = 3 \\text{ m}$$
         imagemDescricao: 'Diagrama de reflexão e refração da luz com ângulos indicados e esquema de onda com comprimento de onda e amplitude',
         formulasChave: [
           '1/f = 1/p + 1/p\' (equação dos espelhos esféricos e lentes)',
-          'n₁ × sen(θ₁) = n₂ × sen(θ₂) (Lei de Snell — refração)',
+          'n₁ × sen(θ₁) = n₂ × sen(θ₂) (Lei de Snell: refração)',
           'v = λ × f (equação fundamental das ondas)',
           'Aumento linear: A = p\'/p (ampliação em espelhos e lentes)',
         ],
@@ -1467,8 +1467,8 @@ $$\\lambda = \\frac{3 \\times 10^8}{10^8} = 3 \\text{ m}$$
         ],
         errosComuns: [
           'Confundir espelho côncavo (convergente) com convexo (divergente)',
-          'Afirmar que ondas transportam matéria — ondas transportam apenas energia',
-          'Achar que a frequência muda na refração — apenas velocidade e comprimento de onda mudam',
+          'Afirmar que ondas transportam matéria: ondas transportam apenas energia',
+          'Achar que a frequência muda na refração: apenas velocidade e comprimento de onda mudam',
           'Confundir ondas transversais (vibração perpendicular) com longitudinais (vibração paralela)',
         ],
         exercicios: [

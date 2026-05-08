@@ -38,8 +38,8 @@ export function avaliarSinais(
       noAtual,
       noSugerido,
       temRepeticaoImprodutiva
-        ? 'Repetição improdutiva detectada — regressão para pré-requisito'
-        : `${totalErros} erros acumulados — regressão para pré-requisito`,
+        ? 'Repetição improdutiva detectada: regressão para pré-requisito'
+        : `${totalErros} erros acumulados: regressão para pré-requisito`,
       sinaisDoNo,
     );
   }
@@ -49,7 +49,7 @@ export function avaliarSinais(
       'concluir',
       noAtual,
       null,
-      `${totalAcertos} acertos — conceito dominado`,
+      `${totalAcertos} acertos: conceito dominado`,
       sinaisDoNo,
     );
   }
@@ -59,12 +59,12 @@ export function avaliarSinais(
       'reforcar',
       noAtual,
       null,
-      temAbandono ? 'Abandono parcial detectado' : 'Hesitação detectada — reforço no conceito atual',
+      temAbandono ? 'Abandono parcial detectado' : 'Hesitação detectada: reforço no conceito atual',
       sinaisDoNo,
     );
   }
 
-  return criarDecisao('continuar', noAtual, null, 'Fluxo normal — sem intervenção', sinaisDoNo);
+  return criarDecisao('continuar', noAtual, null, 'Fluxo normal: sem intervenção', sinaisDoNo);
 }
 
 function criarDecisao(

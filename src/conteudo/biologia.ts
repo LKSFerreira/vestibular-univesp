@@ -16,13 +16,13 @@ export const disciplinaBiologia: Disciplina = {
         imagemDescricao: 'Diagrama de uma cadeia alimentar com produtores, consumidores e decompositores',
         dicasProva: [
           'Questões de cadeia alimentar cobram fluxo de energia (unidirecional) e pirâmide ecológica',
-          'Saiba os ciclos do carbono, nitrogênio e água — são os mais cobrados em vestibulares',
+          'Saiba os ciclos do carbono, nitrogênio e água: são os mais cobrados em vestibulares',
           'Relações ecológicas aparecem com exemplos práticos do cotidiano e da natureza',
           'Biomagnificação (acúmulo progressivo de toxinas na cadeia) é tema frequente',
         ],
         errosComuns: [
           'Confundir cadeia alimentar (linear) com teia alimentar (ramificada, com múltiplas cadeias)',
-          'Afirmar que decompositores são consumidores — eles atuam em todos os níveis, reciclando matéria',
+          'Afirmar que decompositores são consumidores: eles atuam em todos os níveis, reciclando matéria',
           'Esquecer que a energia diminui a cada nível trófico (apenas ~10% é transferida ao nível seguinte)',
           'Confundir mutualismo (relação obrigatória) com protocooperação (relação facultativa)',
         ],
@@ -34,11 +34,11 @@ export const disciplinaBiologia: Disciplina = {
               '## O que é Ecologia?\n\n' +
               'Ecologia é o ramo da Biologia que estuda as **interações entre os seres vivos** e destes com o **ambiente físico** (fatores abióticos). O termo foi cunhado por Ernst Haeckel em 1866 e vem do grego *oikos* (casa) + *logos* (estudo).\n\n' +
               '### Níveis de organização ecológica\n\n' +
-              '- **Organismo** — indivíduo de uma espécie\n' +
-              '- **População** — conjunto de organismos da mesma espécie em uma área\n' +
-              '- **Comunidade (biocenose)** — conjunto de populações de espécies diferentes convivendo em uma mesma região\n' +
-              '- **Ecossistema** — comunidade + fatores abióticos (água, luz, solo, temperatura)\n' +
-              '- **Biosfera** — conjunto de todos os ecossistemas da Terra\n\n' +
+              '- **Organismo**: indivíduo de uma espécie\n' +
+              '- **População**: conjunto de organismos da mesma espécie em uma área\n' +
+              '- **Comunidade (biocenose)**: conjunto de populações de espécies diferentes convivendo em uma mesma região\n' +
+              '- **Ecossistema**: comunidade + fatores abióticos (água, luz, solo, temperatura)\n' +
+              '- **Biosfera**: conjunto de todos os ecossistemas da Terra\n\n' +
               '> A ecologia é o tema **mais cobrado** em Biologia nos vestibulares da UNIVESP, representando cerca de 35% das questões.',
           },
           {
@@ -48,11 +48,11 @@ export const disciplinaBiologia: Disciplina = {
               '## Cadeia Alimentar\n\n' +
               'A cadeia alimentar representa a **transferência linear de matéria e energia** entre os seres vivos de um ecossistema. Cada posição na cadeia é chamada de **nível trófico**.\n\n' +
               '### Componentes da cadeia\n\n' +
-              '- **Produtores (autótrofos)** — organismos que produzem seu próprio alimento por fotossíntese ou quimiossíntese (plantas, algas, cianobactérias). Ocupam sempre o **1º nível trófico**\n' +
-              '- **Consumidores primários (herbívoros)** — alimentam-se dos produtores. Ex.: gafanhoto, coelho, boi. Ocupam o **2º nível trófico**\n' +
-              '- **Consumidores secundários (carnívoros primários)** — alimentam-se dos herbívoros. Ex.: sapo, raposa. Ocupam o **3º nível trófico**\n' +
-              '- **Consumidores terciários (carnívoros secundários)** — alimentam-se dos consumidores secundários. Ex.: cobra, águia. Ocupam o **4º nível trófico**\n' +
-              '- **Decompositores** — fungos e bactérias que degradam a matéria orgânica morta em todos os níveis, devolvendo nutrientes minerais ao ambiente\n\n' +
+              '- **Produtores (autótrofos)**: organismos que produzem seu próprio alimento por fotossíntese ou quimiossíntese (plantas, algas, cianobactérias). Ocupam sempre o **1º nível trófico**\n' +
+              '- **Consumidores primários (herbívoros)**: alimentam-se dos produtores. Ex.: gafanhoto, coelho, boi. Ocupam o **2º nível trófico**\n' +
+              '- **Consumidores secundários (carnívoros primários)**: alimentam-se dos herbívoros. Ex.: sapo, raposa. Ocupam o **3º nível trófico**\n' +
+              '- **Consumidores terciários (carnívoros secundários)**: alimentam-se dos consumidores secundários. Ex.: cobra, águia. Ocupam o **4º nível trófico**\n' +
+              '- **Decompositores**: fungos e bactérias que degradam a matéria orgânica morta em todos os níveis, devolvendo nutrientes minerais ao ambiente\n\n' +
               '### Teia alimentar\n\n' +
               'Na natureza, os organismos raramente participam de uma única cadeia. A **teia alimentar** é o conjunto de cadeias alimentares interconectadas de um ecossistema. Ela representa de forma mais realista as relações de alimentação, pois muitos organismos ocupam mais de um nível trófico.\n\n' +
               '> **Diferença fundamental:** cadeia = sequência linear | teia = rede ramificada de múltiplas cadeias',
@@ -63,14 +63,14 @@ export const disciplinaBiologia: Disciplina = {
             corpo:
               '## Fluxo de energia\n\n' +
               'A energia flui de forma **unidirecional** nos ecossistemas: Sol → produtores → consumidores → decompositores → calor. A cada nível trófico, aproximadamente **90% da energia é dissipada** na forma de calor pela respiração celular. Apenas cerca de **10% é transferida** ao nível seguinte.\n\n' +
-              '> Por isso, as cadeias alimentares raramente ultrapassam 4 a 5 níveis tróficos — a quantidade de energia disponível se torna insuficiente.\n\n' +
+              '> Por isso, as cadeias alimentares raramente ultrapassam 4 a 5 níveis tróficos: a quantidade de energia disponível se torna insuficiente.\n\n' +
               '### Pirâmides ecológicas\n\n' +
               'As pirâmides ecológicas representam graficamente as relações quantitativas entre os níveis tróficos:\n\n' +
               '| Tipo de pirâmide | O que representa | Pode ser invertida? |\n' +
               '|---|---|---|\n' +
-              '| **Pirâmide de energia** | Quantidade de energia em cada nível | **Nunca** — sempre diminui |\n' +
-              '| **Pirâmide de biomassa** | Massa total de matéria orgânica | Sim — em ecossistemas aquáticos |\n' +
-              '| **Pirâmide de números** | Quantidade de indivíduos | Sim — ex.: árvore com parasitas |\n\n' +
+              '| **Pirâmide de energia** | Quantidade de energia em cada nível | **Nunca**: sempre diminui |\n' +
+              '| **Pirâmide de biomassa** | Massa total de matéria orgânica | Sim: em ecossistemas aquáticos |\n' +
+              '| **Pirâmide de números** | Quantidade de indivíduos | Sim: ex.: árvore com parasitas |\n\n' +
               '### Biomagnificação\n\n' +
               'É o **acúmulo progressivo de substâncias tóxicas não-biodegradáveis** (como DDT, mercúrio, chumbo) ao longo da cadeia alimentar. Os predadores de topo acumulam as maiores concentrações, pois ingerem toda a toxina acumulada por suas presas.',
           },
@@ -94,10 +94,10 @@ export const disciplinaBiologia: Disciplina = {
               '| **Competição interespecífica** | Disputa por recursos entre espécies diferentes (−/−) | Leão e hiena disputando presa |\n' +
               '| **Amensalismo (antibiose)** | Um inibe o outro, sem benefício próprio (0/−) | Fungo *Penicillium* inibe bactérias (penicilina) |\n\n' +
               '### Relações intraespecíficas\n\n' +
-              '- **Sociedade** (harmônica): divisão de trabalho entre indivíduos — formigas, abelhas, cupins\n' +
-              '- **Colônia** (harmônica): indivíduos anatomicamente unidos — caravela-portuguesa\n' +
-              '- **Competição intraespecífica** (desarmônica): disputa por recursos entre indivíduos da mesma espécie — território, alimento, parceiros\n' +
-              '- **Canibalismo** (desarmônica): um indivíduo se alimenta de outro da mesma espécie — viúva-negra',
+              '- **Sociedade** (harmônica): divisão de trabalho entre indivíduos: formigas, abelhas, cupins\n' +
+              '- **Colônia** (harmônica): indivíduos anatomicamente unidos: caravela-portuguesa\n' +
+              '- **Competição intraespecífica** (desarmônica): disputa por recursos entre indivíduos da mesma espécie: território, alimento, parceiros\n' +
+              '- **Canibalismo** (desarmônica): um indivíduo se alimenta de outro da mesma espécie: viúva-negra',
           },
           {
             titulo: 'Ciclos Biogeoquímicos',
@@ -106,11 +106,11 @@ export const disciplinaBiologia: Disciplina = {
               '## O que são ciclos biogeoquímicos?\n\n' +
               'São os **percursos cíclicos da matéria** (elementos químicos) entre os seres vivos e o ambiente físico. Diferentemente da energia (que flui de forma unidirecional), a **matéria é reciclada** continuamente.\n\n' +
               '### Ciclo da Água (Hidrológico)\n\n' +
-              '1. **Evaporação** — a água dos oceanos, rios e lagos evapora pela ação do calor solar\n' +
-              '2. **Transpiração** — as plantas liberam vapor d\'água pelas folhas (evapotranspiração)\n' +
-              '3. **Condensação** — o vapor d\'água sobe, resfria-se e forma nuvens\n' +
-              '4. **Precipitação** — a água retorna à superfície na forma de chuva, neve ou granizo\n' +
-              '5. **Infiltração e escoamento** — a água penetra no solo ou escoa superficialmente para rios e oceanos\n\n' +
+              '1. **Evaporação**: a água dos oceanos, rios e lagos evapora pela ação do calor solar\n' +
+              '2. **Transpiração**: as plantas liberam vapor d\'água pelas folhas (evapotranspiração)\n' +
+              '3. **Condensação**: o vapor d\'água sobe, resfria-se e forma nuvens\n' +
+              '4. **Precipitação**: a água retorna à superfície na forma de chuva, neve ou granizo\n' +
+              '5. **Infiltração e escoamento**: a água penetra no solo ou escoa superficialmente para rios e oceanos\n\n' +
               '### Ciclo do Carbono\n\n' +
               '- **Fixação:** os produtores retiram CO₂ da atmosfera pela **fotossíntese** (6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂)\n' +
               '- **Transferência:** o carbono passa pelos consumidores via cadeia alimentar\n' +
@@ -133,12 +133,12 @@ export const disciplinaBiologia: Disciplina = {
               '## Sucessão Ecológica\n\n' +
               'A sucessão ecológica é o processo **gradual e ordenado de colonização e substituição** de comunidades biológicas em um ambiente ao longo do tempo, até atingir uma comunidade estável chamada **clímax**.\n\n' +
               '### Tipos de sucessão\n\n' +
-              '- **Sucessão primária** — ocorre em ambientes **nunca antes colonizados** (rocha nua, lava solidificada, duna de areia). As primeiras espécies a se instalarem são chamadas de **espécies pioneiras** (líquens, musgos)\n' +
-              '- **Sucessão secundária** — ocorre em ambientes **previamente colonizados** que foram perturbados (área desmatada, campo após incêndio). É mais rápida que a primária, pois o solo já possui nutrientes e sementes\n\n' +
+              '- **Sucessão primária**: ocorre em ambientes **nunca antes colonizados** (rocha nua, lava solidificada, duna de areia). As primeiras espécies a se instalarem são chamadas de **espécies pioneiras** (líquens, musgos)\n' +
+              '- **Sucessão secundária**: ocorre em ambientes **previamente colonizados** que foram perturbados (área desmatada, campo após incêndio). É mais rápida que a primária, pois o solo já possui nutrientes e sementes\n\n' +
               '### Etapas da sucessão\n\n' +
-              '1. **Ecese (instalação)** — espécies pioneiras colonizam o ambiente e começam a modificá-lo\n' +
-              '2. **Seral (comunidades intermediárias)** — novas espécies vão substituindo as anteriores, aumentando a biodiversidade\n' +
-              '3. **Clímax** — comunidade estável, com máxima biodiversidade e equilíbrio dinâmico\n\n' +
+              '1. **Ecese (instalação)**: espécies pioneiras colonizam o ambiente e começam a modificá-lo\n' +
+              '2. **Seral (comunidades intermediárias)**: novas espécies vão substituindo as anteriores, aumentando a biodiversidade\n' +
+              '3. **Clímax**: comunidade estável, com máxima biodiversidade e equilíbrio dinâmico\n\n' +
               '> Durante a sucessão, a **biodiversidade aumenta**, a **biomassa aumenta** e as **teias alimentares se tornam mais complexas**.',
           },
           {
@@ -244,9 +244,9 @@ export const disciplinaBiologia: Disciplina = {
           'Doenças transmitidas por mosquitos (Aedes, Anopheles) são muito frequentes em vestibulares',
         ],
         errosComuns: [
-          'Afirmar que artérias sempre carregam sangue arterial — nas artérias pulmonares o sangue é venoso',
+          'Afirmar que artérias sempre carregam sangue arterial: nas artérias pulmonares o sangue é venoso',
           'Confundir o agente da dengue (vírus) com o da malária (protozoário Plasmodium)',
-          'Achar que o barbeiro (inseto) causa a doença de Chagas — ele é o vetor; o agente é o Trypanosoma cruzi',
+          'Achar que o barbeiro (inseto) causa a doença de Chagas: ele é o vetor; o agente é o Trypanosoma cruzi',
           'Confundir absorção de nutrientes (intestino delgado) com digestão (estômago e boca)',
         ],
         secoes: [
@@ -255,7 +255,7 @@ export const disciplinaBiologia: Disciplina = {
             tipo: 'texto',
             corpo:
               '## Fisiologia Humana\n\n' +
-              'A Fisiologia Humana estuda o **funcionamento dos sistemas** que compõem o corpo humano. Cada sistema é formado por **órgãos** que trabalham de forma integrada para manter a **homeostase** — o equilíbrio do meio interno do organismo.\n\n' +
+              'A Fisiologia Humana estuda o **funcionamento dos sistemas** que compõem o corpo humano. Cada sistema é formado por **órgãos** que trabalham de forma integrada para manter a **homeostase**: o equilíbrio do meio interno do organismo.\n\n' +
               '> A UNIVESP costuma cobrar os sistemas digestório, circulatório, respiratório, nervoso, endócrino e excretor. Foque nas **funções principais** de cada sistema e na **integração** entre eles.',
           },
           {
@@ -265,12 +265,12 @@ export const disciplinaBiologia: Disciplina = {
               '## Sistema Digestório\n\n' +
               'Responsável pela **digestão** (quebra dos alimentos em nutrientes) e pela **absorção** desses nutrientes para a corrente sanguínea.\n\n' +
               '### Percurso do alimento\n\n' +
-              '1. **Boca** — digestão mecânica (mastigação) e química (amilase salivar quebra amido em maltose)\n' +
-              '2. **Faringe e esôfago** — condução do bolo alimentar por movimentos peristálticos\n' +
-              '3. **Estômago** — digestão ácida (HCl + pepsina). O pH ácido (~2) ativa a pepsina, que quebra proteínas. O bolo alimentar se transforma em **quimo**\n' +
-              '4. **Intestino delgado** — principal local de digestão e **absorção de nutrientes**. Recebe bile (fígado) e suco pancreático (pâncreas). As **vilosidades e microvilosidades** aumentam a superfície de absorção\n' +
-              '5. **Intestino grosso** — absorção de **água e sais minerais**, formação das fezes, atuação da flora bacteriana\n' +
-              '6. **Reto e ânus** — armazenamento e eliminação das fezes\n\n' +
+              '1. **Boca**: digestão mecânica (mastigação) e química (amilase salivar quebra amido em maltose)\n' +
+              '2. **Faringe e esôfago**: condução do bolo alimentar por movimentos peristálticos\n' +
+              '3. **Estômago**: digestão ácida (HCl + pepsina). O pH ácido (~2) ativa a pepsina, que quebra proteínas. O bolo alimentar se transforma em **quimo**\n' +
+              '4. **Intestino delgado**: principal local de digestão e **absorção de nutrientes**. Recebe bile (fígado) e suco pancreático (pâncreas). As **vilosidades e microvilosidades** aumentam a superfície de absorção\n' +
+              '5. **Intestino grosso**: absorção de **água e sais minerais**, formação das fezes, atuação da flora bacteriana\n' +
+              '6. **Reto e ânus**: armazenamento e eliminação das fezes\n\n' +
               '### Enzimas digestivas principais\n\n' +
               '| Enzima | Local de ação | Substrato | Produto |\n' +
               '|---|---|---|---|\n' +
@@ -313,7 +313,7 @@ export const disciplinaBiologia: Disciplina = {
               '### Hematose (troca gasosa)\n\n' +
               'Nos **alvéolos pulmonares**, o O₂ do ar inspirado passa por **difusão** para o sangue dos capilares, enquanto o CO₂ do sangue passa para o ar alveolar, sendo expirado.\n\n' +
               '- Os alvéolos possuem **paredes muito finas** (uma camada de células) e são envolvidos por uma densa rede de capilares\n' +
-              '- A superfície total dos alvéolos em um adulto é de aproximadamente **70 m²** — equivalente a uma quadra de tênis\n\n' +
+              '- A superfície total dos alvéolos em um adulto é de aproximadamente **70 m²**: equivalente a uma quadra de tênis\n\n' +
               '### Mecânica respiratória\n\n' +
               '- **Inspiração:** o diafragma contrai (desce) e os músculos intercostais expandem a caixa torácica → a pressão interna diminui → o ar entra nos pulmões\n' +
               '- **Expiração:** o diafragma relaxa (sobe) e a caixa torácica reduz → a pressão interna aumenta → o ar sai dos pulmões',
@@ -332,10 +332,10 @@ export const disciplinaBiologia: Disciplina = {
               '| **SNA (Sistema Nervoso Autônomo)** | Simpático e parassimpático | Controle involuntário (coração, digestão, respiração) |\n\n' +
               '### O neurônio\n\n' +
               'A célula fundamental do sistema nervoso é o **neurônio**, composto por:\n\n' +
-              '- **Dendritos** — prolongamentos ramificados que **recebem** os impulsos nervosos\n' +
-              '- **Corpo celular (soma)** — contém o núcleo e as organelas; centro metabólico\n' +
-              '- **Axônio** — prolongamento longo que **transmite** os impulsos nervosos\n' +
-              '- **Bainha de mielina** — revestimento lipídico que acelera a condução do impulso\n\n' +
+              '- **Dendritos**: prolongamentos ramificados que **recebem** os impulsos nervosos\n' +
+              '- **Corpo celular (soma)**: contém o núcleo e as organelas; centro metabólico\n' +
+              '- **Axônio**: prolongamento longo que **transmite** os impulsos nervosos\n' +
+              '- **Bainha de mielina**: revestimento lipídico que acelera a condução do impulso\n\n' +
               '### Sinapse\n\n' +
               'A **sinapse** é a junção entre dois neurônios (ou entre neurônio e músculo/glândula). O impulso é transmitido por **neurotransmissores** (acetilcolina, dopamina, serotonina) que são liberados na fenda sináptica.',
           },
@@ -344,7 +344,7 @@ export const disciplinaBiologia: Disciplina = {
             tipo: 'texto',
             corpo:
               '## Sistema Endócrino\n\n' +
-              'Responsável pela produção de **hormônios** — mensageiros químicos transportados pelo sangue que regulam diversas funções do organismo.\n\n' +
+              'Responsável pela produção de **hormônios**: mensageiros químicos transportados pelo sangue que regulam diversas funções do organismo.\n\n' +
               '### Principais glândulas e hormônios\n\n' +
               '| Glândula | Hormônio | Função principal |\n' +
               '|---|---|---|\n' +
@@ -369,15 +369,15 @@ export const disciplinaBiologia: Disciplina = {
               '## Sistema Excretor (Urinário)\n\n' +
               'Responsável pela **filtração do sangue** e eliminação de resíduos metabólicos na forma de **urina**.\n\n' +
               '### Órgãos principais\n\n' +
-              '- **Rins** (2) — filtram o sangue e produzem a urina. Cada rim contém cerca de **1 milhão de néfrons**\n' +
-              '- **Ureteres** (2) — conduzem a urina dos rins até a bexiga\n' +
-              '- **Bexiga** — armazena a urina (capacidade de ~500 mL)\n' +
-              '- **Uretra** — canal que elimina a urina do corpo\n\n' +
-              '### O néfron — unidade funcional do rim\n\n' +
+              '- **Rins** (2): filtram o sangue e produzem a urina. Cada rim contém cerca de **1 milhão de néfrons**\n' +
+              '- **Ureteres** (2): conduzem a urina dos rins até a bexiga\n' +
+              '- **Bexiga**: armazena a urina (capacidade de ~500 mL)\n' +
+              '- **Uretra**: canal que elimina a urina do corpo\n\n' +
+              '### O néfron: unidade funcional do rim\n\n' +
               'Cada néfron realiza três processos:\n\n' +
-              '1. **Filtração glomerular** — o sangue é filtrado no glomérulo (cápsula de Bowman), separando água, sais, glicose, ureia e outras substâncias pequenas\n' +
-              '2. **Reabsorção tubular** — substâncias úteis (glicose, aminoácidos, água, sais) são reabsorvidas de volta ao sangue nos túbulos renais\n' +
-              '3. **Secreção tubular** — substâncias indesejadas são adicionalmente secretadas dos capilares para os túbulos\n\n' +
+              '1. **Filtração glomerular**: o sangue é filtrado no glomérulo (cápsula de Bowman), separando água, sais, glicose, ureia e outras substâncias pequenas\n' +
+              '2. **Reabsorção tubular**: substâncias úteis (glicose, aminoácidos, água, sais) são reabsorvidas de volta ao sangue nos túbulos renais\n' +
+              '3. **Secreção tubular**: substâncias indesejadas são adicionalmente secretadas dos capilares para os túbulos\n\n' +
               '> A urina é composta principalmente por água, ureia (resíduo do metabolismo de proteínas), ácido úrico e sais minerais.',
           },
           {
@@ -401,7 +401,7 @@ export const disciplinaBiologia: Disciplina = {
               '## Parasitologia\n\n' +
               'A Parasitologia estuda os **organismos que vivem às custas de um hospedeiro**, causando-lhe doenças. Em vestibulares, é fundamental saber: **agente causador, vetor de transmissão, sintomas principais e formas de prevenção**.\n\n' +
               '### Dengue\n\n' +
-              '- **Agente:** vírus do gênero *Flavivirus* (arbovírus — 4 sorotipos: DENV-1 a DENV-4)\n' +
+              '- **Agente:** vírus do gênero *Flavivirus* (arbovírus: 4 sorotipos: DENV-1 a DENV-4)\n' +
               '- **Vetor:** mosquito *Aedes aegypti* (fêmea hematófaga)\n' +
               '- **Sintomas:** febre alta, dores de cabeça, dores musculares e articulares, manchas vermelhas na pele. Na forma grave (dengue hemorrágica): sangramentos, queda de pressão, choque\n' +
               '- **Prevenção:** eliminar água parada (criadouros do mosquito), usar repelente, instalar telas em janelas\n\n' +
@@ -412,14 +412,14 @@ export const disciplinaBiologia: Disciplina = {
               '- **Prevenção:** uso de mosquiteiros, repelentes, drenagem de áreas alagadas, controle do vetor\n\n' +
               '### Doença de Chagas\n\n' +
               '- **Agente:** protozoário *Trypanosoma cruzi* (flagelado)\n' +
-              '- **Vetor:** inseto barbeiro (*Triatoma infestans*) — transmissão pelas **fezes** do inseto depositadas no local da picada\n' +
-              '- **Sintomas:** fase aguda — febre, inchaço no local da picada (sinal de Romaña se no olho). Fase crônica — cardiopatia (aumento do coração), megaesôfago, megacólon\n' +
+              '- **Vetor:** inseto barbeiro (*Triatoma infestans*): transmissão pelas **fezes** do inseto depositadas no local da picada\n' +
+              '- **Sintomas:** fase aguda: febre, inchaço no local da picada (sinal de Romaña se no olho). Fase crônica: cardiopatia (aumento do coração), megaesôfago, megacólon\n' +
               '- **Prevenção:** melhoria das moradias (evitar frestas onde o barbeiro se esconde), uso de inseticidas, triagem de bancos de sangue\n\n' +
               '### Esquistossomose (Barriga-d\'água)\n\n' +
               '- **Agente:** platelminto *Schistosoma mansoni* (helminto)\n' +
               '- **Vetor/hospedeiro intermediário:** caramujo do gênero *Biomphalaria*\n' +
               '- **Transmissão:** larvas (cercárias) na água contaminada penetram a pele humana\n' +
-              '- **Sintomas:** diarreia, hepatomegalia (fígado aumentado), ascite (acúmulo de líquido no abdômen — "barriga-d\'água")\n' +
+              '- **Sintomas:** diarreia, hepatomegalia (fígado aumentado), ascite (acúmulo de líquido no abdômen: "barriga-d\'água")\n' +
               '- **Prevenção:** saneamento básico, tratamento de água e esgoto, evitar contato com águas contaminadas, combate ao caramujo',
           },
           {
@@ -436,7 +436,7 @@ export const disciplinaBiologia: Disciplina = {
               '| **Leishmaniose** | *Leishmania* spp. | Protozoário | Mosquito-palha (*Lutzomyia*) | Controle do vetor |\n' +
               '| **Ascaridíase** | *Ascaris lumbricoides* | Helminto | Ingestão de ovos (água/alimentos) | Saneamento e higiene |\n' +
               '| **Teníase** | *Taenia solium/saginata* | Helminto | Ingestão de carne crua/malpassada | Cozinhar bem as carnes |\n\n' +
-              '> **Dica de prova:** memorize a tríade — **agente + vetor + prevenção** — para cada doença. A maioria das questões gira em torno desses três pontos.',
+              '> **Dica de prova:** memorize a tríade: **agente + vetor + prevenção**: para cada doença. A maioria das questões gira em torno desses três pontos.',
           },
         ],
         exercicios: [
@@ -496,7 +496,7 @@ export const disciplinaBiologia: Disciplina = {
       conteudo: {
         resumo: 'Leis de Mendel, herança ligada ao sexo, seleção natural e mecanismos evolutivos.',
         explicacao:
-          'A Genética estuda a hereditariedade, e a Evolução explica como as espécies se modificam ao longo do tempo.\n\nGenética mendeliana:\n• 1ª Lei de Mendel (Segregação): cada caráter é determinado por um par de alelos que se separam na formação dos gametas\n• 2ª Lei de Mendel (Segregação independente): alelos de caracteres diferentes se distribuem independentemente\n• Genótipo: composição genética (AA, Aa, aa)\n• Fenótipo: característica observável (aparência)\n• Dominante: se expressa em heterozigose (Aa)\n• Recessivo: só se expressa em homozigose (aa)\n\nHerança ligada ao sexo:\n• Genes no cromossomo X (ex: daltonismo, hemofilia)\n• Mulher: XX | Homem: XY\n• Mulher portadora: X^A X^a (não manifesta, mas transmite aos filhos)\n\nEvolução:\n• Darwin: seleção natural — sobrevivem e se reproduzem os mais adaptados ao ambiente\n• Lamarck: uso e desuso + herança dos caracteres adquiridos (teoria refutada)\n• Especiação: isolamento geográfico → isolamento reprodutivo → formação de nova espécie',
+          'A Genética estuda a hereditariedade, e a Evolução explica como as espécies se modificam ao longo do tempo.\n\nGenética mendeliana:\n• 1ª Lei de Mendel (Segregação): cada caráter é determinado por um par de alelos que se separam na formação dos gametas\n• 2ª Lei de Mendel (Segregação independente): alelos de caracteres diferentes se distribuem independentemente\n• Genótipo: composição genética (AA, Aa, aa)\n• Fenótipo: característica observável (aparência)\n• Dominante: se expressa em heterozigose (Aa)\n• Recessivo: só se expressa em homozigose (aa)\n\nHerança ligada ao sexo:\n• Genes no cromossomo X (ex: daltonismo, hemofilia)\n• Mulher: XX | Homem: XY\n• Mulher portadora: X^A X^a (não manifesta, mas transmite aos filhos)\n\nEvolução:\n• Darwin: seleção natural: sobrevivem e se reproduzem os mais adaptados ao ambiente\n• Lamarck: uso e desuso + herança dos caracteres adquiridos (teoria refutada)\n• Especiação: isolamento geográfico → isolamento reprodutivo → formação de nova espécie',
         imagemDescricao: 'Quadro de Punnett mostrando cruzamento monoíbrido Aa × Aa com proporções genotípicas e fenotípicas',
         formulasChave: [
           'Proporção genotípica F2 (monoíbrido): 1 AA : 2 Aa : 1 aa',
@@ -511,9 +511,9 @@ export const disciplinaBiologia: Disciplina = {
         ],
         errosComuns: [
           'Confundir genótipo (composição genética) com fenótipo (característica observável)',
-          'Afirmar que Lamarck está correto — caracteres adquiridos durante a vida NÃO são herdados',
+          'Afirmar que Lamarck está correto: caracteres adquiridos durante a vida NÃO são herdados',
           'Esquecer que na herança ligada ao X, o pai transmite X para as filhas e Y para os filhos',
-          'Aplicar a 2ª Lei de Mendel em genes ligados (no mesmo cromossomo) — ela vale apenas para genes independentes',
+          'Aplicar a 2ª Lei de Mendel em genes ligados (no mesmo cromossomo): ela vale apenas para genes independentes',
         ],
         secoes: [
           {
@@ -521,14 +521,14 @@ export const disciplinaBiologia: Disciplina = {
             tipo: 'texto',
             corpo:
               '## Introdução à Genética\n\n' +
-              'A Genética é o ramo da Biologia que estuda a **hereditariedade** — como as características são transmitidas dos pais para os filhos por meio dos **genes**.\n\n' +
+              'A Genética é o ramo da Biologia que estuda a **hereditariedade**: como as características são transmitidas dos pais para os filhos por meio dos **genes**.\n\n' +
               '### Vocabulário essencial\n\n' +
               '| Termo | Definição |\n' +
               '|---|---|\n' +
               '| **Gene** | Trecho de DNA que codifica uma característica |\n' +
               '| **Alelo** | Formas alternativas de um mesmo gene (ex.: A e a) |\n' +
               '| **Genótipo** | Composição genética do indivíduo (ex.: AA, Aa, aa) |\n' +
-              '| **Fenótipo** | Característica observável (aparência, fisiologia) — resultado do genótipo + ambiente |\n' +
+              '| **Fenótipo** | Característica observável (aparência, fisiologia): resultado do genótipo + ambiente |\n' +
               '| **Homozigoto** | Indivíduo com alelos iguais (AA ou aa) |\n' +
               '| **Heterozigoto** | Indivíduo com alelos diferentes (Aa) |\n' +
               '| **Dominante** | Alelo que se expressa tanto em homozigose (AA) quanto em heterozigose (Aa) |\n' +
@@ -545,9 +545,9 @@ export const disciplinaBiologia: Disciplina = {
               '### Experimento clássico de Mendel\n\n' +
               'Mendel cruzou ervilhas de linhagens puras:\n\n' +
               '1. **Geração P (parental):** planta alta (AA) × planta baixa (aa)\n' +
-              '2. **Geração F1:** todos heterozigotos altos (Aa) — o alelo dominante se expressa\n' +
+              '2. **Geração F1:** todos heterozigotos altos (Aa): o alelo dominante se expressa\n' +
               '3. **Geração F2:** cruzamento Aa × Aa → **1 AA : 2 Aa : 1 aa**\n\n' +
-              '### Quadro de Punnett — cruzamento monoíbrido (Aa × Aa)\n\n' +
+              '### Quadro de Punnett: cruzamento monoíbrido (Aa × Aa)\n\n' +
               '| | **A** | **a** |\n' +
               '|---|---|---|\n' +
               '| **A** | AA | Aa |\n' +
@@ -572,7 +572,7 @@ export const disciplinaBiologia: Disciplina = {
               '- **3** com fenótipo dominante para o 1º e recessivo para o 2º (A_bb)\n' +
               '- **3** com fenótipo recessivo para o 1º e dominante para o 2º (aaB_)\n' +
               '- **1** com ambos os fenótipos recessivos (aabb)\n\n' +
-              '> **Proporção 9:3:3:1** — essa é a proporção clássica de F2 em cruzamentos diíbridos.\n\n' +
+              '> **Proporção 9:3:3:1**: essa é a proporção clássica de F2 em cruzamentos diíbridos.\n\n' +
               '### Limitação da 2ª Lei\n\n' +
               'A segregação independente **só vale** para genes localizados em **cromossomos diferentes** (genes não-ligados). Genes no mesmo cromossomo tendem a ser herdados juntos (**ligação gênica ou linkage**), salvo quando ocorre crossing-over.',
           },
@@ -627,7 +627,7 @@ export const disciplinaBiologia: Disciplina = {
               '|---|---|---|---|\n' +
               '| **Daltonismo** | Xᵈ (recessivo) | XᵈXᵈ | XᵈY |\n' +
               '| **Hemofilia** | Xʰ (recessivo) | XʰXʰ | XʰY |\n\n' +
-              '- Mulher portadora: X^D X^d — tem visão normal mas pode transmitir o daltonismo aos filhos\n' +
+              '- Mulher portadora: X^D X^d: tem visão normal mas pode transmitir o daltonismo aos filhos\n' +
               '- Homens são mais afetados porque basta **um** alelo recessivo no X\n' +
               '- O pai **nunca transmite** genes do X para os filhos homens (transmite Y)\n' +
               '- O pai **sempre transmite** seu X para as filhas',
@@ -637,22 +637,22 @@ export const disciplinaBiologia: Disciplina = {
             tipo: 'texto',
             corpo:
               '## Teorias Evolutivas\n\n' +
-              '### Lamarck (1809) — Teoria refutada\n\n' +
+              '### Lamarck (1809): Teoria refutada\n\n' +
               '- **Lei do uso e desuso:** órgãos muito utilizados se desenvolvem; órgãos não utilizados se atrofiam\n' +
               '- **Herança dos caracteres adquiridos:** modificações adquiridas durante a vida seriam transmitidas aos descendentes\n' +
               '- **Por que está errada:** modificações somáticas (no corpo) não alteram o DNA dos gametas e, portanto, não são herdadas\n\n' +
-              '### Darwin (1859) — Seleção Natural\n\n' +
+              '### Darwin (1859): Seleção Natural\n\n' +
               'Charles Darwin propôs a teoria da **seleção natural** com base em quatro pilares:\n\n' +
-              '1. **Variação** — indivíduos de uma população apresentam variações naturais em suas características\n' +
-              '2. **Herança** — parte dessas variações é hereditária (passada aos descendentes)\n' +
-              '3. **Luta pela sobrevivência** — os recursos são limitados, gerando competição\n' +
-              '4. **Sobrevivência diferencial** — indivíduos com características mais vantajosas ao ambiente sobrevivem e se reproduzem mais, transmitindo esses genes\n\n' +
+              '1. **Variação**: indivíduos de uma população apresentam variações naturais em suas características\n' +
+              '2. **Herança**: parte dessas variações é hereditária (passada aos descendentes)\n' +
+              '3. **Luta pela sobrevivência**: os recursos são limitados, gerando competição\n' +
+              '4. **Sobrevivência diferencial**: indivíduos com características mais vantajosas ao ambiente sobrevivem e se reproduzem mais, transmitindo esses genes\n\n' +
               '> Ao longo de muitas gerações, a seleção natural **aumenta a frequência** de alelos vantajosos na população e **diminui** a de alelos desvantajosos.\n\n' +
               '### Neodarwinismo (Teoria Sintética da Evolução)\n\n' +
               'Combina a seleção natural de Darwin com a genética de Mendel. As fontes de variabilidade genética são:\n\n' +
-              '- **Mutações** — alterações aleatórias no DNA\n' +
-              '- **Recombinação gênica** — crossing-over e segregação independente na meiose\n' +
-              '- **Migração (fluxo gênico)** — entrada/saída de indivíduos com diferentes alelos',
+              '- **Mutações**: alterações aleatórias no DNA\n' +
+              '- **Recombinação gênica**: crossing-over e segregação independente na meiose\n' +
+              '- **Migração (fluxo gênico)**: entrada/saída de indivíduos com diferentes alelos',
           },
           {
             titulo: 'Especiação e Evidências da Evolução',
@@ -667,13 +667,13 @@ export const disciplinaBiologia: Disciplina = {
               '| **Simpátrica** | Isolamento reprodutivo **sem** barreira geográfica (ex.: diferença de hábitat ou comportamento) | Insetos que se especializam em diferentes plantas hospedeiras |\n' +
               '| **Parapátrica** | Populações adjacentes com pouco fluxo gênico divergem gradualmente | Gramíneas em solo contaminado com metais pesados |\n\n' +
               '### Evidências da evolução\n\n' +
-              '- **Fósseis** — registros de organismos extintos que mostram formas intermediárias e transições ao longo do tempo geológico\n' +
+              '- **Fósseis**: registros de organismos extintos que mostram formas intermediárias e transições ao longo do tempo geológico\n' +
               '- **Anatomia comparada:**\n' +
-              '  - *Órgãos homólogos* — mesma origem embrionária, funções diferentes (braço humano e asa de morcego) → **divergência adaptativa**\n' +
-              '  - *Órgãos análogos* — origens diferentes, funções semelhantes (asa de inseto e asa de ave) → **convergência adaptativa**\n' +
-              '  - *Órgãos vestigiais* — estruturas reduzidas sem função aparente (apêndice humano, ossos pélvicos em baleias)\n' +
-              '- **Embriologia comparada** — embriões de vertebrados são muito semelhantes nos estágios iniciais\n' +
-              '- **Biologia molecular** — quanto mais semelhante o DNA de duas espécies, mais próximo o parentesco evolutivo',
+              '  - *Órgãos homólogos*: mesma origem embrionária, funções diferentes (braço humano e asa de morcego) → **divergência adaptativa**\n' +
+              '  - *Órgãos análogos*: origens diferentes, funções semelhantes (asa de inseto e asa de ave) → **convergência adaptativa**\n' +
+              '  - *Órgãos vestigiais*: estruturas reduzidas sem função aparente (apêndice humano, ossos pélvicos em baleias)\n' +
+              '- **Embriologia comparada**: embriões de vertebrados são muito semelhantes nos estágios iniciais\n' +
+              '- **Biologia molecular**: quanto mais semelhante o DNA de duas espécies, mais próximo o parentesco evolutivo',
           },
           {
             titulo: 'Equilíbrio de Hardy-Weinberg',
@@ -754,7 +754,7 @@ export const disciplinaBiologia: Disciplina = {
             enunciado: 'Na 2ª Lei de Mendel, a proporção fenotípica esperada em F2 de um cruzamento diíbrido é:',
             alternativas: ['3:1', '1:2:1', '9:3:3:1', '1:1:1:1', '16:0:0:0'],
             respostaCorreta: 2,
-            explicacao: 'A 2ª Lei de Mendel (segregação independente) prevê que em um cruzamento diíbrido (AaBb × AaBb), a proporção fenotípica em F2 é 9:3:3:1 — ou seja, 9 com ambos os fenótipos dominantes, 3:3 com um dominante e um recessivo, e 1 com ambos recessivos.',
+            explicacao: 'A 2ª Lei de Mendel (segregação independente) prevê que em um cruzamento diíbrido (AaBb × AaBb), a proporção fenotípica em F2 é 9:3:3:1: ou seja, 9 com ambos os fenótipos dominantes, 3:3 com um dominante e um recessivo, e 1 com ambos recessivos.',
             dificuldade: 'medio',
           },
           {
@@ -781,18 +781,18 @@ export const disciplinaBiologia: Disciplina = {
       conteudo: {
         resumo: 'Organelas celulares, divisão celular (mitose e meiose) e classificação dos grupos vegetais.',
         explicacao:
-          'A Citologia estuda a estrutura e função das células, e a Botânica classifica e estuda os grupos vegetais.\n\nOrganelas celulares:\n• Mitocôndria: respiração celular aeróbica (produção de ATP)\n• Cloroplasto: fotossíntese (apenas em células vegetais)\n• Ribossomo: síntese de proteínas\n• Retículo endoplasmático rugoso: síntese e transporte de proteínas\n• Complexo de Golgi: empacotamento, modificação e secreção de substâncias\n• Lisossomo: digestão intracelular\n• Núcleo: armazena o DNA e coordena as atividades celulares\n\nDivisão celular:\n• Mitose: 1 célula → 2 células idênticas (2n → 2n). Função: crescimento e reparo tecidual\n• Meiose: 1 célula → 4 células diferentes (2n → n). Função: formação de gametas\n• Meiose permite variabilidade genética pelo crossing-over na prófase I\n\nGrupos vegetais (evolução):\n• Briófitas (musgos): sem vasos condutores, dependem de água para reprodução\n• Pteridófitas (samambaias): com vasos condutores, sem sementes\n• Gimnospermas (pinheiros): com sementes nuas, sem frutos\n• Angiospermas: com flores, frutos e sementes protegidas — grupo mais diversificado',
+          'A Citologia estuda a estrutura e função das células, e a Botânica classifica e estuda os grupos vegetais.\n\nOrganelas celulares:\n• Mitocôndria: respiração celular aeróbica (produção de ATP)\n• Cloroplasto: fotossíntese (apenas em células vegetais)\n• Ribossomo: síntese de proteínas\n• Retículo endoplasmático rugoso: síntese e transporte de proteínas\n• Complexo de Golgi: empacotamento, modificação e secreção de substâncias\n• Lisossomo: digestão intracelular\n• Núcleo: armazena o DNA e coordena as atividades celulares\n\nDivisão celular:\n• Mitose: 1 célula → 2 células idênticas (2n → 2n). Função: crescimento e reparo tecidual\n• Meiose: 1 célula → 4 células diferentes (2n → n). Função: formação de gametas\n• Meiose permite variabilidade genética pelo crossing-over na prófase I\n\nGrupos vegetais (evolução):\n• Briófitas (musgos): sem vasos condutores, dependem de água para reprodução\n• Pteridófitas (samambaias): com vasos condutores, sem sementes\n• Gimnospermas (pinheiros): com sementes nuas, sem frutos\n• Angiospermas: com flores, frutos e sementes protegidas: grupo mais diversificado',
         imagemDescricao: 'Esquema comparativo da célula animal e vegetal com organelas identificadas e diagrama de mitose vs. meiose',
         dicasProva: [
           'Diferencie célula animal de vegetal: vegetal possui parede celular, cloroplasto e vacúolo central grande',
-          'Mitose = crescimento e reparo; Meiose = formação de gametas — memorize essa diferença fundamental',
+          'Mitose = crescimento e reparo; Meiose = formação de gametas: memorize essa diferença fundamental',
           'Questões de botânica cobram a sequência evolutiva: briófitas → pteridófitas → gimnospermas → angiospermas',
           'Relacione cada organela com sua função principal para responder rapidamente',
         ],
         errosComuns: [
           'Confundir mitose (equacional, 2 células iguais) com meiose (reducional, 4 células diferentes)',
           'Afirmar que células animais realizam fotossíntese (apenas células com cloroplasto fazem)',
-          'Esquecer que gimnospermas NÃO possuem frutos — apenas angiospermas possuem',
+          'Esquecer que gimnospermas NÃO possuem frutos: apenas angiospermas possuem',
           'Confundir cloroplasto (fotossíntese) com mitocôndria (respiração celular)',
         ],
         secoes: [
@@ -800,7 +800,7 @@ export const disciplinaBiologia: Disciplina = {
             titulo: 'Estrutura Celular',
             tipo: 'texto',
             corpo:
-              '## A célula — unidade fundamental da vida\n\n' +
+              '## A célula: unidade fundamental da vida\n\n' +
               'Todos os seres vivos são formados por células. A **Teoria Celular** (Schleiden e Schwann, 1838-39) estabelece que:\n\n' +
               '1. Todos os seres vivos são formados por **uma ou mais células**\n' +
               '2. A célula é a **unidade estrutural e funcional** dos seres vivos\n' +
@@ -813,9 +813,9 @@ export const disciplinaBiologia: Disciplina = {
               '| **Exemplos** | Bactérias e arqueas | Animais, vegetais, fungos, protozoários |\n' +
               '| **Tamanho** | Geralmente 1-10 μm | Geralmente 10-100 μm |\n\n' +
               '### Componentes básicos da célula eucariótica\n\n' +
-              '- **Membrana plasmática** — envoltório que delimita a célula, formado por uma **bicamada lipídica** com proteínas. Controla a entrada e saída de substâncias (permeabilidade seletiva)\n' +
-              '- **Citoplasma** — material gelatinoso (citosol) onde estão mergulhadas as organelas. É o local de muitas reações metabólicas\n' +
-              '- **Núcleo** — contém o **DNA** (material genético) organizado em cromossomos. É envolvido pela carioteca (membrana nuclear) e contém o nucléolo (produção de RNA ribossômico)',
+              '- **Membrana plasmática**: envoltório que delimita a célula, formado por uma **bicamada lipídica** com proteínas. Controla a entrada e saída de substâncias (permeabilidade seletiva)\n' +
+              '- **Citoplasma**: material gelatinoso (citosol) onde estão mergulhadas as organelas. É o local de muitas reações metabólicas\n' +
+              '- **Núcleo**: contém o **DNA** (material genético) organizado em cromossomos. É envolvido pela carioteca (membrana nuclear) e contém o nucléolo (produção de RNA ribossômico)',
           },
           {
             titulo: 'Célula Animal vs. Célula Vegetal',
@@ -870,7 +870,7 @@ export const disciplinaBiologia: Disciplina = {
               '| **Metáfase** | Cromossomos se alinham na **placa equatorial** (região central); fuso mitótico totalmente formado |\n' +
               '| **Anáfase** | Cromátides-irmãs se separam e migram para polos opostos puxadas pelo fuso |\n' +
               '| **Telófase** | Cromossomos descondensam; carioteca e nucléolo reaparecem; citocinese (divisão do citoplasma) |\n\n' +
-              '> **Mnemônico:** **PRO-META-ANA-TELO** — as fases seguem essa ordem tanto na mitose quanto na meiose.',
+              '> **Mnemônico:** **PRO-META-ANA-TELO**: as fases seguem essa ordem tanto na mitose quanto na meiose.',
           },
           {
             titulo: 'Divisão Celular — Meiose',
@@ -878,14 +878,14 @@ export const disciplinaBiologia: Disciplina = {
             corpo:
               '## Meiose\n\n' +
               'A meiose é a divisão celular que produz **quatro células-filhas haploides (n)** a partir de uma célula diploide (2n). É essencial para a **formação de gametas** (espermatozoides e óvulos).\n\n' +
-              '### Meiose I (reducional) — separa cromossomos homólogos\n\n' +
+              '### Meiose I (reducional): separa cromossomos homólogos\n\n' +
               '| Fase | Eventos principais |\n' +
               '|---|---|\n' +
               '| **Prófase I** | Pareamento dos homólogos; **crossing-over** (troca de segmentos entre cromátides não-irmãs) → variabilidade genética |\n' +
               '| **Metáfase I** | Pares de homólogos se alinham na placa equatorial |\n' +
               '| **Anáfase I** | **Homólogos se separam** (cada polo recebe um cromossomo de cada par) |\n' +
               '| **Telófase I** | Duas células haploides (n) são formadas |\n\n' +
-              '### Meiose II (equacional) — separa cromátides-irmãs\n\n' +
+              '### Meiose II (equacional): separa cromátides-irmãs\n\n' +
               'Semelhante à mitose: as cromátides-irmãs se separam, gerando **4 células haploides** ao final.\n\n' +
               '### Comparação mitose vs. meiose\n\n' +
               '| Característica | Mitose | Meiose |\n' +
@@ -904,7 +904,7 @@ export const disciplinaBiologia: Disciplina = {
               '## Classificação dos grupos vegetais\n\n' +
               'Os vegetais são classificados em quatro grandes grupos, organizados de acordo com a **sequência evolutiva** de aquisição de estruturas:\n\n' +
               '### Briófitas (ex.: musgos, hepáticas)\n\n' +
-              '- **Sem vasos condutores** (avasculares) — transporte por difusão célula a célula\n' +
+              '- **Sem vasos condutores** (avasculares): transporte por difusão célula a célula\n' +
               '- Porte pequeno (poucos centímetros)\n' +
               '- **Dependem de água** para reprodução (gametas masculinos nadam até o óvulo)\n' +
               '- Fase dominante: **gametófito** (n)\n\n' +
@@ -912,7 +912,7 @@ export const disciplinaBiologia: Disciplina = {
               '- **Com vasos condutores** (vasculares): xilema (seiva bruta) e floema (seiva elaborada)\n' +
               '- Porte maior que briófitas\n' +
               '- Ainda **dependem de água** para reprodução\n' +
-              '- **Sem sementes** — reprodução por esporos\n' +
+              '- **Sem sementes**: reprodução por esporos\n' +
               '- Fase dominante: **esporófito** (2n)\n\n' +
               '### Gimnospermas (ex.: pinheiros, araucárias, ciprestes)\n\n' +
               '- Vasculares e com **sementes nuas** (não protegidas por frutos)\n' +
@@ -923,7 +923,7 @@ export const disciplinaBiologia: Disciplina = {
               '- Vasculares, com sementes **protegidas dentro de frutos**\n' +
               '- Possuem **flores** (órgão reprodutor) e **frutos** (proteção e dispersão de sementes)\n' +
               '- Grupo **mais diversificado** do reino vegetal (~300.000 espécies)\n' +
-              '- Subgrupos: **monocotiledôneas** (1 cotilédone, folhas paralelinérveas — milho, arroz) e **eudicotiledôneas** (2 cotilédones, folhas reticulinérveas — feijão, soja)',
+              '- Subgrupos: **monocotiledôneas** (1 cotilédone, folhas paralelinérveas: milho, arroz) e **eudicotiledôneas** (2 cotilédones, folhas reticulinérveas: feijão, soja)',
           },
           {
             titulo: 'Tabela Comparativa dos Grupos Vegetais',
@@ -953,7 +953,7 @@ export const disciplinaBiologia: Disciplina = {
               '|---|---|---|\n' +
               '| **Fase clara (fotoquímica)** | Tilacoides (grana) | Absorção de luz pela clorofila; fotólise da água (H₂O → O₂); produção de ATP e NADPH |\n' +
               '| **Fase escura (Ciclo de Calvin)** | Estroma do cloroplasto | Fixação de CO₂; uso de ATP e NADPH para sintetizar glicose |\n\n' +
-              '> A "fase escura" **não precisa de escuridão** — apenas não depende diretamente da luz. Ocorre simultaneamente à fase clara durante o dia.\n\n' +
+              '> A "fase escura" **não precisa de escuridão**: apenas não depende diretamente da luz. Ocorre simultaneamente à fase clara durante o dia.\n\n' +
               '## Respiração Celular\n\n' +
               'A respiração celular é o processo pelo qual a célula **quebra a glicose** para produzir **ATP** (energia utilizável), consumindo O₂ e liberando CO₂.\n\n' +
               '> **Equação geral:** C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + **ATP (energia)**\n\n' +
@@ -963,7 +963,7 @@ export const disciplinaBiologia: Disciplina = {
               '| **Glicólise** | Citoplasma (citosol) | 2 ATP |\n' +
               '| **Ciclo de Krebs** | Matriz mitocondrial | 2 ATP |\n' +
               '| **Cadeia respiratória (fosforilação oxidativa)** | Cristas mitocondriais | ~34 ATP |\n' +
-              '| **Total** | — | **~38 ATP** por molécula de glicose |\n\n' +
+              '| **Total** |: | **~38 ATP** por molécula de glicose |\n\n' +
               '### Fotossíntese vs. Respiração Celular\n\n' +
               '| Aspecto | Fotossíntese | Respiração Celular |\n' +
               '|---|---|---|\n' +
@@ -1031,7 +1031,7 @@ export const disciplinaBiologia: Disciplina = {
               'Causa exclusivamente mutações deletérias',
             ],
             respostaCorreta: 2,
-            explicacao: 'O crossing-over (troca de segmentos entre cromossomos homólogos na prófase I da meiose) gera novas combinações de alelos nos gametas, aumentando a variabilidade genética da espécie — matéria-prima para a evolução.',
+            explicacao: 'O crossing-over (troca de segmentos entre cromossomos homólogos na prófase I da meiose) gera novas combinações de alelos nos gametas, aumentando a variabilidade genética da espécie: matéria-prima para a evolução.',
             dificuldade: 'medio',
           },
         ],

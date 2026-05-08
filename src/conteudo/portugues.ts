@@ -26,7 +26,7 @@ Diferente de questões que testam memorização, a interpretação exige **racio
 - **Conhecimento textual**: como diferentes gêneros se organizam
 - **Conhecimento de mundo**: repertório cultural que permite preencher lacunas do texto
 
-Todo texto é uma comunicação entre autor e leitor. O autor faz escolhas — de palavras, de estrutura, de tom — para transmitir uma mensagem. O trabalho do leitor-intérprete é **reconstruir essas escolhas** e compreender por que foram feitas.
+Todo texto é uma comunicação entre autor e leitor. O autor faz escolhas de palavras, de estrutura, de tom para transmitir uma mensagem. O trabalho do leitor-intérprete é **reconstruir essas escolhas** e compreender por que foram feitas.
 
 ## Os três níveis de leitura
 
@@ -39,7 +39,7 @@ Examina a **estrutura** do texto: como os parágrafos se conectam, quais recurso
 ### 3. Leitura crítica (por quê?)
 Avalia a **intencionalidade** do autor, identifica pressupostos, reconhece vieses e posiciona o texto em seu contexto social e histórico.
 
-> 💡 As questões de vestibular geralmente exigem os níveis 2 e 3 — não basta entender "sobre o que" o texto fala; é preciso entender "como" e "por que" ele diz o que diz.`,
+> 💡 As questões de vestibular geralmente exigem os níveis 2 e 3: não basta entender "sobre o que" o texto fala; é preciso entender "como" e "por que" ele diz o que diz.`,
             tipo: 'texto',
           },
           {
@@ -60,11 +60,11 @@ Avalia a **intencionalidade** do autor, identifica pressupostos, reconhece viese
 Texto: *"O Brasil é o quinto maior país do mundo em extensão territorial, com 8,5 milhões de km²."*
 
 Pergunta: "Segundo o texto, qual é a extensão territorial do Brasil?"
-Resposta: 8,5 milhões de km² — a informação está **explícita**.
+Resposta: 8,5 milhões de km²: a informação está **explícita**.
 
 ## Compreensão Inferencial
 
-É a leitura do que está **implícito** — aquilo que o autor sugere, pressupõe ou deixa subentendido. Exige que o leitor "leia nas entrelinhas", combinando informações do texto com seu conhecimento de mundo.
+É a leitura do que está **implícito**: aquilo que o autor sugere, pressupõe ou deixa subentendido. Exige que o leitor "leia nas entrelinhas", combinando informações do texto com seu conhecimento de mundo.
 
 Questões inferenciais usam expressões como:
 
@@ -79,11 +79,11 @@ Questões inferenciais usam expressões como:
 Texto: *"Depois de vinte anos dedicados à empresa, João recebeu um aperto de mão e um envelope pardo."*
 
 Pergunta: "Infere-se do trecho que João foi..."
-Resposta: Demitido — a informação está **implícita**. O "envelope pardo" sugere documentos de rescisão; o "aperto de mão" indica despedida formal. Nada disso está dito, mas o conjunto de pistas permite a inferência.
+Resposta: Demitido: a informação está **implícita**. O "envelope pardo" sugere documentos de rescisão; o "aperto de mão" indica despedida formal. Nada disso está dito, mas o conjunto de pistas permite a inferência.
 
 ## Cuidados com inferências
 
-> ⚠️ Inferência não é invenção. Toda inferência válida precisa ter **base no texto**. Se a alternativa vai além do que o texto permite concluir, ela está errada — mesmo que pareça "lógica" no mundo real.
+> ⚠️ Inferência não é invenção. Toda inferência válida precisa ter **base no texto**. Se a alternativa vai além do que o texto permite concluir, ela está errada: mesmo que pareça "lógica" no mundo real.
 
 | Tipo | Sinal no enunciado | O que fazer |
 |------|-------------------|-------------|
@@ -121,7 +121,7 @@ A crônica merece atenção especial porque é o gênero **mais presente** em ve
 1. Identifique o **fato/situação** que serve de ponto de partida
 2. Observe o **tom** do autor (irônico? reflexivo? bem-humorado?)
 3. Encontre a **reflexão** que o autor constrói a partir do fato
-4. Preste atenção ao **último parágrafo** — geralmente contém a "mensagem" central
+4. Preste atenção ao **último parágrafo**: geralmente contém a "mensagem" central
 
 ## Charge e tirinha: a armadilha visual
 
@@ -132,7 +132,7 @@ Na charge, o sentido nasce do **contraste entre texto e imagem**. Estratégia de
 3. Identifique a **contradição** ou o **exagero** entre o que se vê e o que se lê
 4. Conecte com o **contexto** social ou político referido
 
-> 💡 Em charges, o humor quase sempre nasce de uma **ironia** — algo é apresentado de forma oposta ao que realmente é.`,
+> 💡 Em charges, o humor quase sempre nasce de uma **ironia**: algo é apresentado de forma oposta ao que realmente é.`,
             tipo: 'tabela',
           },
           {
@@ -141,7 +141,7 @@ Na charge, o sentido nasce do **contraste entre texto e imagem**. Estratégia de
 
 ## Estratégia 1: Leia o enunciado ANTES do texto
 
-Essa é a técnica mais importante. O enunciado da questão funciona como um **filtro de leitura** — ele direciona sua atenção para o aspecto relevante do texto.
+Essa é a técnica mais importante. O enunciado da questão funciona como um **filtro de leitura**: ele direciona sua atenção para o aspecto relevante do texto.
 
 **Exemplo:** Se o enunciado pergunta "Qual é a tese do autor?", você já sabe que deve procurar uma afirmação central e os argumentos que a sustentam. Não precisa se preocupar com detalhes secundários.
 
@@ -165,7 +165,7 @@ Na segunda leitura, procure informações específicas relacionadas à pergunta:
 
 ## Estratégia 4: Parafraseie mentalmente
 
-Depois de ler cada parágrafo, reformule mentalmente seu conteúdo em palavras simples. Se você não consegue parafrasear, não entendeu — releia.
+Depois de ler cada parágrafo, reformule mentalmente seu conteúdo em palavras simples. Se você não consegue parafrasear, não entendeu: releia.
 
 **Texto original:** *"A despeito dos avanços tecnológicos que permeiam o cotidiano contemporâneo, parcela significativa da população permanece alijada dos benefícios da conectividade digital."*
 
@@ -180,7 +180,7 @@ Quando estiver em dúvida entre duas alternativas:
 3. Verifique se a alternativa **restringe** o texto (diz menos do que ele diz)
 4. Verifique se a alternativa **contradiz** o texto
 
-> ⚠️ Alternativas que usam palavras como "sempre", "nunca", "todo", "nenhum" costumam estar erradas — textos raramente fazem afirmações absolutas.`,
+> ⚠️ Alternativas que usam palavras como "sempre", "nunca", "todo", "nenhum" costumam estar erradas: textos raramente fazem afirmações absolutas.`,
             tipo: 'texto',
           },
           {
@@ -195,13 +195,13 @@ A tese é a **afirmação central** que o autor defende. É a resposta à pergun
 
 - **No primeiro parágrafo**: em textos mais diretos, o autor apresenta sua posição logo no início
 - **No último parágrafo**: em textos que constroem o argumento progressivamente
-- **Após um "mas" ou "porém"**: frequentemente, o autor apresenta o senso comum e depois o contradiz — a tese vem depois da oposição
+- **Após um "mas" ou "porém"**: frequentemente, o autor apresenta o senso comum e depois o contradiz: a tese vem depois da oposição
 
 **Exemplo:**
 
 *"Muitos acreditam que a tecnologia isolou as pessoas. **No entanto**, as redes sociais criaram novas formas de conexão que antes eram impossíveis."*
 
-A tese é: "as redes sociais criaram novas formas de conexão" — vem depois do "no entanto", que marca a oposição ao senso comum.
+A tese é: "as redes sociais criaram novas formas de conexão": vem depois do "no entanto", que marca a oposição ao senso comum.
 
 ## Tipos de argumento
 
@@ -219,7 +219,7 @@ A tese é: "as redes sociais criaram novas formas de conexão" — vem depois do
 - "O autor sustenta sua tese por meio de..." → busque os recursos usados
 - "O posicionamento do autor pode ser classificado como..." → avalie se é favorável, contrário ou com ressalvas
 
-> 💡 Quando o autor usa "é inegável que... no entanto..." ou "embora... é preciso reconhecer que...", o posicionamento é **favorável com ressalvas** — reconhece um lado, mas defende outro.`,
+> 💡 Quando o autor usa "é inegável que... no entanto..." ou "embora... é preciso reconhecer que...", o posicionamento é **favorável com ressalvas**: reconhece um lado, mas defende outro.`,
             tipo: 'texto',
           },
           {
@@ -230,7 +230,7 @@ A tese é: "as redes sociais criaram novas formas de conexão" — vem depois do
 
 **Fato** é uma informação **verificável** e **objetiva**. Pode ser comprovada ou refutada com evidências.
 
-**Opinião** é um **juízo de valor** — expressa o que alguém pensa, sente ou acredita. Não pode ser comprovada, apenas aceita ou rejeitada.
+**Opinião** é um **juízo de valor**: expressa o que alguém pensa, sente ou acredita. Não pode ser comprovada, apenas aceita ou rejeitada.
 
 ## Como distinguir na prática
 
@@ -284,9 +284,9 @@ Impacto das redes sociais nos relacionamentos e na saúde mental.
 As redes sociais, criadas para conectar, podem estar causando isolamento e problemas de saúde mental. (Observe: a tese vem ao final, no "paradoxo".)
 
 ### 3. Estrutura argumentativa
-- **Concessão**: "Se, por um lado... aproximam pessoas" — o autor reconhece o lado positivo
-- **Oposição**: "por outro, há evidências..." — introduz o lado negativo
-- **Argumento por dados**: "Pesquisa da Universidade de Pittsburgh revelou que..." — sustenta com evidência
+- **Concessão**: "Se, por um lado... aproximam pessoas": o autor reconhece o lado positivo
+- **Oposição**: "por outro, há evidências...": introduz o lado negativo
+- **Argumento por dados**: "Pesquisa da Universidade de Pittsburgh revelou que...": sustenta com evidência
 - **Conclusão paradoxal**: "a ferramenta criada para conectar pode estar desconectando"
 
 ### 4. Fato vs. opinião no texto
@@ -348,9 +348,9 @@ Muitos candidatos confundem adversativas com concessivas. A diferença é estrut
 - **Adversativa** (coordenada): "Estudou, **mas** não passou." → duas orações independentes ligadas por oposição
 - **Concessiva** (subordinada): "**Embora** tenha estudado, não passou." → a primeira oração depende da segunda
 
-Na prática, expressam ideias semelhantes, mas a classificação gramatical é diferente — e a banca cobra exatamente isso.
+Na prática, expressam ideias semelhantes, mas a classificação gramatical é diferente: e a banca cobra exatamente isso.
 
-> ⚠️ "Embora" **nunca** introduz oração coordenada adversativa. Se aparecer "embora", a classificação é **subordinada adverbial concessiva** — sempre.
+> ⚠️ "Embora" **nunca** introduz oração coordenada adversativa. Se aparecer "embora", a classificação é **subordinada adverbial concessiva**: sempre.
 
 ## Como a banca cobra conectivos
 
@@ -373,7 +373,7 @@ A questão típica apresenta um trecho e pergunta: "A expressão X estabelece, e
           'Fato ≠ Opinião: fato é verificável; opinião expressa juízo de valor',
         ],
         dicasProva: [
-          'Leia sempre o enunciado da questão ANTES de ler o texto — isso direciona sua leitura.',
+          'Leia sempre o enunciado da questão ANTES de ler o texto: isso direciona sua leitura.',
           'Sublinhe a tese central (geralmente no 1º ou último parágrafo).',
           'Cuidado com alternativas que "parecem certas" mas extrapolam o texto.',
           'Quando a questão pedir "de acordo com o texto", a resposta está explícita.',
@@ -398,7 +398,7 @@ A questão típica apresenta um trecho e pergunta: "A expressão X estabelece, e
               'Adição',
             ],
             respostaCorreta: 2,
-            explicacao: '"Embora" é uma conjunção concessiva — indica que o fato da oração principal ocorre apesar do que foi dito na oração subordinada. O Brasil produz muito, mas mesmo assim há fome: a segunda informação contraria a expectativa gerada pela primeira.',
+            explicacao: '"Embora" é uma conjunção concessiva: indica que o fato da oração principal ocorre apesar do que foi dito na oração subordinada. O Brasil produz muito, mas mesmo assim há fome: a segunda informação contraria a expectativa gerada pela primeira.',
             dificuldade: 'facil',
           },
           {
@@ -454,7 +454,7 @@ A questão típica apresenta um trecho e pergunta: "A expressão X estabelece, e
               'Irônico e sarcástico.',
             ],
             respostaCorreta: 2,
-            explicacao: 'O autor reconhece benefícios ("é inegável que trará benefícios"), mas usa "no entanto" para introduzir uma ressalva sobre os efeitos nas classes baixas. Trata-se de um posicionamento favorável com ponderações — típico de editoriais equilibrados.',
+            explicacao: 'O autor reconhece benefícios ("é inegável que trará benefícios"), mas usa "no entanto" para introduzir uma ressalva sobre os efeitos nas classes baixas. Trata-se de um posicionamento favorável com ponderações: típico de editoriais equilibrados.',
             dificuldade: 'dificil',
           },
         ],
@@ -467,11 +467,11 @@ A questão típica apresenta um trecho e pergunta: "A expressão X estabelece, e
       conteudo: {
         resumo: 'Coesão textual, conjunções coordenativas e subordinativas, pronomes relativos e regência verbal/nominal.',
         explicacao:
-          'A gramática no vestibular UNIVESP é cobrada dentro do texto — não isoladamente. O foco está em entender como os elementos gramaticais constroem sentido e coesão.\n\n**Conjunções Coordenativas:**\n• Aditivas (e, nem, também): somam ideias\n• Adversativas (mas, porém, contudo, todavia, entretanto, no entanto): opõem ideias\n• Alternativas (ou, ora...ora, quer...quer): alternam ideias\n• Conclusivas (logo, portanto, por isso, assim): concluem\n• Explicativas (pois, porque, que): justificam\n\n**Conjunções Subordinativas:**\n• Causais (porque, visto que, já que): indicam causa\n• Concessivas (embora, ainda que, mesmo que): indicam concessão\n• Condicionais (se, caso, desde que): indicam condição\n• Temporais (quando, enquanto, assim que): indicam tempo\n\n**Pronomes Relativos:**\n• Que: substitui pessoas ou coisas\n• O qual/a qual: mais formal, evita ambiguidade\n• Cujo/cuja: indica posse (sempre entre dois substantivos)\n• Onde: refere-se apenas a lugar\n\n**Regência Verbal (mais cobradas):**\n• Assistir (= ver): assistir AO filme (VTI)\n• Visar (= almejar): visar AO cargo (VTI)\n• Obedecer: obedecer AO regulamento (VTI)\n• Preferir: preferir A a B (sem "do que")',
+          'A gramática no vestibular UNIVESP é cobrada dentro do texto: não isoladamente. O foco está em entender como os elementos gramaticais constroem sentido e coesão.\n\n**Conjunções Coordenativas:**\n• Aditivas (e, nem, também): somam ideias\n• Adversativas (mas, porém, contudo, todavia, entretanto, no entanto): opõem ideias\n• Alternativas (ou, ora...ora, quer...quer): alternam ideias\n• Conclusivas (logo, portanto, por isso, assim): concluem\n• Explicativas (pois, porque, que): justificam\n\n**Conjunções Subordinativas:**\n• Causais (porque, visto que, já que): indicam causa\n• Concessivas (embora, ainda que, mesmo que): indicam concessão\n• Condicionais (se, caso, desde que): indicam condição\n• Temporais (quando, enquanto, assim que): indicam tempo\n\n**Pronomes Relativos:**\n• Que: substitui pessoas ou coisas\n• O qual/a qual: mais formal, evita ambiguidade\n• Cujo/cuja: indica posse (sempre entre dois substantivos)\n• Onde: refere-se apenas a lugar\n\n**Regência Verbal (mais cobradas):**\n• Assistir (= ver): assistir AO filme (VTI)\n• Visar (= almejar): visar AO cargo (VTI)\n• Obedecer: obedecer AO regulamento (VTI)\n• Preferir: preferir A a B (sem "do que")',
         secoes: [
           {
             titulo: 'O que é Gramática Contextualizada?',
-            corpo: `No vestibular UNIVESP, a gramática **nunca** é cobrada de forma isolada. Você não verá questões como "Classifique a oração subordinada" sem um texto de apoio. O que a banca faz é inserir a análise gramatical **dentro da interpretação textual** — daí o nome "gramática contextualizada".
+            corpo: `No vestibular UNIVESP, a gramática **nunca** é cobrada de forma isolada. Você não verá questões como "Classifique a oração subordinada" sem um texto de apoio. O que a banca faz é inserir a análise gramatical **dentro da interpretação textual**: daí o nome "gramática contextualizada".
 
 ## Por que isso importa?
 
@@ -481,10 +481,10 @@ Porque o foco não é decorar classificações, mas entender **como os recursos 
 
 Com base em vestibulares anteriores, os temas gramaticais mais recorrentes são:
 
-1. **Conjunções e relações de sentido** — a banca adora pedir para identificar a relação lógica entre orações
-2. **Pronomes relativos e referenciação** — a quem ou a quê o pronome se refere?
-3. **Coesão textual** — como as partes do texto se conectam
-4. **Regência verbal** — qual preposição o verbo exige
+1. **Conjunções e relações de sentido**: a banca adora pedir para identificar a relação lógica entre orações
+2. **Pronomes relativos e referenciação**: a quem ou a quê o pronome se refere?
+3. **Coesão textual**: como as partes do texto se conectam
+4. **Regência verbal**: qual preposição o verbo exige
 
 > 💡 A abordagem mais eficiente é estudar gramática **a partir de textos reais**, não de regras abstratas. Este é o método que adotamos aqui.`,
             tipo: 'texto',
@@ -500,7 +500,7 @@ Com base em vestibulares anteriores, os temas gramaticais mais recorrentes são:
 - "O aluno **não só** estudou gramática, **mas também** praticou redação."
 - "Ele **nem** estuda **nem** trabalha."
 
-> ⚠️ "Nem" equivale a "e não". "Nem" sozinho já contém a negação — não escreva "não... nem... nem".
+> ⚠️ "Nem" equivale a "e não". "Nem" sozinho já contém a negação: não escreva "não... nem... nem".
 
 ## Adversativas — opõem ideias
 
@@ -523,7 +523,7 @@ A adversativa cria uma **quebra de expectativa**. O leitor espera uma consequên
 **Conjunções:** ou, ou... ou, ora... ora, quer... quer, seja... seja
 
 - "**Ou** você estuda agora, **ou** não passará no vestibular."
-- "**Ora** ria, **ora** chorava — não se decidia."
+- "**Ora** ria, **ora** chorava: não se decidia."
 
 ## Conclusivas — indicam dedução
 
@@ -643,7 +643,7 @@ A concessiva apresenta um fato que **deveria impedir** o que está na oração p
           },
           {
             titulo: 'Pronomes na Construção do Texto',
-            corpo: `Os pronomes são essenciais para a **coesão textual** — eles evitam repetições e criam referências dentro do texto. No vestibular, a banca testa se o candidato sabe a quem ou a quê cada pronome se refere.
+            corpo: `Os pronomes são essenciais para a **coesão textual**: eles evitam repetições e criam referências dentro do texto. No vestibular, a banca testa se o candidato sabe a quem ou a quê cada pronome se refere.
 
 ## Pronomes Relativos
 
@@ -766,7 +766,7 @@ Os demonstrativos organizam referências no texto:
 *"A nova política econômica gerou debate. Críticos afirmam que **ela** favorece apenas os mais ricos."*
 
 Pergunta: "O pronome 'ela' refere-se a..."
-Resposta: "A nova política econômica" — é o único antecedente feminino singular.
+Resposta: "A nova política econômica": é o único antecedente feminino singular.
 
 > 💡 Quando houver ambiguidade (dois possíveis antecedentes), analise o contexto semântico: qual referência faz mais sentido logicamente?`,
             tipo: 'texto',
@@ -875,7 +875,7 @@ O parágrafo segue a estrutura:
 3. **Expansão** (esse número, que...) → aprofunda o dado
 4. **Conclusão** (portanto...) → fecha o raciocínio
 
-> 💡 Este tipo de análise integrada é exatamente o que o vestibular UNIVESP espera. A gramática não existe isolada — ela constrói o sentido do texto.`,
+> 💡 Este tipo de análise integrada é exatamente o que o vestibular UNIVESP espera. A gramática não existe isolada: ela constrói o sentido do texto.`,
             tipo: 'exemplo',
           },
         ],
@@ -883,7 +883,7 @@ O parágrafo segue a estrutura:
         formulasChave: [
           'Adversativas (mas, porém, contudo): introduzem oposição',
           'Concessivas (embora, ainda que): ideia contrária que não impede a principal',
-          'Cujo = posse — sempre entre dois substantivos',
+          'Cujo = posse: sempre entre dois substantivos',
           'Onde = apenas lugar físico; Em que = lugar ou situação',
           'Preferir A a B (nunca "preferir A do que B")',
         ],
@@ -891,7 +891,7 @@ O parágrafo segue a estrutura:
           'Quando a questão perguntar a "relação de sentido", identifique a conjunção e classifique-a.',
           'Substitua a conjunção por outra do mesmo tipo para confirmar o sentido.',
           '"Cujo" nunca vem seguido de artigo: "cuja a casa" está ERRADO.',
-          'Se a questão pedir para trocar "onde", verifique se é lugar — senão use "em que".',
+          'Se a questão pedir para trocar "onde", verifique se é lugar: senão use "em que".',
           'Em regência, observe se o verbo pede preposição antes do complemento.',
         ],
         errosComuns: [
@@ -899,7 +899,7 @@ O parágrafo segue a estrutura:
           'Usar "onde" para situações que não são lugar (correto: "em que").',
           'Trocar "porque" (causa) por "por que" (pergunta/motivo) sem analisar o contexto.',
           'Usar "cujo" seguido de artigo: "cujo o" não existe na norma culta.',
-          'Confundir concessão (embora) com causa (porque) — sentidos opostos.',
+          'Confundir concessão (embora) com causa (porque): sentidos opostos.',
         ],
         exercicios: [
           {
@@ -913,7 +913,7 @@ O parágrafo segue a estrutura:
               'Alternância',
             ],
             respostaCorreta: 2,
-            explicacao: '"No entanto" é uma conjunção adversativa — indica oposição entre as ideias. O aluno estudou (expectativa de aprovação), mas não foi aprovado (resultado contrário ao esperado).',
+            explicacao: '"No entanto" é uma conjunção adversativa: indica oposição entre as ideias. O aluno estudou (expectativa de aprovação), mas não foi aprovado (resultado contrário ao esperado).',
             dificuldade: 'facil',
           },
           {
@@ -980,13 +980,13 @@ O parágrafo segue a estrutura:
       titulo: 'Figuras de Linguagem',
       peso: 15,
       conteudo: {
-        resumo: 'Metáfora, metonímia, ironia, hipérbole, eufemismo, antítese e personificação — as figuras mais cobradas em vestibulares.',
+        resumo: 'Metáfora, metonímia, ironia, hipérbole, eufemismo, antítese e personificação: as figuras mais cobradas em vestibulares.',
         explicacao:
           'Figuras de linguagem são recursos expressivos que ampliam o sentido das palavras. No vestibular, o foco é identificar a figura e explicar seu efeito no texto.\n\n**Metáfora:** comparação implícita (sem "como").\nEx.: "Ele é uma fera nos estudos." (fera = muito bom)\n\n**Metonímia:** substituição de um termo por outro relacionado.\nEx.: "Leu Machado de Assis." (autor pela obra)\n\n**Ironia:** dizer o contrário do que se pensa para criticar.\nEx.: "Que belo exemplo de cidadão!" (sobre alguém desonesto)\n\n**Hipérbole:** exagero intencional.\nEx.: "Estou morrendo de fome."\n\n**Eufemismo:** suavização de algo desagradável.\nEx.: "Ele partiu desta para melhor." (= morreu)\n\n**Antítese:** oposição de ideias.\nEx.: "A vida é feita de alegrias e tristezas."\n\n**Personificação (prosopopeia):** atribuir características humanas a seres não humanos.\nEx.: "O sol sorriu naquela manhã."',
         secoes: [
           {
             titulo: 'Introdução às Figuras de Linguagem',
-            corpo: `As figuras de linguagem são **recursos expressivos** que desviam a linguagem de seu sentido literal para produzir efeitos de significação mais ricos, persuasivos ou estéticos. Elas estão presentes em textos literários, mas também no cotidiano — em músicas, propagandas, conversas informais e, claro, nos textos de vestibular.
+            corpo: `As figuras de linguagem são **recursos expressivos** que desviam a linguagem de seu sentido literal para produzir efeitos de significação mais ricos, persuasivos ou estéticos. Elas estão presentes em textos literários, mas também no cotidiano: em músicas, propagandas, conversas informais e, claro, nos textos de vestibular.
 
 ## Por que estudar figuras de linguagem?
 
@@ -995,23 +995,23 @@ No vestibular UNIVESP, as figuras de linguagem aparecem de duas formas:
 1. **Identificação direta**: "A figura de linguagem presente no trecho é..."
 2. **Efeito de sentido**: "O efeito expressivo produzido pelo autor se deve a..."
 
-Em ambos os casos, não basta decorar definições — é preciso **reconhecer a figura em contexto** e explicar qual efeito ela produz.
+Em ambos os casos, não basta decorar definições: é preciso **reconhecer a figura em contexto** e explicar qual efeito ela produz.
 
 ## Classificação geral
 
 As figuras se dividem em grandes grupos:
 
-- **Figuras de palavra (tropos)**: envolvem mudança no sentido das palavras — metáfora, metonímia, catacrese, comparação
-- **Figuras de pensamento**: envolvem o jogo de ideias — ironia, antítese, paradoxo, hipérbole, eufemismo, prosopopeia
-- **Figuras de sintaxe**: envolvem a estrutura da frase — elipse, zeugma, pleonasmo, anáfora (repetição)
-- **Figuras de som**: envolvem sonoridade — aliteração, assonância, onomatopeia
+- **Figuras de palavra (tropos)**: envolvem mudança no sentido das palavras: metáfora, metonímia, catacrese, comparação
+- **Figuras de pensamento**: envolvem o jogo de ideias: ironia, antítese, paradoxo, hipérbole, eufemismo, prosopopeia
+- **Figuras de sintaxe**: envolvem a estrutura da frase: elipse, zeugma, pleonasmo, anáfora (repetição)
+- **Figuras de som**: envolvem sonoridade: aliteração, assonância, onomatopeia
 
 > 💡 No vestibular, as mais cobradas são as **figuras de palavra** e as **figuras de pensamento**. São essas que estudaremos em profundidade.`,
             tipo: 'texto',
           },
           {
             titulo: 'Metáfora e Comparação',
-            corpo: `Metáfora e comparação são as figuras mais confundidas — e a banca explora exatamente essa confusão. Ambas envolvem uma **relação de semelhança** entre dois termos, mas se diferenciam pela estrutura.
+            corpo: `Metáfora e comparação são as figuras mais confundidas: e a banca explora exatamente essa confusão. Ambas envolvem uma **relação de semelhança** entre dois termos, mas se diferenciam pela estrutura.
 
 ## Comparação (ou símile)
 
@@ -1031,10 +1031,10 @@ A comparação estabelece uma relação de semelhança **explícita**, usando co
 
 ## Metáfora
 
-A metáfora é uma comparação **implícita** — o conectivo desaparece e a identificação entre os dois termos se torna direta.
+A metáfora é uma comparação **implícita**: o conectivo desaparece e a identificação entre os dois termos se torna direta.
 
 **Exemplos:**
-- "Seus olhos eram **estrelas**." (sem "como" — metáfora)
+- "Seus olhos eram **estrelas**." (sem "como": metáfora)
 - "Ele é um **touro**." (identificação direta)
 - "A vida é uma **viagem** sem mapa." (sem conectivo comparativo)
 - "**Fera** nos estudos, arrasou na prova." (fera = muito bom)
@@ -1058,9 +1058,9 @@ A metáfora é uma comparação **implícita** — o conectivo desaparece e a id
 
 ## Metáforas na literatura brasileira
 
-- *"Minha terra tem palmeiras onde canta o sabiá."* (Gonçalves Dias) — "minha terra" é metáfora para o Brasil
-- *"Amor é fogo que arde sem se ver."* (Camões) — amor = fogo (metáfora)
-- *"A vida é a arte do encontro, embora haja tanto desencontro pela vida."* (Vinícius de Moraes) — vida = arte do encontro
+- *"Minha terra tem palmeiras onde canta o sabiá."* (Gonçalves Dias): "minha terra" é metáfora para o Brasil
+- *"Amor é fogo que arde sem se ver."* (Camões): amor = fogo (metáfora)
+- *"A vida é a arte do encontro, embora haja tanto desencontro pela vida."* (Vinícius de Moraes): vida = arte do encontro
 
 ## Metáforas no cotidiano
 
@@ -1134,14 +1134,14 @@ O mecanismo é simples: o autor usa palavras com sentido **positivo** para descr
 
 **Exemplos claros:**
 
-- "**Que belo** exemplo de cidadão!" — dito sobre alguém que jogou lixo na rua
-- "**Parabéns** pela sua pontualidade!" — dito a alguém que chegou duas horas atrasado
-- "**Adorei** seu trabalho, muito **completo**!" — dito sobre um trabalho com apenas uma página
+- "**Que belo** exemplo de cidadão!": dito sobre alguém que jogou lixo na rua
+- "**Parabéns** pela sua pontualidade!": dito a alguém que chegou duas horas atrasado
+- "**Adorei** seu trabalho, muito **completo**!": dito sobre um trabalho com apenas uma página
 
 ## Ironia em textos literários
 
 - *"Marcela amou-me durante quinze meses e onze contos de réis."* (Machado de Assis)
-→ A ironia está em medir o amor em dinheiro — sugere que o amor era interesseiro, sem dizê-lo explicitamente.
+→ A ironia está em medir o amor em dinheiro: sugere que o amor era interesseiro, sem dizê-lo explicitamente.
 
 - *"O funcionário público não é necessariamente um mal. É um bem que se faz mal."* (Mário Quintana)
 → Aparenta defender o funcionário público, mas a inversão "bem que se faz mal" é uma crítica irônica.
@@ -1188,8 +1188,8 @@ A hipérbole é o **exagero intencional** para dar ênfase a uma ideia. O falant
 - "Ele é **o cara mais chato do universo**." (exagero de extensão)
 
 **Exemplos literários:**
-- *"Rios te correrão dos olhos, se chorares."* (Olavo Bilac) — exagero poético do choro
-- *"Eu já não sinto nada, nem medo, nem desejo / Mas uma vontade de sono e de morrer."* (Manuel Bandeira) — hipérbole do cansaço existencial
+- *"Rios te correrão dos olhos, se chorares."* (Olavo Bilac): exagero poético do choro
+- *"Eu já não sinto nada, nem medo, nem desejo / Mas uma vontade de sono e de morrer."* (Manuel Bandeira): hipérbole do cansaço existencial
 
 ### Efeito da hipérbole
 O exagero pode ser usado para:
@@ -1209,7 +1209,7 @@ O eufemismo substitui uma expressão considerada **desagradável, rude ou chocan
 - "O bairro é **carente**." (= pobre)
 
 **Exemplos literários:**
-- *"E pela paz do teu sorriso, / Pela imensa dor que em vão procuras / Dizer: adeus, adeus, eu vou-me embora!"* — "ir embora" como eufemismo para morrer
+- *"E pela paz do teu sorriso, / Pela imensa dor que em vão procuras / Dizer: adeus, adeus, eu vou-me embora!"*: "ir embora" como eufemismo para morrer
 
 ### Efeito do eufemismo
 O eufemismo é usado para:
@@ -1236,7 +1236,7 @@ O eufemismo é usado para:
 
 ## Antítese — oposição clara
 
-A antítese é a **justaposição de ideias contrárias** dentro do mesmo enunciado. As ideias são opostas mas **não se contradizem logicamente** — ambas podem ser verdadeiras ao mesmo tempo.
+A antítese é a **justaposição de ideias contrárias** dentro do mesmo enunciado. As ideias são opostas mas **não se contradizem logicamente**: ambas podem ser verdadeiras ao mesmo tempo.
 
 **Exemplos:**
 - "A vida é feita de **alegrias** e **tristezas**."
@@ -1258,17 +1258,17 @@ O paradoxo une ideias que **parecem se contradizer** logicamente, mas que, em um
 - *"Eu sou um velho **moço**."* (velho e moço ao mesmo tempo? → aparenta contradição)
 - *"O amor é **ferida que dói e não se sente**."* (dói mas não se sente? → paradoxo camoniano)
 - *"Estou **cego de tanto ver**."* (ver causa cegueira? → contradição aparente que revela saturação)
-- *"A guerra **é a paz**."* (George Orwell) — paradoxo deliberado
+- *"A guerra **é a paz**."* (George Orwell): paradoxo deliberado
 
 ### Estrutura do paradoxo
-O paradoxo reúne ideias **mutuamente excludentes** no mesmo ser ou conceito. Não são apenas opostas (como na antítese) — são **logicamente incompatíveis**.
+O paradoxo reúne ideias **mutuamente excludentes** no mesmo ser ou conceito. Não são apenas opostas (como na antítese): são **logicamente incompatíveis**.
 
 ## Antítese × Paradoxo: a distinção
 
 | Aspecto | Antítese | Paradoxo |
 |---------|---------|----------|
 | Relação | Oposição | Contradição |
-| As ideias podem coexistir? | **Sim** — são opostas, mas compatíveis | **Não** — são logicamente excludentes |
+| As ideias podem coexistir? | **Sim**: são opostas, mas compatíveis | **Não**: são logicamente excludentes |
 | Exemplo | "Alegria e tristeza" | "Ferida que não se sente" |
 | Efeito | Contraste | Estranhamento, reflexão |
 
@@ -1296,12 +1296,12 @@ Atribuir **características, ações ou sentimentos humanos** a seres não human
 **Fórmula:** sujeito não humano + verbo de ação/sentimento humano = personificação
 
 ### Na literatura
-- *"As estrelas eram tantas, tanta estrela / que eu perguntei, em espanto e sossego, / se aquilo era um céu ou se era o mar."* (Manuel Bandeira) — o eu lírico dialoga com a natureza
-- *"O rio que fazia uma volta atrás de nossa casa / era a imagem de um vidro mole."* (Manoel de Barros) — atribuir "volta" intencional ao rio
+- *"As estrelas eram tantas, tanta estrela / que eu perguntei, em espanto e sossego, / se aquilo era um céu ou se era o mar."* (Manuel Bandeira): o eu lírico dialoga com a natureza
+- *"O rio que fazia uma volta atrás de nossa casa / era a imagem de um vidro mole."* (Manoel de Barros): atribuir "volta" intencional ao rio
 
 ## Catacrese
 
-A catacrese é uma **metáfora cristalizada pelo uso** — tão comum que não é mais percebida como figura. Usamos catacrese quando não há palavra literal para designar algo.
+A catacrese é uma **metáfora cristalizada pelo uso**: tão comum que não é mais percebida como figura. Usamos catacrese quando não há palavra literal para designar algo.
 
 **Exemplos:**
 - "**Pé** da mesa" (mesas não têm pés)
@@ -1311,7 +1311,7 @@ A catacrese é uma **metáfora cristalizada pelo uso** — tão comum que não �
 - "**Embarcar** no avião" (não é barco)
 - "**Dente** de alho" (alho não tem dentes)
 
-> 💡 Na prova, a catacrese costuma ser alternativa errada quando se pede "a figura presente no trecho". Catacrese raramente é a resposta correta — o texto usa figuras intencionais, não catacrese.
+> 💡 Na prova, a catacrese costuma ser alternativa errada quando se pede "a figura presente no trecho". Catacrese raramente é a resposta correta: o texto usa figuras intencionais, não catacrese.
 
 ## Figuras de sintaxe (cobradas ocasionalmente)
 
@@ -1322,21 +1322,21 @@ Omissão de um termo facilmente recuperável:
 ### Pleonasmo
 Redundância expressiva:
 - "Vi com meus **próprios olhos**." (ver já implica usar os olhos)
-- *"E rir meu riso e derramar meu pranto."* (Vinícius de Moraes) — pleonasmo literário com função expressiva
+- *"E rir meu riso e derramar meu pranto."* (Vinícius de Moraes): pleonasmo literário com função expressiva
 
 ### Anáfora (repetição)
 Repetição de palavra no **início** de versos ou frases sucessivas:
-- *"É preciso amor / É preciso paz / É preciso fé"* — "É preciso" se repete para criar ritmo e ênfase
+- *"É preciso amor / É preciso paz / É preciso fé"*: "É preciso" se repete para criar ritmo e ênfase
 
 ## Figuras de som (cobradas raramente)
 
 ### Aliteração
 Repetição de **consoantes**:
-- *"Vozes veladas, veludosas vozes"* (Cruz e Sousa) — repetição do "v"
+- *"Vozes veladas, veludosas vozes"* (Cruz e Sousa): repetição do "v"
 
 ### Assonância
 Repetição de **vogais**:
-- *"Sou um mulato nato no sentido lato"* (Caetano Veloso) — repetição do "a"
+- *"Sou um mulato nato no sentido lato"* (Caetano Veloso): repetição do "a"
 
 ### Onomatopeia
 Reprodução de **sons**:
@@ -1418,14 +1418,14 @@ Reprodução de **sons**:
         dicasProva: [
           'Metáfora × Comparação: se houver "como", é comparação; sem "como", é metáfora.',
           'Metonímia comum: "tomar uma Brahma" (marca pelo produto), "ler Machado" (autor pela obra).',
-          'A ironia em provas aparece muito em charges e crônicas — observe o tom do autor.',
+          'A ironia em provas aparece muito em charges e crônicas: observe o tom do autor.',
           'Hipérbole e eufemismo são opostos: um exagera, o outro suaviza.',
           'Se o sujeito é não humano e o verbo é de ação humana, é personificação.',
         ],
         errosComuns: [
-          'Confundir metáfora com comparação — a diferença é a presença/ausência de "como".',
+          'Confundir metáfora com comparação: a diferença é a presença/ausência de "como".',
           'Não perceber ironia quando o texto tem tom elogioso sobre algo negativo.',
-          'Confundir metonímia com metáfora — metonímia tem relação concreta (parte/todo, autor/obra).',
+          'Confundir metonímia com metáfora: metonímia tem relação concreta (parte/todo, autor/obra).',
           'Ignorar o contexto ao classificar: "morrendo de rir" é hipérbole, não sentido literal.',
           'Confundir antítese (oposição de ideias) com paradoxo (contradição aparente).',
         ],
@@ -1455,7 +1455,7 @@ Reprodução de **sons**:
               'Antítese',
             ],
             respostaCorreta: 2,
-            explicacao: 'Metonímia: o autor (Machado de Assis) é usado no lugar da obra. Ninguém "lê" uma pessoa literalmente — lê-se a obra do autor. É uma substituição por relação de contiguidade (autor pela obra).',
+            explicacao: 'Metonímia: o autor (Machado de Assis) é usado no lugar da obra. Ninguém "lê" uma pessoa literalmente: lê-se a obra do autor. É uma substituição por relação de contiguidade (autor pela obra).',
             dificuldade: 'facil',
           },
           {
@@ -1483,7 +1483,7 @@ Reprodução de **sons**:
               'Hipérbole',
             ],
             respostaCorreta: 3,
-            explicacao: 'Personificação (prosopopeia): o vento (elemento da natureza) recebe atributos humanos — "sussurrar segredos" é uma ação humana atribuída a um ser inanimado.',
+            explicacao: 'Personificação (prosopopeia): o vento (elemento da natureza) recebe atributos humanos: "sussurrar segredos" é uma ação humana atribuída a um ser inanimado.',
             dificuldade: 'medio',
           },
           {
@@ -1497,7 +1497,7 @@ Reprodução de **sons**:
               'Antítese',
             ],
             respostaCorreta: 4,
-            explicacao: 'Antítese: o trecho é construído por pares de ideias opostas — encontros/despedidas, alegrias/lágrimas, certezas/dúvidas. A antítese reforça a ideia de que a vida é feita de contrastes.',
+            explicacao: 'Antítese: o trecho é construído por pares de ideias opostas: encontros/despedidas, alegrias/lágrimas, certezas/dúvidas. A antítese reforça a ideia de que a vida é feita de contrastes.',
             dificuldade: 'dificil',
           },
         ],
@@ -1508,9 +1508,9 @@ Reprodução de **sons**:
       titulo: 'Literatura',
       peso: 15,
       conteudo: {
-        resumo: 'Realismo, Naturalismo e Modernismo (1ª e 2ª fase) — escolas literárias mais cobradas, com autores e obras essenciais.',
+        resumo: 'Realismo, Naturalismo e Modernismo (1ª e 2ª fase): escolas literárias mais cobradas, com autores e obras essenciais.',
         explicacao:
-          'A literatura no vestibular UNIVESP foca em reconhecer características das escolas literárias e associar autores às suas respectivas correntes.\n\n**Realismo (1881-1893):**\n• Características: objetividade, crítica social, análise psicológica, linguagem direta\n• Autores: Machado de Assis (Dom Casmurro, Memórias Póstumas de Brás Cubas)\n• Temas: hipocrisia da elite, ciúme, ambição, relativismo moral\n\n**Naturalismo (1881-1893):**\n• Características: determinismo, influência do meio, temas polêmicos, visão científica\n• Autores: Aluísio Azevedo (O Cortiço)\n• Temas: miséria, instinto, condições sociais degradantes\n\n**Modernismo — 1ª Fase (1922-1930):**\n• Características: ruptura com o academicismo, linguagem coloquial, humor, nacionalismo crítico\n• Autores: Oswald de Andrade (Pau Brasil), Mário de Andrade (Macunaíma), Manuel Bandeira\n• Marco: Semana de Arte Moderna de 1922\n\n**Modernismo — 2ª Fase (1930-1945):**\n• Características: romance regionalista, denúncia social, seca nordestina\n• Autores: Graciliano Ramos (Vidas Secas), Rachel de Queiroz (O Quinze), Jorge Amado\n• Temas: desigualdade, sertão, condição humana',
+          'A literatura no vestibular UNIVESP foca em reconhecer características das escolas literárias e associar autores às suas respectivas correntes.\n\n**Realismo (1881-1893):**\n• Características: objetividade, crítica social, análise psicológica, linguagem direta\n• Autores: Machado de Assis (Dom Casmurro, Memórias Póstumas de Brás Cubas)\n• Temas: hipocrisia da elite, ciúme, ambição, relativismo moral\n\n**Naturalismo (1881-1893):**\n• Características: determinismo, influência do meio, temas polêmicos, visão científica\n• Autores: Aluísio Azevedo (O Cortiço)\n• Temas: miséria, instinto, condições sociais degradantes\n\n**Modernismo: 1ª Fase (1922-1930):**\n• Características: ruptura com o academicismo, linguagem coloquial, humor, nacionalismo crítico\n• Autores: Oswald de Andrade (Pau Brasil), Mário de Andrade (Macunaíma), Manuel Bandeira\n• Marco: Semana de Arte Moderna de 1922\n\n**Modernismo: 2ª Fase (1930-1945):**\n• Características: romance regionalista, denúncia social, seca nordestina\n• Autores: Graciliano Ramos (Vidas Secas), Rachel de Queiroz (O Quinze), Jorge Amado\n• Temas: desigualdade, sertão, condição humana',
         secoes: [
           {
             titulo: 'Panorama: Escolas Literárias Brasileiras',
@@ -1539,7 +1539,7 @@ As questões seguem, em geral, três formatos:
           },
           {
             titulo: 'Realismo Brasileiro (1881-1893)',
-            corpo: `O Realismo surgiu como reação ao **idealismo romântico**. Enquanto o Romantismo idealizava o amor, o herói e a pátria, o Realismo buscou retratar a realidade **como ela é** — com suas contradições, hipocrisias e complexidades psicológicas.
+            corpo: `O Realismo surgiu como reação ao **idealismo romântico**. Enquanto o Romantismo idealizava o amor, o herói e a pátria, o Realismo buscou retratar a realidade **como ela é**: com suas contradições, hipocrisias e complexidades psicológicas.
 
 ## Contexto histórico
 
@@ -1563,9 +1563,9 @@ As questões seguem, em geral, três formatos:
 
 ### Obras fundamentais
 
-- **Memórias Póstumas de Brás Cubas** (1881) — marco inicial do Realismo. Narrado por um defunto autor que conta sua vida com ironia devastadora. Temas: vaidade, hipocrisia, relativismo moral.
-- **Dom Casmurro** (1899) — a história de Bentinho e Capitu, com a famosa dúvida sobre a traição. O narrador não é confiável — Machado questiona a capacidade humana de conhecer a verdade.
-- **Quincas Borba** (1891) — romance que explora a filosofia do Humanitismo (paródia do positivismo): "Ao vencedor, as batatas."
+- **Memórias Póstumas de Brás Cubas** (1881): marco inicial do Realismo. Narrado por um defunto autor que conta sua vida com ironia devastadora. Temas: vaidade, hipocrisia, relativismo moral.
+- **Dom Casmurro** (1899): a história de Bentinho e Capitu, com a famosa dúvida sobre a traição. O narrador não é confiável: Machado questiona a capacidade humana de conhecer a verdade.
+- **Quincas Borba** (1891): romance que explora a filosofia do Humanitismo (paródia do positivismo): "Ao vencedor, as batatas."
 
 ### Estilo machadiano
 
@@ -1579,7 +1579,7 @@ As questões seguem, em geral, três formatos:
 *"Marcela amou-me durante quinze meses e onze contos de réis."*
 (Memórias Póstumas de Brás Cubas)
 
-→ Em uma única frase, Machado mede o amor em tempo **e** dinheiro, sugerindo que o relacionamento era interesseiro — sem jamais dizer isso explicitamente. Essa economia expressiva é a marca do Realismo machadiano.
+→ Em uma única frase, Machado mede o amor em tempo **e** dinheiro, sugerindo que o relacionamento era interesseiro: sem jamais dizer isso explicitamente. Essa economia expressiva é a marca do Realismo machadiano.
 
 > 💡 Se o trecho na prova apresenta ironia sutil, análise psicológica e crítica à hipocrisia social, pense imediatamente em **Machado de Assis / Realismo**.`,
             tipo: 'texto',
@@ -1590,7 +1590,7 @@ As questões seguem, em geral, três formatos:
 
 ## Base filosófica: o Determinismo
 
-O Naturalismo se fundamenta no **determinismo** — a ideia de que o ser humano é produto de três forças:
+O Naturalismo se fundamenta no **determinismo**: a ideia de que o ser humano é produto de três forças:
 
 1. **O meio**: o ambiente social e físico molda o caráter
 2. **A raça/hereditariedade**: características biológicas determinam comportamentos
@@ -1617,16 +1617,16 @@ O cortiço é quase um **personagem coletivo**: não há um protagonista claro. 
 
 ### Personagens-chave
 
-- **João Romão**: o dono do cortiço, movido pela ambição — acumula riqueza explorando os moradores
+- **João Romão**: o dono do cortiço, movido pela ambição: acumula riqueza explorando os moradores
 - **Bertoleza**: escrava que ajuda João Romão e é por ele traída
 - **Rita Baiana**: mulata sensual que representa a "influência do meio tropical"
-- **Jerônimo**: português honesto que, ao chegar ao cortiço, "abrasileira-se" — perde sua disciplina europeia sob influência do meio
+- **Jerônimo**: português honesto que, ao chegar ao cortiço, "abrasileira-se": perde sua disciplina europeia sob influência do meio
 
 ### Trecho representativo
 
 *"E naquela terra encharcada e fumegante, naquela umidade quente e lodosa, começou a minhocar, a esfervilhar, a crescer, um mundo, uma coisa viva, uma geração..."*
 
-→ O cortiço é descrito como um **organismo vivo** — nasce, cresce, fervilha. As pessoas são parte desse organismo, não indivíduos autônomos. Essa é a essência do olhar naturalista.
+→ O cortiço é descrito como um **organismo vivo**: nasce, cresce, fervilha. As pessoas são parte desse organismo, não indivíduos autônomos. Essa é a essência do olhar naturalista.
 
 ## Realismo × Naturalismo: diferenças decisivas
 
@@ -1666,7 +1666,7 @@ Realizada nos dias **13, 15 e 17 de fevereiro de 1922** no Teatro Municipal de S
 
 - **Linguagem coloquial**: rejeição do português "castiço" e abraço da fala brasileira real
 - **Humor e irreverência**: paródia, piada, provocação ao leitor conservador
-- **Nacionalismo crítico**: valorização do Brasil, mas sem ufanismo — com olhar irônico
+- **Nacionalismo crítico**: valorização do Brasil, mas sem ufanismo: com olhar irônico
 - **Verso livre**: abandono da métrica fixa e das rimas obrigatórias
 - **Antropofagia cultural**: "devorar" influências estrangeiras e transformá-las em algo brasileiro
 
@@ -1676,23 +1676,23 @@ Realizada nos dias **13, 15 e 17 de fevereiro de 1922** no Teatro Municipal de S
 
 Provocador e irreverente. Escreveu o **Manifesto Antropófago** (1928): a ideia de que a cultura brasileira deveria "devorar" as influências estrangeiras e transformá-las, assim como os índios tupinambás devoravam seus inimigos para absorver suas qualidades.
 
-**Poema representativo — "Pronominais":**
+**Poema representativo: "Pronominais":**
 *"Dê-me um cigarro / Diz a gramática / Do professor e do aluno / E do mulato sabido / Mas o bom negro e o bom branco / Da Nação Brasileira / Dizem todos os dias / Deixa disso camarada / Me dá um cigarro."*
 
 → Oswald opõe a gramática normativa ("Dê-me") à fala real do brasileiro ("Me dá"). O poema é uma defesa da linguagem coloquial como expressão legítima.
 
 ### Mário de Andrade (1893-1945)
 
-Mais reflexivo que Oswald, Mário combinou experimentação formal com pesquisa cultural profunda. Sua obra-prima é **Macunaíma** (1928) — uma rapsódia que mistura lendas indígenas, folclore, linguagem oral e ironia para criar um "herói sem nenhum caráter" que representa o povo brasileiro.
+Mais reflexivo que Oswald, Mário combinou experimentação formal com pesquisa cultural profunda. Sua obra-prima é **Macunaíma** (1928): uma rapsódia que mistura lendas indígenas, folclore, linguagem oral e ironia para criar um "herói sem nenhum caráter" que representa o povo brasileiro.
 
 ### Manuel Bandeira (1886-1968)
 
 Poeta da **simplicidade lírica**. Transformou o cotidiano em poesia com linguagem acessível e profundamente humana.
 
-**Poema representativo — "Poema tirado de uma notícia de jornal":**
+**Poema representativo: "Poema tirado de uma notícia de jornal":**
 *"João Gostoso era carregador de feira livre e morava no morro da Babilônia num barracão sem número / Uma noite ele chegou no bar Vinte de Novembro / Bebeu / Cantou / Dançou / Depois se atirou na lagoa Rodrigo de Freitas e morreu afogado."*
 
-→ A linguagem é jornalística, seca, sem adjetivos — mas a sequência "bebeu, cantou, dançou, depois morreu" cria um impacto devastador pela simplicidade.
+→ A linguagem é jornalística, seca, sem adjetivos: mas a sequência "bebeu, cantou, dançou, depois morreu" cria um impacto devastador pela simplicidade.
 
 > 💡 Na prova: linguagem coloquial + humor + brasilidade + ruptura formal = **Modernismo 1ª fase**.`,
             tipo: 'texto',
@@ -1716,7 +1716,7 @@ Poeta da **simplicidade lírica**. Transformou o cotidiano em poesia com linguag
 - **Regionalismo**: retrato das diferentes regiões do Brasil, especialmente o Nordeste
 - **Denúncia social**: miséria, seca, exploração dos trabalhadores rurais
 - **Linguagem enxuta**: frases curtas, diretas, sem ornamentos
-- **Personagens reais**: retirantes, vaqueiros, trabalhadores braçais — não mais heróis idealizados
+- **Personagens reais**: retirantes, vaqueiros, trabalhadores braçais: não mais heróis idealizados
 - **Compromisso político**: a literatura como instrumento de transformação social
 
 ### Na poesia
@@ -1729,18 +1729,18 @@ Poeta da **simplicidade lírica**. Transformou o cotidiano em poesia com linguag
 
 ### Graciliano Ramos (1892-1953)
 
-O maior prosador da 2ª fase. Sua linguagem é **seca como o sertão** que retrata — nenhuma palavra a mais, nenhuma emoção exagerada.
+O maior prosador da 2ª fase. Sua linguagem é **seca como o sertão** que retrata: nenhuma palavra a mais, nenhuma emoção exagerada.
 
-**Vidas Secas** (1938) — obra-prima do romance de 30:
+**Vidas Secas** (1938): obra-prima do romance de 30:
 - Narra a saga de **Fabiano**, retirante nordestino, com sua família e a cachorra Baleia
 - Estrutura em capítulos quase independentes
-- Linguagem mínima: os personagens mal conseguem se expressar verbalmente — a narrativa mostra a **desumanização** causada pela miséria
-- A cachorra Baleia "pensa" mais articuladamente que seus donos — ironia cruel do destino
+- Linguagem mínima: os personagens mal conseguem se expressar verbalmente: a narrativa mostra a **desumanização** causada pela miséria
+- A cachorra Baleia "pensa" mais articuladamente que seus donos: ironia cruel do destino
 
 **Trecho representativo:**
 *"Fabiano, uma coisa da fazenda, um traste, seria despedido quando menos esperasse. Tinha ali aquele canto, e era bom demais para ele."*
 
-→ Linguagem seca, enxuta. Fabiano não é tratado como pessoa — é "uma coisa", "um traste". A desumanização é expressa pela própria sintaxe.
+→ Linguagem seca, enxuta. Fabiano não é tratado como pessoa: é "uma coisa", "um traste". A desumanização é expressa pela própria sintaxe.
 
 ### Rachel de Queiroz (1910-2003)
 
@@ -1758,7 +1758,7 @@ Autor do **Ciclo da cana-de-açúcar**, série de romances que retrata a decadê
 
 Drummond é considerado o **maior poeta brasileiro do século XX**. Sua obra percorre do humor mineiro à angústia existencial, da crítica social à reflexão metalinguística.
 
-**Poema representativo — trecho de "José":**
+**Poema representativo: trecho de "José":**
 *"E agora, José? / A festa acabou, / a luz apagou, / o povo sumiu, / a noite esfriou, / e agora, José?"*
 
 → O poema dialoga com o "homem comum" que enfrenta o vazio e a desesperança. É poesia social e existencial ao mesmo tempo.
@@ -1774,7 +1774,7 @@ Drummond é considerado o **maior poeta brasileiro do século XX**. Sua obra per
 
 - **Experimentação formal**: romances com estruturas inovadoras, linguagem reinventada
 - **Intimismo e introspecção**: foco na vida interior dos personagens
-- **Universalidade**: temas que transcendem o regional — a condição humana em si
+- **Universalidade**: temas que transcendem o regional: a condição humana em si
 - **Linguagem renovada**: neologismos, fluxo de consciência, prosa poética
 - **Regionalismo universal**: o particular se torna universal (o sertão de Rosa é o mundo)
 
@@ -1787,12 +1787,12 @@ Drummond é considerado o **maior poeta brasileiro do século XX**. Sua obra per
 **Grande Sertão: Veredas** (1956):
 - Romance monumental narrado por **Riobaldo**, ex-jagunço que conta sua vida a um interlocutor silencioso
 - Temas: o bem e o mal, a existência do diabo, o amor proibido (Diadorim), a violência do sertão
-- Linguagem: mistura de arcaísmos, neologismos e fala sertaneja — cria um idioma próprio
+- Linguagem: mistura de arcaísmos, neologismos e fala sertaneja: cria um idioma próprio
 
 **Trecho representativo:**
 *"O sertão é do tamanho do mundo."*
 
-→ Em uma frase, Rosa transforma o particular (sertão) em universal (mundo). O sertão não é apenas uma região geográfica — é metáfora da condição humana.
+→ Em uma frase, Rosa transforma o particular (sertão) em universal (mundo). O sertão não é apenas uma região geográfica: é metáfora da condição humana.
 
 *"Viver é muito perigoso."* (frase recorrente no romance)
 
@@ -1800,11 +1800,11 @@ Drummond é considerado o **maior poeta brasileiro do século XX**. Sua obra per
 
 ### Clarice Lispector (1920-1977)
 
-**Clarice Lispector** mergulhou na **vida interior** dos personagens como ninguém antes na literatura brasileira. Seus textos exploram epifanias — momentos de revelação interior provocados por situações cotidianas.
+**Clarice Lispector** mergulhou na **vida interior** dos personagens como ninguém antes na literatura brasileira. Seus textos exploram epifanias: momentos de revelação interior provocados por situações cotidianas.
 
 **A Hora da Estrela** (1977):
 - Narra a história de **Macabéa**, nordestina miserável no Rio de Janeiro
-- O narrador (Rodrigo S.M.) problematiza o próprio ato de narrar — é metaliteratura
+- O narrador (Rodrigo S.M.) problematiza o próprio ato de narrar: é metaliteratura
 - Macabéa existe à margem: não sabe que é infeliz, não sabe que é ignorante
 
 **Trecho representativo:**
@@ -1816,16 +1816,16 @@ Drummond é considerado o **maior poeta brasileiro do século XX**. Sua obra per
 
 ### João Cabral de Melo Neto (1920-1999)
 
-Poeta da **contenção e da precisão**. Rejeita o sentimentalismo e constrói poemas como um engenheiro constrói pontes — com cálculo, economia e funcionalidade.
+Poeta da **contenção e da precisão**. Rejeita o sentimentalismo e constrói poemas como um engenheiro constrói pontes: com cálculo, economia e funcionalidade.
 
 **Morte e Vida Severina** (1955):
 - Auto de Natal que narra a jornada de um retirante nordestino, Severino, do sertão ao litoral
-- Cada parada revela uma faceta da miséria — mas o poema termina com um nascimento, afirmando a vida
+- Cada parada revela uma faceta da miséria: mas o poema termina com um nascimento, afirmando a vida
 
 **Trecho representativo:**
 *"E se somos Severinos / iguais em tudo na vida, / morremos de morte igual, / mesma morte severina."*
 
-→ "Severino" deixa de ser nome próprio e vira adjetivo — "vida severina", "morte severina". A identidade individual se dissolve na miséria coletiva.
+→ "Severino" deixa de ser nome próprio e vira adjetivo: "vida severina", "morte severina". A identidade individual se dissolve na miséria coletiva.
 
 > 💡 Na prova: se o trecho apresenta linguagem experimental, neologismos ou introspecção profunda → **Modernismo 3ª fase**. Rosa = sertão reinventado. Clarice = epifania interior.`,
             tipo: 'texto',
@@ -1914,7 +1914,7 @@ Poeta da **contenção e da precisão**. Rejeita o sentimentalismo e constrói p
 
 **Método:**
 1. Verifique cada par autor-escola
-2. Um deles estará errado — o mais comum é colocar um modernista em escola anterior (ou vice-versa)
+2. Um deles estará errado: o mais comum é colocar um modernista em escola anterior (ou vice-versa)
 
 **Armadilhas clássicas:**
 - Manuel Bandeira → atribuído ao Naturalismo (é Modernismo 1ª fase)
@@ -1923,12 +1923,12 @@ Poeta da **contenção e da precisão**. Rejeita o sentimentalismo e constrói p
 
 ## Erros fatais em questões de literatura
 
-1. **Confundir Realismo com Naturalismo**: lembre-se — Realismo = psicologia; Naturalismo = determinismo
+1. **Confundir Realismo com Naturalismo**: lembre-se: Realismo = psicologia; Naturalismo = determinismo
 2. **Atribuir Machado ao Romantismo**: Machado teve uma fase romântica, mas suas obras principais são **realistas**
 3. **Achar que Modernismo é tudo igual**: as 3 fases são muito diferentes entre si
 4. **Esquecer a 3ª fase**: Guimarães Rosa e Clarice Lispector são modernistas, não "contemporâneos"
 
-> ⚠️ Quando em dúvida entre duas escolas, pergunte-se: "Qual é a intenção do autor — analisar a mente humana (Realismo), mostrar o poder do meio (Naturalismo), romper com tradições (Mod. 1ª), denunciar injustiças (Mod. 2ª) ou experimentar com a linguagem (Mod. 3ª)?"`,
+> ⚠️ Quando em dúvida entre duas escolas, pergunte-se: "Qual é a intenção do autor: analisar a mente humana (Realismo), mostrar o poder do meio (Naturalismo), romper com tradições (Mod. 1ª), denunciar injustiças (Mod. 2ª) ou experimentar com a linguagem (Mod. 3ª)?"`,
             tipo: 'importante',
           },
         ],
@@ -1950,7 +1950,7 @@ Poeta da **contenção e da precisão**. Rejeita o sentimentalismo e constrói p
         errosComuns: [
           'Confundir Realismo com Naturalismo: Realismo foca na psicologia; Naturalismo, no determinismo biológico/social.',
           'Atribuir Machado de Assis ao Romantismo (ele é da fase realista).',
-          'Achar que Modernismo é só "arte moderna" — a 2ª fase é profundamente social e regionalista.',
+          'Achar que Modernismo é só "arte moderna": a 2ª fase é profundamente social e regionalista.',
           'Esquecer que a Semana de 22 é o marco da 1ª fase, não de todo o Modernismo.',
           'Confundir autores: Graciliano Ramos é 2ª fase, Oswald de Andrade é 1ª fase.',
         ],
@@ -1962,11 +1962,11 @@ Poeta da **contenção e da precisão**. Rejeita o sentimentalismo e constrói p
               'Romantismo',
               'Naturalismo',
               'Realismo',
-              'Modernismo — 1ª fase',
-              'Modernismo — 2ª fase',
+              'Modernismo: 1ª fase',
+              'Modernismo: 2ª fase',
             ],
             respostaCorreta: 2,
-            explicacao: 'O trecho é de Memórias Póstumas de Brás Cubas, de Machado de Assis — principal autor do Realismo brasileiro. A ironia fina ao equiparar amor e dinheiro é marca registrada do olhar crítico e psicológico realista.',
+            explicacao: 'O trecho é de Memórias Póstumas de Brás Cubas, de Machado de Assis: principal autor do Realismo brasileiro. A ironia fina ao equiparar amor e dinheiro é marca registrada do olhar crítico e psicológico realista.',
             dificuldade: 'facil',
           },
           {
@@ -1980,7 +1980,7 @@ Poeta da **contenção e da precisão**. Rejeita o sentimentalismo e constrói p
               'Denuncia a seca nordestina com enfoque regionalista.',
             ],
             respostaCorreta: 2,
-            explicacao: 'O Naturalismo tem como pilar o determinismo: os personagens são moldados pelo meio, pela raça e pelo momento histórico. Em "O Cortiço", o ambiente insalubre determina o comportamento dos moradores — marca central do movimento.',
+            explicacao: 'O Naturalismo tem como pilar o determinismo: os personagens são moldados pelo meio, pela raça e pelo momento histórico. Em "O Cortiço", o ambiente insalubre determina o comportamento dos moradores: marca central do movimento.',
             dificuldade: 'medio',
           },
           {
@@ -1990,8 +1990,8 @@ Poeta da **contenção e da precisão**. Rejeita o sentimentalismo e constrói p
               'Parnasianismo',
               'Simbolismo',
               'Pré-Modernismo',
-              'Modernismo — 1ª fase',
-              'Modernismo — 2ª fase',
+              'Modernismo: 1ª fase',
+              'Modernismo: 2ª fase',
             ],
             respostaCorreta: 3,
             explicacao: 'A Semana de Arte Moderna de 1922, realizada em São Paulo, inaugurou o Modernismo brasileiro (1ª fase). O evento propôs a ruptura com o academicismo, valorizando a identidade nacional, a linguagem coloquial e a experimentação artística.',
@@ -2001,25 +2001,25 @@ Poeta da **contenção e da precisão**. Rejeita o sentimentalismo e constrói p
             id: 'port-lit-4',
             enunciado: '"Vidas Secas", de Graciliano Ramos, pertence a qual fase do Modernismo e por quê?',
             alternativas: [
-              '1ª fase — pela linguagem coloquial e humor.',
-              '2ª fase — pela denúncia social e enfoque regionalista.',
-              '3ª fase — pela experimentação formal e intimismo.',
-              '1ª fase — pela ruptura com a tradição acadêmica.',
-              '2ª fase — pelo uso de versos livres e linguagem telegráfica.',
+              '1ª fase: pela linguagem coloquial e humor.',
+              '2ª fase: pela denúncia social e enfoque regionalista.',
+              '3ª fase: pela experimentação formal e intimismo.',
+              '1ª fase: pela ruptura com a tradição acadêmica.',
+              '2ª fase: pelo uso de versos livres e linguagem telegráfica.',
             ],
             respostaCorreta: 1,
-            explicacao: '"Vidas Secas" é obra central do Modernismo 2ª fase (Romance de 30). Graciliano Ramos retrata a miséria do sertão nordestino com linguagem seca e enxuta, denunciando a desigualdade social — características típicas do regionalismo da 2ª geração modernista.',
+            explicacao: '"Vidas Secas" é obra central do Modernismo 2ª fase (Romance de 30). Graciliano Ramos retrata a miséria do sertão nordestino com linguagem seca e enxuta, denunciando a desigualdade social: características típicas do regionalismo da 2ª geração modernista.',
             dificuldade: 'medio',
           },
           {
             id: 'port-lit-5',
             enunciado: 'Assinale a associação INCORRETA entre autor e escola literária:',
             alternativas: [
-              'Machado de Assis — Realismo',
-              'Aluísio Azevedo — Naturalismo',
-              'Oswald de Andrade — Modernismo 1ª fase',
-              'Graciliano Ramos — Modernismo 2ª fase',
-              'Manuel Bandeira — Naturalismo',
+              'Machado de Assis: Realismo',
+              'Aluísio Azevedo: Naturalismo',
+              'Oswald de Andrade: Modernismo 1ª fase',
+              'Graciliano Ramos: Modernismo 2ª fase',
+              'Manuel Bandeira: Naturalismo',
             ],
             respostaCorreta: 4,
             explicacao: 'Manuel Bandeira é poeta do Modernismo (1ª fase), não do Naturalismo. Participou da Semana de 22 e é conhecido por poemas com linguagem simples e cotidiana. As demais associações estão corretas.',

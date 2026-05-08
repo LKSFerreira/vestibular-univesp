@@ -81,7 +81,7 @@ const BIOMAS: readonly Bioma[] = [
     clima: 'Tropical úmido a subtropical',
     vegetacao: 'Floresta densa, alta biodiversidade, epífitas',
     fauna: 'Mico-leão-dourado, muriqui, sapo-cururu',
-    ameacas: 'Urbanização — restam apenas ~12% da cobertura original',
+    ameacas: 'Urbanização: restam apenas ~12% da cobertura original',
     d: 'M385,120 L378,168 L365,210 L352,255 L338,295 L318,330 L292,362 L262,395 L240,365 L280,330 L315,255 L340,175 Z',
   },
   {

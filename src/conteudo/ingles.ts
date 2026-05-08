@@ -12,12 +12,12 @@ export const disciplinaIngles: Disciplina = {
       conteudo: {
         resumo: 'Compreensão de textos em inglês com foco em artigos, notícias e textos acadêmicos.',
         explicacao:
-          'A prova de inglês da UNIVESP é focada em interpretação. Não é necessário traduzir palavra por palavra — o objetivo é captar o sentido geral (skimming) e localizar informações específicas (scanning).\n\nEstratégia:\n1. Leia o título e o primeiro parágrafo para entender o tema\n2. Identifique cognatos (palavras parecidas com o português)\n3. Use o contexto para inferir o significado de palavras desconhecidas\n4. Preste atenção em conectivos (however, therefore, although)',
+          'A prova de inglês da UNIVESP é focada em interpretação. Não é necessário traduzir palavra por palavra: o objetivo é captar o sentido geral (skimming) e localizar informações específicas (scanning).\n\nEstratégia:\n1. Leia o título e o primeiro parágrafo para entender o tema\n2. Identifique cognatos (palavras parecidas com o português)\n3. Use o contexto para inferir o significado de palavras desconhecidas\n4. Preste atenção em conectivos (however, therefore, although)',
         secoes: [
           {
             titulo: 'Introdução à Interpretação de Textos em Inglês',
             tipo: 'texto',
-            corpo: `A interpretação de textos em inglês é a competência **mais cobrada** na prova de Inglês do vestibular UNIVESP, representando cerca de **60% das questões**. A boa notícia é que **você não precisa ser fluente em inglês** para se sair bem — a prova avalia sua capacidade de compreender o sentido geral do texto e localizar informações específicas.
+            corpo: `A interpretação de textos em inglês é a competência **mais cobrada** na prova de Inglês do vestibular UNIVESP, representando cerca de **60% das questões**. A boa notícia é que **você não precisa ser fluente em inglês** para se sair bem: a prova avalia sua capacidade de compreender o sentido geral do texto e localizar informações específicas.
 
 Os textos utilizados nas provas geralmente são:
 
@@ -37,10 +37,10 @@ O segredo para uma boa interpretação não está em traduzir cada palavra, mas 
 
 **Como fazer:**
 
-1. Leia o **título** e o **subtítulo** — eles revelam o assunto
+1. Leia o **título** e o **subtítulo**: eles revelam o assunto
 2. Leia a **primeira frase de cada parágrafo** (*topic sentence*)
 3. Observe **palavras em negrito, itálico ou entre aspas**
-4. Leia o **último parágrafo** — geralmente contém a conclusão
+4. Leia o **último parágrafo**: geralmente contém a conclusão
 
 **Quando usar:** Ao ler o texto pela primeira vez, antes de olhar as questões.
 
@@ -95,7 +95,7 @@ O segredo para uma boa interpretação não está em traduzir cada palavra, mas 
           {
             titulo: 'Falsos Cognatos — As Armadilhas do Vestibular',
             tipo: 'tabela',
-            corpo: `Falsos cognatos (ou *false friends*) são palavras que se **parecem** com o português, mas têm **significado diferente**. São as armadilhas favoritas das bancas de vestibular — memorize pelo menos os 10 mais comuns.
+            corpo: `Falsos cognatos (ou *false friends*) são palavras que se **parecem** com o português, mas têm **significado diferente**. São as armadilhas favoritas das bancas de vestibular: memorize pelo menos os 10 mais comuns.
 
 | Falso Cognato | Parece significar | Significado real | Correto em inglês |
 |---------------|-------------------|------------------|-------------------|
@@ -138,7 +138,7 @@ O segredo para uma boa interpretação não está em traduzir cada palavra, mas 
 
 1. **Título/Tema:** Tecnologia digital na educação (palavras-chave: *digital technology*, *education*)
 2. **Cognatos identificados:** *digital, technology, transformed, education, universities, online, courses, students, remote, access, quality, critics, virtual, traditional, experience, interaction, essential, social*
-3. **Conectivo-chave:** ***However*** (= porém) — indica que a segunda parte **contrasta** com a primeira
+3. **Conectivo-chave:** ***However*** (= porém): indica que a segunda parte **contrasta** com a primeira
 4. **Estrutura lógica:** Tecnologia transformou a educação (ponto positivo) → **MAS** → há críticas sobre falta de interação presencial (contraponto)
 
 **Possível questão:** *"According to the text, what is the main concern about online education?"*
@@ -156,12 +156,12 @@ O segredo para uma boa interpretação não está em traduzir cada palavra, mas 
 1. **Cognatos:** *study, published, journal, Nature, global, temperatures, pre-industrial, era, scientists, emissions, reduced, consequences, catastrophic, extreme, events, biodiversity*
 2. **Dados específicos:** Aumento de **1,2°C** desde a era pré-industrial
 3. **Estrutura:** Fato (estudo mostra aumento) → Alerta (se emissões não diminuírem) → Consequências (nível do mar, clima extremo, perda de biodiversidade)
-4. **Palavra condicional:** ***if*** (se) — indica uma **condição** para as consequências
+4. **Palavra condicional:** ***if*** (se): indica uma **condição** para as consequências
 
 **Possível questão:** *"The text suggests that catastrophic consequences…"*
 **Resposta:** …podem ser evitadas **se as emissões forem significativamente reduzidas** (*if emissions are not significantly reduced*).
 
-> **Atenção:** Note como a palavra *"if"* é crucial — ela transforma a frase de certeza em **possibilidade condicional**. A banca adora testar se você percebeu essa nuance.`,
+> **Atenção:** Note como a palavra *"if"* é crucial: ela transforma a frase de certeza em **possibilidade condicional**. A banca adora testar se você percebeu essa nuance.`,
           },
           {
             titulo: 'Exemplo Prático 3 — Trecho Acadêmico',
@@ -178,24 +178,24 @@ O segredo para uma boa interpretação não está em traduzir cada palavra, mas 
 **Possível questão:** *"According to the research, physical exercise…"*
 **Resposta:** …melhora tanto a saúde cardiovascular quanto a função cognitiva, e também reduz estresse e ansiedade.
 
-> Neste texto, **todos os conectivos são de adição** — o autor vai acumulando argumentos a favor do exercício. Quando não há contraste, a ideia principal geralmente é clara e direta.`,
+> Neste texto, **todos os conectivos são de adição**: o autor vai acumulando argumentos a favor do exercício. Quando não há contraste, a ideia principal geralmente é clara e direta.`,
           },
           {
             titulo: 'Método de Resolução em 5 Passos',
             tipo: 'importante',
             corpo: `## Passo a Passo para Questões de Interpretação
 
-1. **Leia as questões primeiro** — Saiba o que procurar antes de ler o texto
-2. **Faça skimming** — Leia título, primeira frase de cada parágrafo e conclusão
-3. **Identifique cognatos** — Sublinhe mentalmente as palavras parecidas com português
-4. **Localize conectivos** — Eles revelam a estrutura lógica (contraste, causa, adição)
-5. **Faça scanning para cada questão** — Busque a informação específica no trecho relevante
+1. **Leia as questões primeiro**: Saiba o que procurar antes de ler o texto
+2. **Faça skimming**: Leia título, primeira frase de cada parágrafo e conclusão
+3. **Identifique cognatos**: Sublinhe mentalmente as palavras parecidas com português
+4. **Localize conectivos**: Eles revelam a estrutura lógica (contraste, causa, adição)
+5. **Faça scanning para cada questão**: Busque a informação específica no trecho relevante
 
 ## Cuidados Essenciais
 
 - **Não extrapole o texto:** A resposta correta está **SEMPRE** baseada no que o texto diz, não no seu conhecimento prévio
-- **Cuidado com palavras absolutas:** Alternativas com *all, never, always, only* geralmente estão incorretas — textos raramente fazem afirmações absolutas
-- **Atenção à paráfrase:** A alternativa correta frequentemente **reformula** a ideia do texto com sinônimos — não busque as mesmas palavras, busque o **mesmo sentido**
+- **Cuidado com palavras absolutas:** Alternativas com *all, never, always, only* geralmente estão incorretas: textos raramente fazem afirmações absolutas
+- **Atenção à paráfrase:** A alternativa correta frequentemente **reformula** a ideia do texto com sinônimos: não busque as mesmas palavras, busque o **mesmo sentido**
 - **Elimine alternativas:** Se não tiver certeza, elimine as claramente erradas e escolha entre as restantes
 - **Releia o trecho:** Antes de marcar, volte ao texto e confirme que a informação realmente está lá
 
@@ -204,10 +204,10 @@ O segredo para uma boa interpretação não está em traduzir cada palavra, mas 
         ],
         imagemDescricao: 'Exemplo de um artigo em inglês com destaques em cognatos e palavras-chave',
         dicasProva: [
-          'Não traduza palavra por palavra — busque o sentido geral do parágrafo.',
-          'Cognatos são seus aliados: "education", "important", "population" — parecem com o português.',
+          'Não traduza palavra por palavra: busque o sentido geral do parágrafo.',
+          'Cognatos são seus aliados: "education", "important", "population": parecem com o português.',
           'Leia o título e o primeiro parágrafo: geralmente revelam o tema central.',
-          'Conectivos como "however" e "although" mudam a direção do argumento — fique atento.',
+          'Conectivos como "however" e "although" mudam a direção do argumento: fique atento.',
           'Se não souber uma palavra, leia a frase inteira e deduza pelo contexto.',
         ],
         errosComuns: [
@@ -298,15 +298,15 @@ O segredo para uma boa interpretação não está em traduzir cada palavra, mas 
       conteudo: {
         resumo: 'Pronomes de referência (it, they, this, that, which) e conectivos (however, therefore, although, moreover) em textos em inglês.',
         explicacao:
-          'Questões de coesão e referência pedem que você identifique a que termo um pronome se refere ou qual relação um conectivo estabelece no texto.\n\n**Pronomes de Referência:**\n• it — substitui um substantivo singular ou uma ideia anterior\n• they — substitui um substantivo plural\n• this/that — refere-se a uma ideia, frase ou situação mencionada\n• which — introduz oração relativa, referindo-se ao termo anterior\n• one/ones — substitui substantivo para evitar repetição\n\n**Como identificar a referência:**\n1. Localize o pronome no texto\n2. Volte na frase anterior e busque o substantivo que faz sentido\n3. Substitua mentalmente o pronome pelo substantivo e releia\n\n**Conectivos de coesão:**\n• However / Nevertheless / On the other hand → oposição (= porém)\n• Therefore / Thus / Consequently → consequência (= portanto)\n• Although / Even though / Despite → concessão (= embora)\n• Moreover / Furthermore / In addition → adição (= além disso)\n• Because / Since / Due to → causa (= porque)\n\nDica: conectivos são pistas valiosas para entender a lógica do texto sem traduzir tudo.',
+          'Questões de coesão e referência pedem que você identifique a que termo um pronome se refere ou qual relação um conectivo estabelece no texto.\n\n**Pronomes de Referência:**\n• it: substitui um substantivo singular ou uma ideia anterior\n• they: substitui um substantivo plural\n• this/that: refere-se a uma ideia, frase ou situação mencionada\n• which: introduz oração relativa, referindo-se ao termo anterior\n• one/ones: substitui substantivo para evitar repetição\n\n**Como identificar a referência:**\n1. Localize o pronome no texto\n2. Volte na frase anterior e busque o substantivo que faz sentido\n3. Substitua mentalmente o pronome pelo substantivo e releia\n\n**Conectivos de coesão:**\n• However / Nevertheless / On the other hand → oposição (= porém)\n• Therefore / Thus / Consequently → consequência (= portanto)\n• Although / Even though / Despite → concessão (= embora)\n• Moreover / Furthermore / In addition → adição (= além disso)\n• Because / Since / Due to → causa (= porque)\n\nDica: conectivos são pistas valiosas para entender a lógica do texto sem traduzir tudo.',
         secoes: [
           {
             titulo: 'O Que é Coesão Textual em Inglês',
             tipo: 'texto',
             corpo: `Coesão textual é o conjunto de mecanismos linguísticos que **conectam** as partes de um texto, criando fluidez e evitando repetições desnecessárias. Em inglês, os dois principais mecanismos de coesão cobrados no vestibular UNIVESP são:
 
-1. **Pronomes de referência** — substituem palavras já mencionadas, evitando repetição
-2. **Conectivos / marcadores discursivos** — estabelecem relações lógicas entre frases e parágrafos
+1. **Pronomes de referência**: substituem palavras já mencionadas, evitando repetição
+2. **Conectivos / marcadores discursivos**: estabelecem relações lógicas entre frases e parágrafos
 
 Questões sobre coesão geralmente seguem dois formatos:
 
@@ -418,7 +418,7 @@ Dominar esses mecanismos é fundamental para entender como as ideias se conectam
 - *"The machine turns **itself** off automatically."* → A máquina se desliga **sozinha**
 - *"We need to prepare **ourselves** for the exam."* → Nós precisamos nos preparar para o exame
 
-> **Na prova:** Pronomes reflexivos podem aparecer em questões de referência — identifique quem é o sujeito da ação, pois o reflexivo sempre se refere ao próprio sujeito da frase.`,
+> **Na prova:** Pronomes reflexivos podem aparecer em questões de referência: identifique quem é o sujeito da ação, pois o reflexivo sempre se refere ao próprio sujeito da frase.`,
           },
           {
             titulo: 'Conectivos e Marcadores Discursivos — Tabela Completa',
@@ -491,7 +491,7 @@ Dominar esses mecanismos é fundamental para entender como as ideias se conectam
 
 **Passo 3:** Volte ao texto e busque o substantivo que concorda em número e tipo.
 
-**Passo 4:** Substitua o pronome pelo substantivo e releia — a frase **deve fazer sentido**.
+**Passo 4:** Substitua o pronome pelo substantivo e releia: a frase **deve fazer sentido**.
 
 ## Exemplo Prático Completo
 
@@ -502,7 +502,7 @@ Dominar esses mecanismos é fundamental para entender como as ideias se conectam
 - **Its** (3ª frase, 1ª ocorrência) → Brazil's (possessivo de Brazil)
 - **its** (3ª frase, 2ª ocorrência) → Brazil's (possessivo de Brazil)
 
-Perceba: todos os pronomes referem-se ao mesmo substantivo (*Brazil*), que aparece **apenas uma vez** no início. Isso é coesão textual — evitar repetição mantendo a clareza.
+Perceba: todos os pronomes referem-se ao mesmo substantivo (*Brazil*), que aparece **apenas uma vez** no início. Isso é coesão textual: evitar repetição mantendo a clareza.
 
 ## Outro Exemplo
 
@@ -559,16 +559,16 @@ Assim como *since*, essas palavras são polissêmicas:
         ],
         dicasProva: [
           'Quando a questão perguntar "O pronome IT refere-se a…", volte ao texto e busque o substantivo singular mais próximo.',
-          'THEY pode se referir a pessoas, empresas, governos — qualquer plural.',
-          'Conectivos de oposição (however, although) são os mais cobrados — decore-os.',
+          'THEY pode se referir a pessoas, empresas, governos: qualquer plural.',
+          'Conectivos de oposição (however, although) são os mais cobrados: decore-os.',
           'Se o texto usa "this", geralmente se refere à ideia da frase inteira anterior, não a uma palavra isolada.',
-          'Monte uma "tabela mental": oposição, causa, consequência, adição, concessão — e associe conectivos.',
+          'Monte uma "tabela mental": oposição, causa, consequência, adição, concessão: e associe conectivos.',
         ],
         errosComuns: [
           'Associar "it" ao sujeito errado quando há vários substantivos singulares próximos.',
-          'Confundir "although" (concessão) com "therefore" (consequência) — sentidos opostos.',
+          'Confundir "although" (concessão) com "therefore" (consequência): sentidos opostos.',
           'Esquecer que "which" pode se referir a toda uma oração, não só a uma palavra.',
-          'Traduzir "since" sempre como "desde" — em muitos contextos significa "já que" (causa).',
+          'Traduzir "since" sempre como "desde": em muitos contextos significa "já que" (causa).',
           'Não perceber que "on the other hand" introduz contraste, não adição.',
         ],
         exercicios: [
@@ -652,7 +652,7 @@ Assim como *since*, essas palavras são polissêmicas:
       conteudo: {
         resumo: 'Cognatos, falsos cognatos, inferência de significado pelo contexto e sinônimos em inglês.',
         explicacao:
-          'A prova da UNIVESP frequentemente pede o significado de uma palavra ou expressão dentro do texto. A chave é usar o contexto, não decorar dicionários.\n\n**Cognatos (aliados da leitura):**\nPalavras parecidas com o português e com o mesmo significado:\n• important = importante\n• education = educação\n• population = população\n• significant = significativo\n• economy = economia\n\n**Falsos Cognatos (armadilhas):**\nPalavras parecidas, mas com significado DIFERENTE:\n• actually = na verdade (NÃO "atualmente" → currently)\n• pretend = fingir (NÃO "pretender" → intend)\n• library = biblioteca (NÃO "livraria" → bookstore)\n• sensible = sensato (NÃO "sensível" → sensitive)\n• fabric = tecido (NÃO "fábrica" → factory)\n• push = empurrar (NÃO "puxar" → pull)\n• college = faculdade (NÃO "colégio" → school)\n• lunch = almoço (NÃO "lanche" → snack)\n\n**Estratégias para inferir significado:**\n1. Leia a frase inteira — o contexto geralmente indica o sentido\n2. Identifique a classe gramatical (verbo, substantivo, adjetivo)\n3. Observe prefixos e sufixos: un- (negação), re- (repetição), -tion (substantivo), -ly (advérbio)\n4. Busque sinônimos ou explicações no próprio texto (frequente em textos acadêmicos)',
+          'A prova da UNIVESP frequentemente pede o significado de uma palavra ou expressão dentro do texto. A chave é usar o contexto, não decorar dicionários.\n\n**Cognatos (aliados da leitura):**\nPalavras parecidas com o português e com o mesmo significado:\n• important = importante\n• education = educação\n• population = população\n• significant = significativo\n• economy = economia\n\n**Falsos Cognatos (armadilhas):**\nPalavras parecidas, mas com significado DIFERENTE:\n• actually = na verdade (NÃO "atualmente" → currently)\n• pretend = fingir (NÃO "pretender" → intend)\n• library = biblioteca (NÃO "livraria" → bookstore)\n• sensible = sensato (NÃO "sensível" → sensitive)\n• fabric = tecido (NÃO "fábrica" → factory)\n• push = empurrar (NÃO "puxar" → pull)\n• college = faculdade (NÃO "colégio" → school)\n• lunch = almoço (NÃO "lanche" → snack)\n\n**Estratégias para inferir significado:**\n1. Leia a frase inteira: o contexto geralmente indica o sentido\n2. Identifique a classe gramatical (verbo, substantivo, adjetivo)\n3. Observe prefixos e sufixos: un- (negação), re- (repetição), -tion (substantivo), -ly (advérbio)\n4. Busque sinônimos ou explicações no próprio texto (frequente em textos acadêmicos)',
         secoes: [
           {
             titulo: 'Estratégias para Vocabulário em Contexto',
@@ -661,18 +661,18 @@ Assim como *since*, essas palavras são polissêmicas:
 
 As principais estratégias para resolver questões de vocabulário são:
 
-1. **Análise do contexto** — A frase ao redor da palavra geralmente dá pistas sobre seu significado
-2. **Formação de palavras** — Prefixos e sufixos ajudam a deduzir o sentido
-3. **Cognatos** — Palavras parecidas com o português frequentemente têm significado similar
-4. **Pistas textuais** — Definições, exemplos, sinônimos ou antônimos que o próprio texto oferece
+1. **Análise do contexto**: A frase ao redor da palavra geralmente dá pistas sobre seu significado
+2. **Formação de palavras**: Prefixos e sufixos ajudam a deduzir o sentido
+3. **Cognatos**: Palavras parecidas com o português frequentemente têm significado similar
+4. **Pistas textuais**: Definições, exemplos, sinônimos ou antônimos que o próprio texto oferece
 
 ## Tipos de Pistas Contextuais
 
-- **Definição direta:** *"An **arachnid** — a type of eight-legged creature — was found."* → O próprio texto define a palavra entre travessões
+- **Definição direta:** *"An **arachnid**: a type of eight-legged creature: was found."* → O próprio texto define a palavra entre travessões
 - **Exemplo:** *"Citrus fruits, **such as** oranges and lemons, are rich in vitamin C."* → O exemplo esclarece o que são *citrus fruits*
 - **Sinônimo:** *"She was **elated**, or extremely happy, after the results."* → O sinônimo vem logo após a vírgula
 - **Antônimo:** *"Unlike his **gregarious** brother, he preferred to be alone."* → O contraste com *"be alone"* revela que *gregarious* = sociável
-- **Causa/efeito:** *"The **drought** destroyed the crops, leaving farmers without harvest."* → O efeito (destruição das colheitas) indica a causa — *drought* = seca
+- **Causa/efeito:** *"The **drought** destroyed the crops, leaving farmers without harvest."* → O efeito (destruição das colheitas) indica a causa: *drought* = seca
 
 > **Regra de ouro:** Antes de desistir de uma palavra desconhecida, leia as **duas frases ao redor**. Em 80% dos casos, o próprio texto contém pistas suficientes para deduzir o significado.`,
           },
@@ -758,7 +758,7 @@ As principais estratégias para resolver questões de vocabulário são:
           {
             titulo: 'Pares de Sinônimos Frequentes em Provas',
             tipo: 'tabela',
-            corpo: `A banca frequentemente pede que você identifique sinônimos — palavras com significado semelhante. A alternativa correta muitas vezes é uma **paráfrase** do trecho original usando sinônimos.
+            corpo: `A banca frequentemente pede que você identifique sinônimos: palavras com significado semelhante. A alternativa correta muitas vezes é uma **paráfrase** do trecho original usando sinônimos.
 
 | Palavra | Sinônimo(s) | Tradução |
 |---------|------------|----------|
@@ -787,7 +787,7 @@ As principais estratégias para resolver questões de vocabulário são:
 | stop | cease, halt, discontinue | parar |
 | give | provide, supply, offer, grant | dar/fornecer |
 
-> **Na prova:** Quando a alternativa usa uma palavra diferente da que está no texto, mas o significado é o mesmo, essa é provavelmente a resposta correta. A banca **adora** testar se você reconhece paráfrases — reformulações com sinônimos.`,
+> **Na prova:** Quando a alternativa usa uma palavra diferente da que está no texto, mas o significado é o mesmo, essa é provavelmente a resposta correta. A banca **adora** testar se você reconhece paráfrases: reformulações com sinônimos.`,
           },
           {
             titulo: 'Deduzindo Significados pelo Contexto — Exemplos Práticos',
@@ -796,7 +796,7 @@ As principais estratégias para resolver questões de vocabulário são:
 
 Leia o trecho e deduza o significado da palavra destacada:
 
-> *"The **ubiquitous** smartphone has changed the way people communicate, work, and entertain themselves. You can find someone using a phone on the bus, in restaurants, at parks — virtually everywhere."*
+> *"The **ubiquitous** smartphone has changed the way people communicate, work, and entertain themselves. You can find someone using a phone on the bus, in restaurants, at parks: virtually everywhere."*
 
 **Passo 1:** Identifique a palavra desconhecida → **ubiquitous**
 **Passo 2:** Leia o contexto ao redor:
@@ -828,7 +828,7 @@ Leia o trecho e deduza o significado da palavra destacada:
 **Passo 2:** Contexto confirma: *"removing many of the existing rules"* (removendo regras existentes)
 **Passo 3:** Deduza → **deregulate** = desregulamentar, remover regulamentações
 
-> **Lição:** Combine as estratégias — use cognatos, prefixos/sufixos E contexto juntos. Quanto mais ferramentas você usar, mais confiante será sua dedução.`,
+> **Lição:** Combine as estratégias: use cognatos, prefixos/sufixos E contexto juntos. Quanto mais ferramentas você usar, mais confiante será sua dedução.`,
           },
           {
             titulo: 'Transformação entre Classes Gramaticais',
@@ -854,14 +854,14 @@ Leia o trecho e deduza o significado da palavra destacada:
 
 ## Resumo Final das Estratégias de Vocabulário
 
-1. **Leia o contexto** — a frase completa ao redor da palavra
-2. **Separe prefixo + raiz + sufixo** — deduzindo o significado de cada parte
-3. **Verifique se é cognato** — compare com o português
-4. **Busque pistas no texto** — definições, sinônimos, exemplos, contrastes
-5. **Identifique a classe gramatical** — pelo sufixo ou pela posição na frase
-6. **Substitua na frase** — a alternativa correta deve fazer sentido no contexto original
+1. **Leia o contexto**: a frase completa ao redor da palavra
+2. **Separe prefixo + raiz + sufixo**: deduzindo o significado de cada parte
+3. **Verifique se é cognato**: compare com o português
+4. **Busque pistas no texto**: definições, sinônimos, exemplos, contrastes
+5. **Identifique a classe gramatical**: pelo sufixo ou pela posição na frase
+6. **Substitua na frase**: a alternativa correta deve fazer sentido no contexto original
 
-> **Na prova UNIVESP:** A maioria das questões de vocabulário pode ser resolvida com **contexto + cognatos + prefixos/sufixos**. Você não precisa decorar dicionários — precisa dominar as **estratégias de dedução**.`,
+> **Na prova UNIVESP:** A maioria das questões de vocabulário pode ser resolvida com **contexto + cognatos + prefixos/sufixos**. Você não precisa decorar dicionários: precisa dominar as **estratégias de dedução**.`,
           },
         ],
         imagemDescricao: 'Tabela comparativa de falsos cognatos com a tradução correta e a "armadilha" em português',
@@ -874,14 +874,14 @@ Leia o trecho e deduza o significado da palavra destacada:
         ],
         dicasProva: [
           'Se a questão perguntar "The word X means…", releia a frase completa antes de responder.',
-          'Falsos cognatos são a armadilha favorita de bancas — decore os 10 mais comuns.',
+          'Falsos cognatos são a armadilha favorita de bancas: decore os 10 mais comuns.',
           'Palavras com sufixo -ly geralmente são advérbios (quickly = rapidamente).',
-          'Se encontrar uma palavra desconhecida, não entre em pânico — leia o parágrafo inteiro.',
+          'Se encontrar uma palavra desconhecida, não entre em pânico: leia o parágrafo inteiro.',
           'Sinônimos frequentemente aparecem após vírgula ou travessão como explicação no próprio texto.',
         ],
         errosComuns: [
-          'Traduzir "actually" como "atualmente" — o correto é "na verdade".',
-          'Achar que "pretend" significa "pretender" — significa "fingir".',
+          'Traduzir "actually" como "atualmente": o correto é "na verdade".',
+          'Achar que "pretend" significa "pretender": significa "fingir".',
           'Confundir "library" (biblioteca) com "livraria" (bookstore).',
           'Não perceber que "sensible" = sensato, enquanto "sensitive" = sensível.',
           'Ignorar o contexto e traduzir palavra por palavra, caindo em falsos cognatos.',
@@ -954,7 +954,7 @@ Leia o trecho e deduza o significado da palavra destacada:
               'Ocasionalmente',
             ],
             respostaCorreta: 1,
-            explicacao: '"Eventually" é falso cognato: significa "finalmente/no final das contas", não "eventualmente" (que em inglês é "possibly/occasionally"). O contexto confirma: apesar dos contratempos iniciais, o projeto FOI concluído no prazo — ou seja, no final deu certo.',
+            explicacao: '"Eventually" é falso cognato: significa "finalmente/no final das contas", não "eventualmente" (que em inglês é "possibly/occasionally"). O contexto confirma: apesar dos contratempos iniciais, o projeto FOI concluído no prazo: ou seja, no final deu certo.',
             dificuldade: 'dificil',
           },
         ],

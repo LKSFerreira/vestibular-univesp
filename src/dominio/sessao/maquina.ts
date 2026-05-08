@@ -69,7 +69,7 @@ export function aplicarRegressao(
 /** Retorna ao nó anterior na pilha de regressão. */
 export function retornarDaRegressao(sessao: Sessao): Sessao {
   if (sessao.pilhaRegressao.length === 0) {
-    throw new Error('Não há regressão para retornar — pilha vazia.');
+    throw new Error('Não há regressão para retornar: pilha vazia.');
   }
 
   const novaPilha = [...sessao.pilhaRegressao];

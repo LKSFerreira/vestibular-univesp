@@ -17,7 +17,7 @@ export const disciplinaMatematica: Disciplina = {
             tipo: 'texto',
             corpo: `## Por que estudar Geometria?
 
-A **Geometria** é um dos pilares da Matemática e está presente em praticamente todas as provas de vestibular. No vestibular da UNIVESP, ela representa **25% da prova de Matemática** — o maior peso entre todos os tópicos. Dominar os conceitos de **áreas de figuras planas** e **volumes de sólidos** é, portanto, estratégico para sua aprovação.
+A **Geometria** é um dos pilares da Matemática e está presente em praticamente todas as provas de vestibular. No vestibular da UNIVESP, ela representa **25% da prova de Matemática**: o maior peso entre todos os tópicos. Dominar os conceitos de **áreas de figuras planas** e **volumes de sólidos** é, portanto, estratégico para sua aprovação.
 
 Neste material, vamos estudar de forma aprofundada cada uma das figuras planas mais cobradas, suas fórmulas de área e perímetro, e em seguida avançar para os sólidos geométricos (prismas, cilindros, cones e esferas). A abordagem será sempre prática, com exemplos resolvidos passo a passo.
 
@@ -95,7 +95,7 @@ A fórmula mais usada para a área de um triângulo é:
 
 $$A_{\\text{triângulo}} = \\frac{b \\cdot h}{2}$$
 
-onde **b** é qualquer um dos lados (a base escolhida) e **h** é a altura relativa a essa base — ou seja, a **perpendicular** traçada da base até o vértice oposto.
+onde **b** é qualquer um dos lados (a base escolhida) e **h** é a altura relativa a essa base: ou seja, a **perpendicular** traçada da base até o vértice oposto.
 
 ### Casos especiais
 
@@ -131,7 +131,7 @@ $$A_{\\text{setor}} = \\frac{\\theta}{360°} \\cdot \\pi r^2$$`,
             tipo: 'importante',
             corpo: `## Estratégia: Decomposição de Figuras
 
-Muitos problemas de vestibular apresentam figuras **compostas** — por exemplo, um terreno com formato irregular ou uma figura com uma parte recortada. A estratégia fundamental é:
+Muitos problemas de vestibular apresentam figuras **compostas**: por exemplo, um terreno com formato irregular ou uma figura com uma parte recortada. A estratégia fundamental é:
 
 1. **Identifique** as figuras simples que compõem a figura complexa
 2. **Calcule** a área de cada uma separadamente
@@ -154,16 +154,16 @@ Muitos problemas de vestibular apresentam figuras **compostas** — por exemplo,
 
 **Resolução passo a passo:**
 
-**Passo 1** — Área do retângulo (jardim total):
+**Passo 1**: Área do retângulo (jardim total):
 $$A_{\\text{ret}} = 12 \\times 8 = 96 \\text{ m}^2$$
 
-**Passo 2** — Área do triângulo (canteiro):
+**Passo 2**: Área do triângulo (canteiro):
 $$A_{\\text{tri}} = \\frac{4 \\times 3}{2} = 6 \\text{ m}^2$$
 
-**Passo 3** — Área do círculo (fonte):
+**Passo 3**: Área do círculo (fonte):
 $$A_{\\text{circ}} = \\pi r^2 = 3{,}14 \\times 4 = 12{,}56 \\text{ m}^2$$
 
-**Passo 4** — Área gramada (subtraindo as partes não gramadas):
+**Passo 4**: Área gramada (subtraindo as partes não gramadas):
 $$A_{\\text{grama}} = 96 - 6 - 12{,}56 = 77{,}44 \\text{ m}^2$$
 
 **Resposta:** A área gramada do jardim é $77{,}44 \\text{ m}^2$.`,
@@ -171,7 +171,7 @@ $$A_{\\text{grama}} = 96 - 6 - 12{,}56 = 77{,}44 \\text{ m}^2$$
           {
             titulo: 'Volumes de Sólidos Geométricos',
             tipo: 'texto',
-            corpo: `## Sólidos Geométricos — Prismas e Cilindros
+            corpo: `## Sólidos Geométricos: Prismas e Cilindros
 
 O **volume** de um sólido mede o espaço tridimensional que ele ocupa. A unidade de medida é sempre cúbica ($\\text{cm}^3$, $\\text{m}^3$, etc.).
 
@@ -223,15 +223,15 @@ $$V_{\\text{esfera}} = \\frac{4}{3}\\pi r^3$$`,
 
 **Resolução:**
 
-**Passo 1** — Identificar o raio (metade do diâmetro):
+**Passo 1**: Identificar o raio (metade do diâmetro):
 $$r = \\frac{1{,}2}{2} = 0{,}6 \\text{ m}$$
 
-**Passo 2** — Calcular o volume:
+**Passo 2**: Calcular o volume:
 $$V = \\pi r^2 \\cdot h = 3{,}14 \\times (0{,}6)^2 \\times 0{,}8$$
 $$V = 3{,}14 \\times 0{,}36 \\times 0{,}8 = 3{,}14 \\times 0{,}288$$
 $$V = 0{,}904\\;32 \\text{ m}^3$$
 
-**Passo 3** — Converter para litros:
+**Passo 3**: Converter para litros:
 $$V = 0{,}904\\;32 \\times 1000 \\approx 904{,}3 \\text{ L}$$
 
 **Resposta:** A caixa d'água comporta aproximadamente $904{,}3$ litros.`,
@@ -239,7 +239,7 @@ $$V = 0{,}904\\;32 \\times 1000 \\approx 904{,}3 \\text{ L}$$
           {
             titulo: 'Relação entre Unidades de Volume',
             tipo: 'importante',
-            corpo: `## Conversão de Unidades — Volume e Capacidade
+            corpo: `## Conversão de Unidades: Volume e Capacidade
 
 Problemas de vestibular frequentemente misturam unidades. Memorize estas equivalências:
 
@@ -296,11 +296,11 @@ $$V_{\\text{cone}} = \\frac{\\pi r^2 h}{3} \\qquad V_{\\text{esfera}} = \\frac{4
           'Decomponha figuras complexas em figuras simples conhecidas antes de calcular.',
           'Sempre identifique as unidades de medida e converta se necessário antes de operar.',
           'Em problemas de volume, verifique se a base é regular e qual fórmula se aplica.',
-          'Lembre-se: π ≈ 3,14 — a prova geralmente informa o valor a ser utilizado.',
-          'Desenhe a figura quando o enunciado não fornecer imagem — isso evita erros de interpretação.',
+          'Lembre-se: π ≈ 3,14: a prova geralmente informa o valor a ser utilizado.',
+          'Desenhe a figura quando o enunciado não fornecer imagem: isso evita erros de interpretação.',
         ],
         errosComuns: [
-          'Confundir raio com diâmetro — o diâmetro é o dobro do raio (d = 2r).',
+          'Confundir raio com diâmetro: o diâmetro é o dobro do raio (d = 2r).',
           'Esquecer de dividir por 2 na fórmula da área do triângulo.',
           'Misturar unidades (cm com m) sem converter antes de calcular.',
           'Usar fórmula de área quando o problema pede perímetro, e vice-versa.',
@@ -578,27 +578,27 @@ $$x_1 + x_2 = -\\frac{b}{a} \\qquad x_1 \\cdot x_2 = \\frac{c}{a}$$
 
 **Resolução:**
 
-**Passo 1 — Coeficientes:** $a = 2$, $b = -12$, $c = 10$
+**Passo 1: Coeficientes:** $a = 2$, $b = -12$, $c = 10$
 
-**Passo 2 — Concavidade:** Como $a = 2 > 0$, a parábola tem concavidade para **cima** (mínimo).
+**Passo 2: Concavidade:** Como $a = 2 > 0$, a parábola tem concavidade para **cima** (mínimo).
 
-**Passo 3 — Discriminante:**
+**Passo 3: Discriminante:**
 $$\\Delta = (-12)^2 - 4 \\cdot 2 \\cdot 10 = 144 - 80 = 64$$
 
 Como $\\Delta = 64 > 0$, existem **duas raízes reais distintas**.
 
-**Passo 4 — Raízes (Bhaskara):**
+**Passo 4: Raízes (Bhaskara):**
 $$x = \\frac{-(-12) \\pm \\sqrt{64}}{2 \\cdot 2} = \\frac{12 \\pm 8}{4}$$
 
 $$x_1 = \\frac{12 + 8}{4} = \\frac{20}{4} = 5 \\qquad x_2 = \\frac{12 - 8}{4} = \\frac{4}{4} = 1$$
 
-**Passo 5 — Vértice:**
+**Passo 5: Vértice:**
 $$x_v = -\\frac{-12}{2 \\cdot 2} = \\frac{12}{4} = 3$$
 $$y_v = -\\frac{64}{4 \\cdot 2} = -\\frac{64}{8} = -8$$
 
-Vértice: $V(3, -8)$ — ponto de **mínimo**.
+Vértice: $V(3, -8)$: ponto de **mínimo**.
 
-**Passo 6 — Interseção com eixo $y$:** $f(0) = 10$, ponto $(0, 10)$.
+**Passo 6: Interseção com eixo $y$:** $f(0) = 10$, ponto $(0, 10)$.
 
 **Verificação por Girard:**
 - Soma: $x_1 + x_2 = 5 + 1 = 6 = -\\frac{-12}{2} = 6$ ✓
@@ -655,11 +655,11 @@ Para resolver $ax^2 + bx + c > 0$ (ou $< 0$, $\\geq 0$, $\\leq 0$):
 
 **Exemplo:** Resolva $x^2 - 5x + 6 \\leq 0$.
 
-**Passo 1** — Raízes: $\\Delta = 25 - 24 = 1$, $x_1 = 2$, $x_2 = 3$.
+**Passo 1**: Raízes: $\\Delta = 25 - 24 = 1$, $x_1 = 2$, $x_2 = 3$.
 
-**Passo 2** — Como $a = 1 > 0$, a parábola abre para cima. A função é **negativa** (abaixo do eixo $x$) **entre** as raízes.
+**Passo 2**: Como $a = 1 > 0$, a parábola abre para cima. A função é **negativa** (abaixo do eixo $x$) **entre** as raízes.
 
-**Passo 3** — Solução: $2 \\leq x \\leq 3$
+**Passo 3**: Solução: $2 \\leq x \\leq 3$
 
 > 💡 **Macete para a prova:** Se $a > 0$ e a questão pede $f(x) \\leq 0$, a resposta é o intervalo **entre** as raízes. Se pede $f(x) \\geq 0$, é o intervalo **fora** das raízes.`,
           },
@@ -697,12 +697,12 @@ $$x_1 + x_2 = -\\frac{b}{a} \\qquad x_1 \\cdot x_2 = \\frac{c}{a}$$`,
         dicasProva: [
           'Se Δ > 0 → duas raízes reais distintas; Δ = 0 → uma raiz (dupla); Δ < 0 → sem raiz real.',
           'O sinal de "a" define a concavidade: a > 0 → parábola para cima (mínimo); a < 0 → para baixo (máximo).',
-          'O vértice é o ponto de máximo ou mínimo — muito cobrado em problemas de otimização.',
+          'O vértice é o ponto de máximo ou mínimo: muito cobrado em problemas de otimização.',
           'Em funções de 1º grau, o coeficiente angular "a" indica a inclinação da reta e "b" o ponto onde cruza o eixo y.',
           'Para resolver inequações de 2º grau, esboce a parábola e analise o sinal nos intervalos.',
         ],
         errosComuns: [
-          'Trocar o sinal na fórmula de Bhaskara — o numerador é −b ± √Δ, não +b.',
+          'Trocar o sinal na fórmula de Bhaskara: o numerador é −b ± √Δ, não +b.',
           'Esquecer de calcular Δ antes de aplicar Bhaskara.',
           'Confundir concavidade: a > 0 não significa que a função é sempre positiva.',
           'Errar o sinal do vértice: xv = −b / (2a), com sinal negativo no numerador.',
@@ -813,7 +813,7 @@ $$x_1 + x_2 = -\\frac{b}{a} \\qquad x_1 \\cdot x_2 = \\frac{c}{a}$$`,
             tipo: 'texto',
             corpo: `## Por que este tópico é tão importante?
 
-A **Matemática Básica** — razão, proporção, porcentagem e regra de três — é a base de praticamente todos os outros tópicos de Matemática. No vestibular UNIVESP, ela corresponde a **20% da prova** e aparece tanto em questões diretas quanto como ferramenta em problemas de outras áreas (Física, Química, Geografia).
+A **Matemática Básica**: razão, proporção, porcentagem e regra de três: é a base de praticamente todos os outros tópicos de Matemática. No vestibular UNIVESP, ela corresponde a **20% da prova** e aparece tanto em questões diretas quanto como ferramenta em problemas de outras áreas (Física, Química, Geografia).
 
 Dominar esses conceitos significa resolver questões de forma rápida e segura. Vamos abordar cada um em profundidade.`,
           },
@@ -1014,10 +1014,10 @@ onde cada fator é:
 
 **Resolução:**
 
-**Passo 1** — Desconto de 20% (à vista):
+**Passo 1**: Desconto de 20% (à vista):
 $$350 \\times (1 - 0{,}20) = 350 \\times 0{,}80 = R\\$\\ 280{,}00$$
 
-**Passo 2** — Desconto de 5% (fidelidade) sobre R\\$ 280,00:
+**Passo 2**: Desconto de 5% (fidelidade) sobre R\\$ 280,00:
 $$280 \\times (1 - 0{,}05) = 280 \\times 0{,}95 = R\\$\\ 266{,}00$$
 
 **Método rápido (fator multiplicativo):**
@@ -1113,14 +1113,14 @@ $$J = C \\cdot i \\cdot t \\qquad M = C(1 + i \\cdot t)$$`,
         dicasProva: [
           'Identifique se as grandezas são diretamente ou inversamente proporcionais antes de montar a regra de três.',
           'Em problemas de porcentagem, transforme a porcentagem em fração decimal (ex.: 25% = 0,25).',
-          'Desconto sobre desconto não é a soma — calcule cada desconto separadamente.',
+          'Desconto sobre desconto não é a soma: calcule cada desconto separadamente.',
           'Na regra de três composta, analise cada par de grandezas separadamente.',
-          'Atenção aos problemas com "a mais" e "a menos" — eles pedem a diferença, não o valor total.',
+          'Atenção aos problemas com "a mais" e "a menos": eles pedem a diferença, não o valor total.',
         ],
         errosComuns: [
-          'Montar a regra de três invertida — conferir se as grandezas são diretamente ou inversamente proporcionais.',
+          'Montar a regra de três invertida: conferir se as grandezas são diretamente ou inversamente proporcionais.',
           'Somar porcentagens de bases diferentes (ex.: aumento de 10% seguido de 20% não é 30%).',
-          'Confundir razão com fração comum — razão compara grandezas, fração representa parte de um todo.',
+          'Confundir razão com fração comum: razão compara grandezas, fração representa parte de um todo.',
           'Esquecer de converter unidades antes de montar a proporção.',
           'Calcular porcentagem "sobre" o valor errado (sobre o original vs. sobre o novo valor).',
         ],
@@ -1247,9 +1247,9 @@ $$J = C \\cdot i \\cdot t \\qquad M = C(1 + i \\cdot t)$$`,
 Uma **sequência numérica** é uma lista ordenada de números que segue uma **regra de formação**. Cada número da lista é chamado de **termo** e ocupa uma posição específica.
 
 **Exemplos:**
-- $(2, 4, 6, 8, 10, \\ldots)$ — os números pares positivos
-- $(1, 4, 9, 16, 25, \\ldots)$ — os quadrados perfeitos
-- $(1, 1, 2, 3, 5, 8, 13, \\ldots)$ — a sequência de Fibonacci
+- $(2, 4, 6, 8, 10, \\ldots)$: os números pares positivos
+- $(1, 4, 9, 16, 25, \\ldots)$: os quadrados perfeitos
+- $(1, 1, 2, 3, 5, 8, 13, \\ldots)$: a sequência de Fibonacci
 
 A notação padrão usa $a_n$ para representar o $n$-ésimo termo: $a_1$ é o primeiro, $a_2$ o segundo, e assim por diante.
 
@@ -1422,13 +1422,13 @@ $$n = \\frac{a_n - a_1}{r} + 1$$`,
 
 **Resolução:**
 
-**Passo 1** — Identificar a PA: $(3, 6, 9, 12, \\ldots, 99)$
+**Passo 1**: Identificar a PA: $(3, 6, 9, 12, \\ldots, 99)$
 - $a_1 = 3$, $r = 3$, $a_n = 99$
 
-**Passo 2** — Encontrar o número de termos:
+**Passo 2**: Encontrar o número de termos:
 $$n = \\frac{a_n - a_1}{r} + 1 = \\frac{99 - 3}{3} + 1 = \\frac{96}{3} + 1 = 32 + 1 = 33$$
 
-**Passo 3** — Aplicar a fórmula da soma:
+**Passo 3**: Aplicar a fórmula da soma:
 $$S_{33} = \\frac{33 \\cdot (3 + 99)}{2} = \\frac{33 \\cdot 102}{2} = \\frac{3366}{2} = 1683$$
 
 **Resposta:** A soma de todos os múltiplos de 3 entre 1 e 100 é $S = 1683$.
@@ -1524,12 +1524,12 @@ $$a_k = \\frac{a_{k-1} + a_{k+1}}{2}$$`,
         dicasProva: [
           'Sempre identifique a1 (primeiro termo) e r (razão) antes de aplicar qualquer fórmula.',
           'Para encontrar a razão, subtraia qualquer termo pelo seu antecessor.',
-          'A fórmula da soma exige conhecer an — calcule-o primeiro com o termo geral se necessário.',
+          'A fórmula da soma exige conhecer an: calcule-o primeiro com o termo geral se necessário.',
           'Em problemas com "três termos em PA", use (x − r), x, (x + r) para simplificar os cálculos.',
           'Se o problema pede "o 20º termo", use direto a fórmula an = a1 + (n − 1) × r.',
         ],
         errosComuns: [
-          'Confundir PA com PG — na PA a razão é somada, na PG é multiplicada.',
+          'Confundir PA com PG: na PA a razão é somada, na PG é multiplicada.',
           'Esquecer o (n − 1) na fórmula do termo geral e usar n × r diretamente.',
           'Errar o sinal da razão em PA decrescente (a razão é negativa).',
           'Usar a fórmula da soma sem calcular o último termo corretamente.',
@@ -1723,8 +1723,8 @@ Posições centrais: $\\frac{4}{2} = 2$ª e $3$ª → $Md = \\frac{4 + 6}{2} = 5
 
 | Medida | Melhor uso | Sensível a extremos? |
 |--------|-----------|---------------------|
-| **Média** | Dados uniformes, sem valores muito discrepantes | **Sim** — valores extremos distorcem a média |
-| **Mediana** | Dados com valores extremos (salários, por exemplo) | **Não** — ignora os extremos |
+| **Média** | Dados uniformes, sem valores muito discrepantes | **Sim**: valores extremos distorcem a média |
+| **Mediana** | Dados com valores extremos (salários, por exemplo) | **Não**: ignora os extremos |
 | **Moda** | Dados categóricos ou quando queremos o "mais frequente" | **Não** |
 
 ### Exemplo revelador
@@ -1832,7 +1832,7 @@ $$P(1 \\text{ ou } 6) = \\frac{1}{6} + \\frac{1}{6} = \\frac{2}{6} = \\frac{1}{3
           {
             titulo: 'Interpretação de Tabelas e Gráficos',
             tipo: 'importante',
-            corpo: `## Leitura de Dados — Tabelas e Gráficos
+            corpo: `## Leitura de Dados: Tabelas e Gráficos
 
 Muitas questões de vestibular apresentam dados em **tabelas** ou **gráficos** e pedem cálculos estatísticos. A estratégia é:
 
@@ -1896,12 +1896,12 @@ $$P(A \\cap B) = P(A) \\cdot P(B) \\quad \\text{(eventos independentes)}$$`,
           'Em gráficos e tabelas, leia o título, os eixos e a legenda antes de responder.',
           'Para calcular a mediana, SEMPRE ordene os dados primeiro.',
           'Um conjunto pode ser amodal (sem moda), unimodal, bimodal ou multimodal.',
-          'Probabilidade nunca é maior que 1 (ou 100%) — se encontrar, refaça o cálculo.',
+          'Probabilidade nunca é maior que 1 (ou 100%): se encontrar, refaça o cálculo.',
           'Em problemas de probabilidade com dados ou moedas, liste os casos possíveis para não errar.',
         ],
         errosComuns: [
           'Calcular a mediana sem ordenar os dados previamente.',
-          'Confundir média com mediana — são medidas diferentes e podem ter valores distintos.',
+          'Confundir média com mediana: são medidas diferentes e podem ter valores distintos.',
           'Esquecer de somar todos os pesos no denominador da média ponderada.',
           'Em probabilidade, confundir "ou" (soma) com "e" (multiplicação) de eventos.',
           'Não simplificar a fração da probabilidade e marcar alternativa errada.',
@@ -2006,9 +2006,9 @@ Este tópico é essencial porque:
 ### Os quatro pilares
 
 1. **Princípio Fundamental da Contagem (PFC)**
-2. **Permutação** — ordena todos os elementos
-3. **Arranjo** — ordena parte dos elementos (ordem importa)
-4. **Combinação** — escolhe parte dos elementos (ordem não importa)`,
+2. **Permutação**: ordena todos os elementos
+3. **Arranjo**: ordena parte dos elementos (ordem importa)
+4. **Combinação**: escolhe parte dos elementos (ordem não importa)`,
           },
           {
             titulo: 'Princípio Fundamental da Contagem',
@@ -2109,7 +2109,7 @@ A palavra tem 10 letras: M(2), A(3), T(2), E(1), I(1), C(1).
 
 $$P_{10}^{(2, 3, 2, 1, 1, 1)} = \\frac{10!}{2! \\cdot 3! \\cdot 2!} = \\frac{3.628.800}{2 \\cdot 6 \\cdot 2} = \\frac{3.628.800}{24} = 151.200$$
 
-> 💡 **Quando usar permutação:** Quando a questão pede para ordenar **TODOS** os elementos — exemplos: "quantos anagramas", "de quantas formas diferentes podem se sentar em fila".`,
+> 💡 **Quando usar permutação:** Quando a questão pede para ordenar **TODOS** os elementos: exemplos: "quantos anagramas", "de quantas formas diferentes podem se sentar em fila".`,
           },
           {
             titulo: 'Arranjo',
@@ -2281,7 +2281,7 @@ $$C_{n,p} = \\frac{n!}{p! \\cdot (n-p)!}$$`,
           'Decore os fatoriais básicos: 1!=1, 2!=2, 3!=6, 4!=24, 5!=120, 6!=720, 7!=5040, 10!=3.628.800.',
         ],
         errosComuns: [
-          'Usar arranjo quando deveria usar combinação (e vice-versa) — sempre analise se a ordem importa.',
+          'Usar arranjo quando deveria usar combinação (e vice-versa): sempre analise se a ordem importa.',
           'Esquecer que 0! = 1 e travar no cálculo.',
           'Em permutação com repetição, esquecer de dividir pelos fatoriais das letras repetidas.',
           'Confundir o número total de elementos (n) com o número de elementos escolhidos (p).',

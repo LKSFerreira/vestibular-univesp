@@ -56,7 +56,7 @@ const ORGANELAS: Organela[] = [
     id: 'golgi',
     nome: 'Complexo de Golgi',
     funcao: 'Empacota, modifica e distribui proteínas e lipídios.',
-    dica: '"Correio da célula" — recebe do RE, processa e envia para o destino correto.',
+    dica: '"Correio da célula": recebe do RE, processa e envia para o destino correto.',
     cor: 'hsl(280, 60%, 55%)',
   },
   {

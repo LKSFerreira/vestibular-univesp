@@ -10,7 +10,7 @@ export const disciplinaHistoria: Disciplina = {
       titulo: 'História do Brasil',
       peso: 50,
       conteudo: {
-        resumo: 'Período Colonial, Era Vargas e Ditadura Militar — os três eixos mais cobrados.',
+        resumo: 'Período Colonial, Era Vargas e Ditadura Militar: os três eixos mais cobrados.',
         explicacao:
           'A UNIVESP prioriza a compreensão de processos históricos brasileiros e suas consequências na sociedade atual.\n\nPeríodo Colonial (1500-1822): exploração, escravidão, ciclos econômicos.\nEra Vargas (1930-1945): populismo, CLT, industrialização.\nDitadura Militar (1964-1985): AI-5, censura, milagre econômico, abertura.\n\nDica: conecte os eventos históricos com seus impactos sociais e econômicos. A prova cobra mais análise do que memorização de datas.',
         secoes: [
@@ -18,8 +18,8 @@ export const disciplinaHistoria: Disciplina = {
             titulo: 'Introdução: Três Eixos da História do Brasil',
             tipo: 'texto',
             corpo:
-              `A história do Brasil cobrada no vestibular da UNIVESP concentra-se em três grandes períodos que, juntos, explicam como o país se formou política, econômica e socialmente. O **Período Colonial (1500–1822)** é a raiz: nele se definiram os padrões de exploração econômica, desigualdade social e dependência externa que marcaram os séculos seguintes. A **Era Vargas (1930–1945)** representa o primeiro projeto nacional de industrialização e modernização trabalhista — e também de autoritarismo. A **Ditadura Militar (1964–1985)** fecha o tripé, mostrando como a democracia brasileira foi interrompida e reconquistada.\n\n` +
-              `O fio condutor entre esses três períodos é a tensão permanente entre **concentração de poder** e **demandas populares**. Capitanias hereditárias concentraram terra; a CLT respondeu a pressões operárias; o AI-5 silenciou a oposição. Entender essas **cadeias de causa e consequência** é o que a UNIVESP cobra — não a memorização isolada de datas.\n\n` +
+              `A história do Brasil cobrada no vestibular da UNIVESP concentra-se em três grandes períodos que, juntos, explicam como o país se formou política, econômica e socialmente. O **Período Colonial (1500–1822)** é a raiz: nele se definiram os padrões de exploração econômica, desigualdade social e dependência externa que marcaram os séculos seguintes. A **Era Vargas (1930–1945)** representa o primeiro projeto nacional de industrialização e modernização trabalhista: e também de autoritarismo. A **Ditadura Militar (1964–1985)** fecha o tripé, mostrando como a democracia brasileira foi interrompida e reconquistada.\n\n` +
+              `O fio condutor entre esses três períodos é a tensão permanente entre **concentração de poder** e **demandas populares**. Capitanias hereditárias concentraram terra; a CLT respondeu a pressões operárias; o AI-5 silenciou a oposição. Entender essas **cadeias de causa e consequência** é o que a UNIVESP cobra: não a memorização isolada de datas.\n\n` +
               `> **Dica de estudo:** ao ler cada período, pergunte-se sempre: *Quem detinha o poder? Quem era excluído? Que evento rompeu o equilíbrio anterior?*`,
           },
           {
@@ -27,10 +27,10 @@ export const disciplinaHistoria: Disciplina = {
             tipo: 'texto',
             corpo:
               `## Contexto da colonização\n\n` +
-              `Quando Pedro Álvares Cabral aportou em 1500, Portugal já era uma potência marítima experiente, mas o Brasil não despertou interesse imediato — as especiarias do Oriente eram mais lucrativas. Nos primeiros trinta anos, a exploração limitou-se ao **pau-brasil**, extraído por meio de escambo com os indígenas. Não havia núcleos permanentes; feitorias no litoral bastavam.\n\n` +
+              `Quando Pedro Álvares Cabral aportou em 1500, Portugal já era uma potência marítima experiente, mas o Brasil não despertou interesse imediato: as especiarias do Oriente eram mais lucrativas. Nos primeiros trinta anos, a exploração limitou-se ao **pau-brasil**, extraído por meio de escambo com os indígenas. Não havia núcleos permanentes; feitorias no litoral bastavam.\n\n` +
               `Esse cenário mudou quando a França passou a enviar expedições ao litoral brasileiro. Para defender a posse, Portugal precisava **ocupar** o território. Em **1534**, o rei D. João III criou as **capitanias hereditárias**: quinze faixas de terra entregues a donatários (nobres ou comerciantes) que deviam colonizar, defender e explorar a região às próprias custas.\n\n` +
               `## Capitanias hereditárias\n\n` +
-              `O sistema fracassou na maioria dos casos. Os donatários não tinham recursos suficientes, enfrentavam ataques indígenas e a distância de Portugal dificultava o abastecimento. Apenas duas capitanias prosperaram: **São Vicente** (atual São Paulo), liderada por Martim Afonso de Sousa, e **Pernambuco**, sob Duarte Coelho — ambas apoiadas na nascente economia açucareira.\n\n` +
+              `O sistema fracassou na maioria dos casos. Os donatários não tinham recursos suficientes, enfrentavam ataques indígenas e a distância de Portugal dificultava o abastecimento. Apenas duas capitanias prosperaram: **São Vicente** (atual São Paulo), liderada por Martim Afonso de Sousa, e **Pernambuco**, sob Duarte Coelho: ambas apoiadas na nascente economia açucareira.\n\n` +
               `Diante do fracasso, a Coroa criou o **Governo-Geral** em **1548**, centralizando a administração. O primeiro governador-geral, **Tomé de Sousa**, fundou Salvador (1549) como capital. A partir daí, o Estado português passou a coordenar diretamente a colonização, embora os senhores de engenho mantivessem enorme poder local.\n\n` +
               `> **Causa → Consequência:** Fracasso das capitanias → Criação do Governo-Geral → Centralização administrativa → Fortalecimento do poder da Coroa na colônia.`,
           },
@@ -65,24 +65,24 @@ export const disciplinaHistoria: Disciplina = {
             tipo: 'texto',
             corpo:
               `## Estrutura social\n\n` +
-              `A sociedade colonial era **estamental e escravista**. No topo estavam os **grandes proprietários** (senhores de engenho, mineradores, comerciantes ligados a Portugal). Abaixo, uma camada intermediária de **homens livres pobres** — pequenos agricultores, artesãos, tropeiros. Na base, a maioria da população: **escravizados africanos e indígenas**, que sustentavam toda a produção.\n\n` +
+              `A sociedade colonial era **estamental e escravista**. No topo estavam os **grandes proprietários** (senhores de engenho, mineradores, comerciantes ligados a Portugal). Abaixo, uma camada intermediária de **homens livres pobres**: pequenos agricultores, artesãos, tropeiros. Na base, a maioria da população: **escravizados africanos e indígenas**, que sustentavam toda a produção.\n\n` +
               `A mobilidade social era quase inexistente. A cor da pele determinava o lugar na hierarquia. Mesmo libertos (ex-escravizados que compravam ou recebiam a alforria) enfrentavam restrições legais e sociais severas.\n\n` +
               `## Revoltas coloniais\n\n` +
               `À medida que a exploração portuguesa se intensificava, surgiram movimentos de contestação. Dois se destacam para o vestibular:\n\n` +
               `**Inconfidência Mineira (1789)**\n` +
               `- **Onde:** Vila Rica (Ouro Preto), Minas Gerais\n` +
               `- **Por quê:** Tributação abusiva sobre o ouro (derrama), influência das ideias iluministas e da independência dos EUA\n` +
-              `- **Quem:** Elite intelectual e mineradora — poetas, advogados, militares, padres\n` +
+              `- **Quem:** Elite intelectual e mineradora: poetas, advogados, militares, padres\n` +
               `- **Resultado:** Movimento descoberto antes de eclodir. **Tiradentes** foi enforcado e esquartejado como exemplo; os demais foram degredados\n` +
               `- **Importância:** Primeiro grande movimento com ideais separatistas e republicanos\n\n` +
               `**Conjuração Baiana (Revolta dos Alfaiates, 1798)**\n` +
               `- **Onde:** Salvador, Bahia\n` +
               `- **Por quê:** Desigualdade social extrema, influência da Revolução Francesa\n` +
-              `- **Quem:** Diferente da Inconfidência — participação popular: alfaiates, soldados, escravizados, mulatos\n` +
+              `- **Quem:** Diferente da Inconfidência: participação popular: alfaiates, soldados, escravizados, mulatos\n` +
               `- **Pauta:** Independência, fim da escravidão, igualdade racial, república\n` +
               `- **Resultado:** Repressão violenta; líderes populares executados\n` +
               `- **Importância:** Foi o primeiro movimento a incluir **demandas sociais** (fim da escravidão, igualdade) além da independência política\n\n` +
-              `> **Diferença fundamental:** A Inconfidência Mineira era elitista e não questionava a escravidão. A Conjuração Baiana era popular e exigia igualdade racial — por isso a repressão foi mais brutal.`,
+              `> **Diferença fundamental:** A Inconfidência Mineira era elitista e não questionava a escravidão. A Conjuração Baiana era popular e exigia igualdade racial: por isso a repressão foi mais brutal.`,
           },
           {
             titulo: 'A Vinda da Família Real e a Independência',
@@ -116,9 +116,9 @@ export const disciplinaHistoria: Disciplina = {
             tipo: 'destaque',
             corpo:
               `- **Pacto Colonial:** a colônia só podia comerciar com a metrópole. Toda riqueza fluía para Portugal.\n` +
-              `- **Plantation:** modelo agrícola baseado em latifúndio, monocultura e mão de obra escravizada — base do ciclo do açúcar.\n` +
+              `- **Plantation:** modelo agrícola baseado em latifúndio, monocultura e mão de obra escravizada: base do ciclo do açúcar.\n` +
               `- **Quinto:** imposto de 20% sobre o ouro extraído, cobrado pela Coroa portuguesa.\n` +
-              `- **Derrama:** cobrança forçada dos impostos atrasados sobre o ouro — estopim da Inconfidência Mineira.\n` +
+              `- **Derrama:** cobrança forçada dos impostos atrasados sobre o ouro: estopim da Inconfidência Mineira.\n` +
               `- **Escambo:** troca de produtos entre portugueses e indígenas (pau-brasil por ferramentas).\n` +
               `- **Feitorias:** entrepostos comerciais no litoral, sem colonização permanente.\n` +
               `- **Quilombos:** comunidades formadas por escravizados fugidos. Palmares (Alagoas) foi o maior, resistindo por quase um século.`,
@@ -133,27 +133,27 @@ export const disciplinaHistoria: Disciplina = {
               `2. A **Crise de 1929** (quebra da Bolsa de Nova York) devastou as exportações de café, enfraquecendo a oligarquia paulista.\n\n` +
               `Minas Gerais aliou-se ao **Rio Grande do Sul** e à **Paraíba**, lançando **Getúlio Vargas** como candidato pela Aliança Liberal. Vargas perdeu a eleição, mas um golpe militar em outubro de 1930 impediu a posse de Júlio Prestes e colocou Vargas no poder.\n\n` +
               `## Governo Provisório (1930–1934)\n\n` +
-              `Vargas governou por decreto, sem Constituição. Criou o **Ministério do Trabalho** e começou a construir uma legislação trabalhista. Em 1932, São Paulo se revoltou na **Revolução Constitucionalista**, exigindo uma nova Constituição. A revolta foi derrotada militarmente, mas Vargas convocou a Assembleia Constituinte, e a **Constituição de 1934** foi promulgada — a primeira a garantir **voto feminino** no Brasil.\n\n` +
+              `Vargas governou por decreto, sem Constituição. Criou o **Ministério do Trabalho** e começou a construir uma legislação trabalhista. Em 1932, São Paulo se revoltou na **Revolução Constitucionalista**, exigindo uma nova Constituição. A revolta foi derrotada militarmente, mas Vargas convocou a Assembleia Constituinte, e a **Constituição de 1934** foi promulgada: a primeira a garantir **voto feminino** no Brasil.\n\n` +
               `## Governo Constitucional (1934–1937)\n\n` +
               `Eleito indiretamente pelo Congresso, Vargas governou sob crescente polarização: de um lado, a **Ação Integralista Brasileira** (fascismo); de outro, a **Aliança Nacional Libertadora** (comunismo). Em 1935, a **Intentona Comunista** (tentativa de golpe liderada por comunistas) deu a Vargas o pretexto para declarar estado de sítio e acumular poderes.\n\n` +
               `## O Estado Novo (1937–1945)\n\n` +
-              `Em **10 de novembro de 1937**, Vargas deu um **autogolpe**: fechou o Congresso, outorgou uma nova Constituição autoritária (a "Polaca", inspirada na Constituição polonesa fascista) e instaurou o **Estado Novo** — uma ditadura. Partidos foram abolidos, a censura foi institucionalizada pelo **DIP** (Departamento de Imprensa e Propaganda), e opositores foram presos.\n\n` +
+              `Em **10 de novembro de 1937**, Vargas deu um **autogolpe**: fechou o Congresso, outorgou uma nova Constituição autoritária (a "Polaca", inspirada na Constituição polonesa fascista) e instaurou o **Estado Novo**: uma ditadura. Partidos foram abolidos, a censura foi institucionalizada pelo **DIP** (Departamento de Imprensa e Propaganda), e opositores foram presos.\n\n` +
               `> **Causa → Consequência:** Crise do café com leite → Revolução de 1930 → Vargas no poder → Polarização política → Intentona Comunista → Pretexto para o Estado Novo.`,
           },
           {
             titulo: 'CLT, Industrialização e Populismo Varguista',
             tipo: 'destaque',
             corpo:
-              `O Estado Novo não foi apenas repressão. Vargas implementou um projeto de **modernização econômica** e construiu uma relação direta com as **massas urbanas** — o **populismo**.\n\n` +
+              `O Estado Novo não foi apenas repressão. Vargas implementou um projeto de **modernização econômica** e construiu uma relação direta com as **massas urbanas**: o **populismo**.\n\n` +
               `## A CLT (1943)\n\n` +
               `A **Consolidação das Leis do Trabalho** reuniu em um único código direitos como salário mínimo, jornada de 8 horas, férias remuneradas, 13º salário e carteira de trabalho. Vargas se apresentava como **"pai dos pobres"**, o líder que protegia o trabalhador. Na prática, a CLT também era uma ferramenta de **controle**: os sindicatos eram atrelados ao Estado (sindicalismo pelego) e greves eram proibidas.\n\n` +
               `## Industrialização\n\n` +
               `Vargas promoveu a **substituição de importações**: em vez de comprar produtos industrializados do exterior, o Brasil deveria fabricá-los. Marcos dessa política:\n\n` +
-              `- **CSN (Companhia Siderúrgica Nacional)** — Volta Redonda, 1941: aço nacional\n` +
-              `- **Vale do Rio Doce** — 1942: mineração de ferro\n` +
-              `- **Petrobras** — criada em 1953 (no segundo governo Vargas), com a campanha **"O petróleo é nosso"**\n\n` +
+              `- **CSN (Companhia Siderúrgica Nacional)**: Volta Redonda, 1941: aço nacional\n` +
+              `- **Vale do Rio Doce**: 1942: mineração de ferro\n` +
+              `- **Petrobras**: criada em 1953 (no segundo governo Vargas), com a campanha **"O petróleo é nosso"**\n\n` +
               `## A queda (1945)\n\n` +
-              `Com o fim da Segunda Guerra Mundial, a contradição ficou insustentável: o Brasil havia lutado contra ditaduras fascistas na Europa enquanto vivia sob uma ditadura interna. Pressionado por militares e pela sociedade, Vargas foi **deposto em outubro de 1945**. A democracia retornou — temporariamente.`,
+              `Com o fim da Segunda Guerra Mundial, a contradição ficou insustentável: o Brasil havia lutado contra ditaduras fascistas na Europa enquanto vivia sob uma ditadura interna. Pressionado por militares e pela sociedade, Vargas foi **deposto em outubro de 1945**. A democracia retornou: temporariamente.`,
           },
           {
             titulo: 'Linha do Tempo — Era Vargas',
@@ -178,16 +178,16 @@ export const disciplinaHistoria: Disciplina = {
             tipo: 'texto',
             corpo:
               `## O contexto do golpe\n\n` +
-              `Após o suicídio de Vargas (1954) e o governo desenvolvimentista de **Juscelino Kubitschek** (1956–1961), o Brasil entrou em turbulência. O presidente **João Goulart (Jango)**, vice que assumiu após a renúncia de Jânio Quadros (1961), tinha posições de **esquerda** que alarmavam militares, empresários e os Estados Unidos — em plena Guerra Fria.\n\n` +
+              `Após o suicídio de Vargas (1954) e o governo desenvolvimentista de **Juscelino Kubitschek** (1956–1961), o Brasil entrou em turbulência. O presidente **João Goulart (Jango)**, vice que assumiu após a renúncia de Jânio Quadros (1961), tinha posições de **esquerda** que alarmavam militares, empresários e os Estados Unidos: em plena Guerra Fria.\n\n` +
               `Jango propôs as **Reformas de Base**: reforma agrária, urbana, educacional, bancária e tributária. Para a elite conservadora, eram radicais demais. Em **13 de março de 1964**, Jango realizou o **Comício da Central do Brasil** no Rio de Janeiro, defendendo as reformas diante de 200 mil pessoas. A reação foi imediata:\n\n` +
               `Em **31 de março de 1964**, tropas militares marcharam sobre o Rio de Janeiro. Jango, sem apoio suficiente, refugiou-se no Uruguai. Os militares assumiram o poder com apoio de setores empresariais, da mídia e dos EUA.\n\n` +
               `## Os Atos Institucionais\n\n` +
-              `O regime se legitimou por **Atos Institucionais (AIs)** — decretos que alteravam a Constituição sem aprovação do Congresso:\n\n` +
+              `O regime se legitimou por **Atos Institucionais (AIs)**: decretos que alteravam a Constituição sem aprovação do Congresso:\n\n` +
               `- **AI-1 (1964):** cassação de mandatos e suspensão de direitos políticos por 10 anos\n` +
               `- **AI-2 (1965):** extinção dos partidos políticos; criação do bipartidarismo (ARENA × MDB)\n` +
               `- **AI-3 (1966):** eleições indiretas para governadores\n` +
               `- **AI-4 (1966):** convocação do Congresso para aprovar nova Constituição\n` +
-              `- **AI-5 (1968):** o mais severo — marco do endurecimento total do regime`,
+              `- **AI-5 (1968):** o mais severo: marco do endurecimento total do regime`,
           },
           {
             titulo: 'O AI-5 e os Anos de Chumbo (1968–1974)',
@@ -199,11 +199,11 @@ export const disciplinaHistoria: Disciplina = {
               `- Autorizou o presidente a **cassar mandatos** e **suspender direitos políticos**\n` +
               `- Instituiu a **censura prévia** a jornais, livros, músicas e teatro\n` +
               `- Permitiu demissão sumária de funcionários públicos e professores\n\n` +
-              `O AI-5 inaugurou os **"anos de chumbo"** — o período mais repressivo da ditadura (governo Médici, 1969–1974). O aparato de repressão incluía:\n\n` +
+              `O AI-5 inaugurou os **"anos de chumbo"**: o período mais repressivo da ditadura (governo Médici, 1969–1974). O aparato de repressão incluía:\n\n` +
               `- **DOI-CODI:** órgão de inteligência e tortura\n` +
               `- **DOPS:** polícia política estadual\n` +
               `- Prisões clandestinas, tortura sistemática, desaparecimentos e assassinatos\n\n` +
-              `Opositores do regime — estudantes, sindicalistas, artistas, guerrilheiros — foram perseguidos. Muitos foram mortos ou "desapareceram". A cultura sofreu censura brutal: canções de **Chico Buarque** e **Caetano Veloso** eram proibidas ou tinham versos cortados.\n\n` +
+              `Opositores do regime: estudantes, sindicalistas, artistas, guerrilheiros: foram perseguidos. Muitos foram mortos ou "desapareceram". A cultura sofreu censura brutal: canções de **Chico Buarque** e **Caetano Veloso** eram proibidas ou tinham versos cortados.\n\n` +
               `> **O AI-5 é o divisor de águas da ditadura.** Antes dele, havia algum espaço para oposição legal. Depois, o regime se tornou abertamente terrorista contra seus próprios cidadãos.`,
           },
           {
@@ -216,7 +216,7 @@ export const disciplinaHistoria: Disciplina = {
               `- Expansão da indústria automobilística e de bens duráveis\n` +
               `- Propaganda ufanista: *"Brasil: ame-o ou deixe-o"*, Copa de 1970\n\n` +
               `## As contradições\n\n` +
-              `O crescimento **não foi distribuído**. O ministro Delfim Netto usava a metáfora: *"É preciso primeiro fazer o bolo crescer para depois dividi-lo."* O bolo cresceu — mas nunca foi dividido:\n\n` +
+              `O crescimento **não foi distribuído**. O ministro Delfim Netto usava a metáfora: *"É preciso primeiro fazer o bolo crescer para depois dividi-lo."* O bolo cresceu: mas nunca foi dividido:\n\n` +
               `- A **desigualdade de renda** aumentou drasticamente\n` +
               `- A **dívida externa** explodiu (de US$ 3,3 bi em 1964 para US$ 100 bi em 1984)\n` +
               `- Trabalhadores urbanos e rurais continuaram em condições precárias\n` +
@@ -230,13 +230,13 @@ export const disciplinaHistoria: Disciplina = {
               `## A distensão "lenta, gradual e segura"\n\n` +
               `Com a economia em crise e a repressão insustentável, o presidente **Ernesto Geisel (1974–1979)** iniciou um processo de abertura controlada. A ideia era **devolver o poder aos civis sem que os militares fossem punidos**. Medidas incluíram:\n\n` +
               `- Revogação parcial do AI-5 em **1978**\n` +
-              `- **Lei da Anistia (1979):** permitiu o retorno de exilados (como Leonel Brizola e Luís Carlos Prestes), mas também anistiou os torturadores — ponto de controvérsia até hoje\n` +
+              `- **Lei da Anistia (1979):** permitiu o retorno de exilados (como Leonel Brizola e Luís Carlos Prestes), mas também anistiou os torturadores: ponto de controvérsia até hoje\n` +
               `- Fim do bipartidarismo: surgimento de novos partidos (PT, PDT, PTB, PDS, PMDB)\n\n` +
               `O presidente **João Figueiredo (1979–1985)** deu continuidade à abertura, em meio a atentados de setores militares radicais que tentavam reverter o processo (como o **atentado do Riocentro**, 1981).\n\n` +
               `## O movimento Diretas Já (1983–1984)\n\n` +
-              `Em **1983**, o deputado **Dante de Oliveira** apresentou uma emenda constitucional propondo **eleições diretas** para presidente. O movimento **Diretas Já** levou milhões de pessoas às ruas em comícios históricos — São Paulo reuniu 1,5 milhão de pessoas no Vale do Anhangabaú.\n\n` +
-              `A emenda foi **rejeitada** no Congresso em abril de 1984 (não atingiu os 2/3 necessários). Mas a pressão popular tornou o regime insustentável. Em janeiro de 1985, o Colégio Eleitoral elegeu **Tancredo Neves** (oposição) como presidente — o primeiro civil desde 1964. Tancredo adoeceu antes da posse e morreu; assumiu seu vice, **José Sarney**.\n\n` +
-              `A ditadura acabou não com uma ruptura revolucionária, mas com uma **transição negociada** — o que explica por que muitas estruturas de poder permaneceram intactas.\n\n` +
+              `Em **1983**, o deputado **Dante de Oliveira** apresentou uma emenda constitucional propondo **eleições diretas** para presidente. O movimento **Diretas Já** levou milhões de pessoas às ruas em comícios históricos: São Paulo reuniu 1,5 milhão de pessoas no Vale do Anhangabaú.\n\n` +
+              `A emenda foi **rejeitada** no Congresso em abril de 1984 (não atingiu os 2/3 necessários). Mas a pressão popular tornou o regime insustentável. Em janeiro de 1985, o Colégio Eleitoral elegeu **Tancredo Neves** (oposição) como presidente: o primeiro civil desde 1964. Tancredo adoeceu antes da posse e morreu; assumiu seu vice, **José Sarney**.\n\n` +
+              `A ditadura acabou não com uma ruptura revolucionária, mas com uma **transição negociada**: o que explica por que muitas estruturas de poder permaneceram intactas.\n\n` +
               `> **Reflexão:** O Brasil é o único país da América Latina que não julgou os responsáveis por torturas durante a ditadura. A Lei da Anistia de 1979 permanece vigente.`,
           },
           {
@@ -261,8 +261,8 @@ export const disciplinaHistoria: Disciplina = {
             titulo: 'Conexões Históricas e Legados',
             tipo: 'destaque',
             corpo:
-              `Os três períodos estudados não são blocos isolados — formam uma **cadeia de causa e consequência** que explica o Brasil contemporâneo:\n\n` +
-              `- A **concentração fundiária** do período colonial (capitanias, engenhos, sesmarias) **nunca foi revertida** — o Brasil jamais fez uma reforma agrária ampla.\n` +
+              `Os três períodos estudados não são blocos isolados: formam uma **cadeia de causa e consequência** que explica o Brasil contemporâneo:\n\n` +
+              `- A **concentração fundiária** do período colonial (capitanias, engenhos, sesmarias) **nunca foi revertida**: o Brasil jamais fez uma reforma agrária ampla.\n` +
               `- A **escravidão** (1500–1888) foi o mais longo sistema escravista das Américas. Seus efeitos na desigualdade racial e social persistem até hoje.\n` +
               `- A **CLT de Vargas** continua sendo a base dos direitos trabalhistas brasileiros, mesmo após reformas.\n` +
               `- O modelo de **industrialização por substituição de importações** (Vargas) definiu o perfil industrial do país por décadas.\n` +
@@ -273,18 +273,18 @@ export const disciplinaHistoria: Disciplina = {
         ],
         imagemDescricao: 'Linha do tempo dos principais períodos da história do Brasil com eventos marcantes',
         dicasProva: [
-          'Conecte sempre o evento histórico ao seu impacto social/econômico — a UNIVESP cobra análise, não datas.',
-          'Era Vargas: associe CLT + industrialização + populismo — tudo está interligado.',
-          'Ditadura Militar: AI-5 é o divisor de águas — saiba o antes e depois dele.',
+          'Conecte sempre o evento histórico ao seu impacto social/econômico: a UNIVESP cobra análise, não datas.',
+          'Era Vargas: associe CLT + industrialização + populismo: tudo está interligado.',
+          'Ditadura Militar: AI-5 é o divisor de águas: saiba o antes e depois dele.',
           'Período Colonial: foque nos ciclos econômicos (pau-brasil, cana, ouro) e suas consequências sociais.',
           'Se a questão trouxer um texto de época, identifique primeiro O PERÍODO antes de analisar o conteúdo.',
         ],
         errosComuns: [
-          'Achar que a Independência do Brasil (1822) acabou com a influência portuguesa — a elite permaneceu.',
+          'Achar que a Independência do Brasil (1822) acabou com a influência portuguesa: a elite permaneceu.',
           'Confundir Getúlio Vargas presidente eleito (1950) com Getúlio do Estado Novo (1937-1945).',
-          'Pensar que o Milagre Econômico (1969-1973) beneficiou todas as classes — aumentou a desigualdade.',
+          'Pensar que o Milagre Econômico (1969-1973) beneficiou todas as classes: aumentou a desigualdade.',
           'Ignorar que a abolição (1888) não veio acompanhada de inclusão social dos ex-escravizados.',
-          'Confundir o golpe de 1964 com o AI-5 (1968) — são eventos distintos com consequências diferentes.',
+          'Confundir o golpe de 1964 com o AI-5 (1968): são eventos distintos com consequências diferentes.',
         ],
         exercicios: [
           {
@@ -340,7 +340,7 @@ export const disciplinaHistoria: Disciplina = {
               'Nacionalização completa das empresas estrangeiras.',
             ],
             respostaCorreta: 1,
-            explicacao: 'O Milagre Econômico foi um período de alto crescimento do PIB (até 14% ao ano), impulsionado por obras de infraestrutura e endividamento externo. Porém, a riqueza se concentrou: os ricos ficaram mais ricos e a desigualdade aumentou — o famoso "bolo que não foi dividido".',
+            explicacao: 'O Milagre Econômico foi um período de alto crescimento do PIB (até 14% ao ano), impulsionado por obras de infraestrutura e endividamento externo. Porém, a riqueza se concentrou: os ricos ficaram mais ricos e a desigualdade aumentou: o famoso "bolo que não foi dividido".',
             dificuldade: 'medio',
           },
           {
@@ -365,7 +365,7 @@ export const disciplinaHistoria: Disciplina = {
       titulo: 'História Geral Contemporânea',
       peso: 30,
       conteudo: {
-        resumo: 'Revolução Industrial, Revolução Francesa, Imperialismo e Guerra Fria — os quatro eixos da história contemporânea mais cobrados.',
+        resumo: 'Revolução Industrial, Revolução Francesa, Imperialismo e Guerra Fria: os quatro eixos da história contemporânea mais cobrados.',
         explicacao:
           'A UNIVESP cobra a compreensão de processos históricos globais e suas conexões com o Brasil e o mundo atual.\n\n**Revolução Industrial (séc. XVIII-XIX):**\n• Onde: Inglaterra (pioneira)\n• Causas: acúmulo de capital, cercamentos, matéria-prima das colônias\n• Consequências: urbanização, surgimento do proletariado, poluição, êxodo rural\n• Conexão: origem do capitalismo industrial moderno\n\n**Revolução Francesa (1789):**\n• Causas: crise financeira, desigualdade entre os três estados, Iluminismo\n• Fases: Assembleia Nacional → Convenção (Terror) → Diretório → Napoleão\n• Lema: Liberdade, Igualdade, Fraternidade\n• Legado: Declaração dos Direitos do Homem e do Cidadão, fim do Antigo Regime\n\n**Imperialismo (séc. XIX-XX):**\n• O que foi: dominação europeia sobre África e Ásia\n• Justificativas: "missão civilizatória", darwinismo social, busca por mercados\n• Consequências: exploração de recursos, fronteiras artificiais, conflitos étnicos até hoje\n• Conexão: raiz de conflitos atuais na África e Oriente Médio\n\n**Guerra Fria (1947-1991):**\n• Blocos: EUA (capitalista) × URSS (socialista)\n• Características: corrida armamentista, corrida espacial, guerras por procuração\n• Eventos-chave: Muro de Berlim (1961-1989), Crise dos Mísseis (1962), Guerra do Vietnã\n• Fim: queda do Muro de Berlim (1989) e dissolução da URSS (1991)',
         secoes: [
@@ -373,8 +373,8 @@ export const disciplinaHistoria: Disciplina = {
             titulo: 'Introdução: Os Grandes Processos da Era Contemporânea',
             tipo: 'texto',
             corpo:
-              `A história contemporânea cobrada pela UNIVESP organiza-se em três grandes processos interligados. A **Revolução Industrial** (séc. XVIII–XIX) transformou a economia, a sociedade e a relação entre capital e trabalho. O **Imperialismo** (séc. XIX–XX) foi consequência direta dessa industrialização: potências europeias, ávidas por matéria-prima e mercados consumidores, dominaram a África e a Ásia. A **Guerra Fria** (1947–1991) reorganizou o mundo em dois blocos ideológicos após as Guerras Mundiais — que, por sua vez, foram em grande parte causadas pelas rivalidades imperialistas.\n\n` +
-              `Essa cadeia — **industrialização → imperialismo → guerras mundiais → guerra fria** — é o fio condutor que a banca examinadora espera que você domine. Não se trata de decorar datas, mas de entender **por que cada evento levou ao seguinte**.\n\n` +
+              `A história contemporânea cobrada pela UNIVESP organiza-se em três grandes processos interligados. A **Revolução Industrial** (séc. XVIII–XIX) transformou a economia, a sociedade e a relação entre capital e trabalho. O **Imperialismo** (séc. XIX–XX) foi consequência direta dessa industrialização: potências europeias, ávidas por matéria-prima e mercados consumidores, dominaram a África e a Ásia. A **Guerra Fria** (1947–1991) reorganizou o mundo em dois blocos ideológicos após as Guerras Mundiais: que, por sua vez, foram em grande parte causadas pelas rivalidades imperialistas.\n\n` +
+              `Essa cadeia: **industrialização → imperialismo → guerras mundiais → guerra fria**: é o fio condutor que a banca examinadora espera que você domine. Não se trata de decorar datas, mas de entender **por que cada evento levou ao seguinte**.\n\n` +
               `> **Dica de estudo:** ao estudar cada tema, pergunte-se: *Quem ganhou poder? Quem perdeu? Que contradição gerou a crise seguinte?*`,
           },
           {
@@ -384,13 +384,13 @@ export const disciplinaHistoria: Disciplina = {
               `## Por que a Inglaterra?\n\n` +
               `A Revolução Industrial começou na **Inglaterra** por uma combinação única de fatores:\n\n` +
               `- **Acúmulo de capital** proveniente do comércio colonial e do tráfico de escravizados\n` +
-              `- **Cercamentos (Enclosure Acts):** grandes proprietários cercaram terras comunais, expulsando camponeses para as cidades — criando mão de obra disponível\n` +
+              `- **Cercamentos (Enclosure Acts):** grandes proprietários cercaram terras comunais, expulsando camponeses para as cidades: criando mão de obra disponível\n` +
               `- **Matéria-prima abundante:** carvão e ferro no subsolo britânico; algodão das colônias\n` +
               `- **Estabilidade política:** a Revolução Gloriosa (1688) estabeleceu uma monarquia parlamentar favorável aos negócios\n` +
               `- **Ética protestante:** valores de trabalho duro, poupança e investimento (tese de Max Weber)\n\n` +
               `## A máquina a vapor e o sistema fabril\n\n` +
               `A invenção decisiva foi a **máquina a vapor** de **James Watt** (aperfeiçoada em 1769). Antes dela, a produção dependia de força humana, animal ou hidráulica. Com o vapor, as fábricas podiam operar em qualquer lugar, em qualquer escala.\n\n` +
-              `O **sistema fabril** substituiu o **sistema doméstico** (putting-out): em vez de artesãos produzindo em casa, trabalhadores reuniam-se em **fábricas**, operando máquinas que não lhes pertenciam. O trabalhador perdeu o controle sobre o processo produtivo — nascia o **proletariado**.\n\n` +
+              `O **sistema fabril** substituiu o **sistema doméstico** (putting-out): em vez de artesãos produzindo em casa, trabalhadores reuniam-se em **fábricas**, operando máquinas que não lhes pertenciam. O trabalhador perdeu o controle sobre o processo produtivo: nascia o **proletariado**.\n\n` +
               `A indústria **têxtil** (algodão) foi o carro-chefe da 1ª Revolução Industrial: a **spinning jenny**, o **tear mecânico** e a máquina a vapor transformaram a Inglaterra na "oficina do mundo".\n\n` +
               `> **Causa → Consequência:** Cercamentos → Êxodo rural → Mão de obra urbana barata → Fábricas → Proletariado → Movimentos operários.`,
           },
@@ -398,15 +398,15 @@ export const disciplinaHistoria: Disciplina = {
             titulo: 'A Segunda Revolução Industrial (c. 1850–1914)',
             tipo: 'texto',
             corpo:
-              `A partir de meados do século XIX, novas fontes de energia e tecnologias inauguraram uma **segunda fase** da industrialização, que se espalhou para além da Inglaterra — alcançando **Alemanha, EUA, França, Bélgica e Japão**.\n\n` +
+              `A partir de meados do século XIX, novas fontes de energia e tecnologias inauguraram uma **segunda fase** da industrialização, que se espalhou para além da Inglaterra: alcançando **Alemanha, EUA, França, Bélgica e Japão**.\n\n` +
               `## Novas tecnologias\n\n` +
               `- **Eletricidade:** iluminação pública, motor elétrico, telégrafo, telefone\n` +
               `- **Petróleo:** motor a combustão interna → automóvel (Karl Benz, 1886) → indústria petroquímica\n` +
               `- **Aço (Processo Bessemer):** construção de ferrovias, pontes, arranha-céus, navios\n` +
               `- **Química industrial:** fertilizantes, explosivos (dinamite, Alfred Nobel), medicamentos\n\n` +
               `## Novas formas de organização\n\n` +
-              `A produção ganhou escala com o **taylorismo** (divisão científica do trabalho) e, posteriormente, o **fordismo** (linha de montagem). Empresas cresceram e formaram **monopólios e cartéis** — concentrações de poder econômico que dominavam setores inteiros.\n\n` +
-              `A 2ª Revolução Industrial foi **mais rápida, mais global e mais transformadora** que a primeira. Ela gerou a necessidade de **novos mercados consumidores** e **fontes de matéria-prima** — e é exatamente essa necessidade que explica o Imperialismo.\n\n` +
+              `A produção ganhou escala com o **taylorismo** (divisão científica do trabalho) e, posteriormente, o **fordismo** (linha de montagem). Empresas cresceram e formaram **monopólios e cartéis**: concentrações de poder econômico que dominavam setores inteiros.\n\n` +
+              `A 2ª Revolução Industrial foi **mais rápida, mais global e mais transformadora** que a primeira. Ela gerou a necessidade de **novos mercados consumidores** e **fontes de matéria-prima**: e é exatamente essa necessidade que explica o Imperialismo.\n\n` +
               `> **Conexão direta:** Superprodução industrial → Busca por mercados e matéria-prima → Expansão imperialista sobre a África e a Ásia.`,
           },
           {
@@ -444,11 +444,11 @@ export const disciplinaHistoria: Disciplina = {
             tipo: 'texto',
             corpo:
               `## O que foi o Imperialismo?\n\n` +
-              `O Imperialismo do século XIX — também chamado de **Neocolonialismo** — foi a dominação política, econômica e cultural de territórios na **África** e na **Ásia** por potências industriais europeias (principalmente **Inglaterra, França, Bélgica, Alemanha, Itália e Portugal**). Diferente do colonialismo dos séculos XVI–XVII (que focava nas Américas), o neocolonialismo tinha motivações **industriais**.\n\n` +
+              `O Imperialismo do século XIX: também chamado de **Neocolonialismo**: foi a dominação política, econômica e cultural de territórios na **África** e na **Ásia** por potências industriais europeias (principalmente **Inglaterra, França, Bélgica, Alemanha, Itália e Portugal**). Diferente do colonialismo dos séculos XVI–XVII (que focava nas Américas), o neocolonialismo tinha motivações **industriais**.\n\n` +
               `## Causas\n\n` +
               `- **Econômicas:** busca por **matéria-prima** (borracha, marfim, diamantes, algodão, petróleo) e **mercados consumidores** para a produção industrial excedente\n` +
-              `- **Políticas:** rivalidade entre potências europeias — ter colônias era sinônimo de **prestígio e poder**\n` +
-              `- **Ideológicas:** a "missão civilizatória" — a crença (racista) de que os europeus tinham o dever de "civilizar" povos "inferiores"\n` +
+              `- **Políticas:** rivalidade entre potências europeias: ter colônias era sinônimo de **prestígio e poder**\n` +
+              `- **Ideológicas:** a "missão civilizatória": a crença (racista) de que os europeus tinham o dever de "civilizar" povos "inferiores"\n` +
               `- **Pseudocientíficas:** o **darwinismo social** aplicava a teoria da seleção natural às sociedades humanas, justificando a dominação dos "mais aptos"\n\n` +
               `## Mecanismos de dominação\n\n` +
               `As potências europeias usaram múltiplas estratégias:\n\n` +
@@ -461,14 +461,14 @@ export const disciplinaHistoria: Disciplina = {
             titulo: 'A Conferência de Berlim (1884–1885)',
             tipo: 'importante',
             corpo:
-              `A **Conferência de Berlim** foi o evento que formalizou a **partilha da África** entre as potências europeias. Convocada pelo chanceler alemão **Otto von Bismarck**, reuniu 14 países europeus — **nenhum representante africano foi convidado**.\n\n` +
+              `A **Conferência de Berlim** foi o evento que formalizou a **partilha da África** entre as potências europeias. Convocada pelo chanceler alemão **Otto von Bismarck**, reuniu 14 países europeus: **nenhum representante africano foi convidado**.\n\n` +
               `## Decisões principais\n\n` +
               `- A África foi dividida em zonas de influência com **fronteiras retas**, ignorando completamente etnias, culturas e reinos existentes\n` +
               `- Qualquer potência que "ocupasse efetivamente" um território podia reivindicá-lo\n` +
-              `- A bacia do rio Congo foi atribuída ao rei **Leopoldo II da Bélgica** como propriedade pessoal — o que resultou em um dos maiores genocídios da história (estima-se 10 milhões de mortos)\n\n` +
+              `- A bacia do rio Congo foi atribuída ao rei **Leopoldo II da Bélgica** como propriedade pessoal: o que resultou em um dos maiores genocídios da história (estima-se 10 milhões de mortos)\n\n` +
               `## Consequências de longo prazo\n\n` +
               `As fronteiras artificiais da Conferência de Berlim são a raiz de **conflitos étnicos que persistem até hoje** em países como Ruanda, Nigéria, Sudão e República Democrática do Congo. Grupos étnicos rivais foram forçados a conviver no mesmo Estado, enquanto etnias unidas foram separadas por fronteiras arbitrárias.\n\n` +
-              `> **Para o vestibular:** Quando uma questão mencionar conflitos étnicos na África contemporânea, conecte-os à partilha imperial — a UNIVESP cobra essa relação causa-consequência.`,
+              `> **Para o vestibular:** Quando uma questão mencionar conflitos étnicos na África contemporânea, conecte-os à partilha imperial: a UNIVESP cobra essa relação causa-consequência.`,
           },
           {
             titulo: 'Partilha Colonial — Principais Impérios',
@@ -478,10 +478,10 @@ export const disciplinaHistoria: Disciplina = {
               `|---|---|---|\n` +
               `| **Inglaterra** | Egito, Nigéria, África do Sul, Quênia | Índia, Birmânia, Malásia |\n` +
               `| **França** | Argélia, Marrocos, Madagascar, Senegal | Indochina (Vietnã, Laos, Camboja) |\n` +
-              `| **Bélgica** | Congo (propriedade pessoal de Leopoldo II) | — |\n` +
+              `| **Bélgica** | Congo (propriedade pessoal de Leopoldo II) |: |\n` +
               `| **Alemanha** | Tanganica, Namíbia, Camarões | Ilhas do Pacífico |\n` +
               `| **Portugal** | Angola, Moçambique, Guiné-Bissau | Macau, Timor-Leste |\n` +
-              `| **Itália** | Líbia, Eritreia, Somália | — |\n\n` +
+              `| **Itália** | Líbia, Eritreia, Somália |: |\n\n` +
               `> Em **1914**, cerca de **90% do território africano** estava sob domínio europeu.`,
           },
           {
@@ -489,12 +489,12 @@ export const disciplinaHistoria: Disciplina = {
             tipo: 'texto',
             corpo:
               `## Origem\n\n` +
-              `Ao final da Segunda Guerra Mundial (1945), as duas superpotências vencedoras — **Estados Unidos** e **União Soviética** — emergiram com visões de mundo incompatíveis:\n\n` +
+              `Ao final da Segunda Guerra Mundial (1945), as duas superpotências vencedoras: **Estados Unidos** e **União Soviética**: emergiram com visões de mundo incompatíveis:\n\n` +
               `- **EUA:** capitalismo, democracia liberal, livre mercado, propriedade privada\n` +
               `- **URSS:** socialismo, economia planificada, partido único, propriedade coletiva\n\n` +
               `A aliança contra o nazismo desmoronou rapidamente. Em **1947**, o presidente Truman proclamou a **Doutrina Truman** (contenção do comunismo) e lançou o **Plano Marshall** (reconstrução econômica da Europa Ocidental para afastá-la do socialismo). A URSS respondeu com o **Comecon** (bloco econômico socialista) e, em 1955, o **Pacto de Varsóvia** (aliança militar).\n\n` +
               `## Características da Guerra Fria\n\n` +
-              `A principal característica era a **bipolaridade**: o mundo dividido em dois blocos, com zonas de influência definidas. O confronto **nunca foi direto** entre EUA e URSS — o risco de destruição nuclear mútua (**MAD — Mutual Assured Destruction**) impedia. Em vez disso, as superpotências disputavam influência por meios indiretos:\n\n` +
+              `A principal característica era a **bipolaridade**: o mundo dividido em dois blocos, com zonas de influência definidas. O confronto **nunca foi direto** entre EUA e URSS: o risco de destruição nuclear mútua (**MAD: Mutual Assured Destruction**) impedia. Em vez disso, as superpotências disputavam influência por meios indiretos:\n\n` +
               `- **Corrida armamentista:** ambas acumularam arsenais nucleares capazes de destruir o planeta várias vezes\n` +
               `- **Corrida espacial:** URSS lançou o **Sputnik** (1957, primeiro satélite) e enviou **Yuri Gagarin** ao espaço (1961); EUA responderam com a chegada à **Lua** (1969, Apollo 11)\n` +
               `- **Propaganda e espionagem:** CIA (EUA) e KGB (URSS) operavam globalmente\n` +
@@ -532,7 +532,7 @@ export const disciplinaHistoria: Disciplina = {
               `O **Muro de Berlim**, construído em **1961** para impedir a fuga de cidadãos da Alemanha Oriental (socialista) para a Ocidental (capitalista), era o **símbolo máximo** da divisão da Guerra Fria. Quando o governo da Alemanha Oriental anunciou a abertura das fronteiras em 9 de novembro de 1989, milhares de pessoas começaram a derrubar o muro com picaretas e martelos. As cenas foram transmitidas ao vivo para o mundo inteiro.\n\n` +
               `A **reunificação alemã** ocorreu em **3 de outubro de 1990**. Um a um, os regimes socialistas da Europa Oriental caíram: Polônia, Hungria, Tchecoslováquia, Romênia, Bulgária.\n\n` +
               `## A dissolução da URSS (1991)\n\n` +
-              `Em **25 de dezembro de 1991**, Gorbachev renunciou e a bandeira soviética foi baixada do Kremlin pela última vez. A **União Soviética deixou de existir**, fragmentando-se em 15 repúblicas independentes (Rússia, Ucrânia, etc.). Os EUA emergiram como única superpotência global — iniciava-se a era **unipolar**.`,
+              `Em **25 de dezembro de 1991**, Gorbachev renunciou e a bandeira soviética foi baixada do Kremlin pela última vez. A **União Soviética deixou de existir**, fragmentando-se em 15 repúblicas independentes (Rússia, Ucrânia, etc.). Os EUA emergiram como única superpotência global: iniciava-se a era **unipolar**.`,
           },
           {
             titulo: 'Linha do Tempo — Guerra Fria',
@@ -570,7 +570,7 @@ export const disciplinaHistoria: Disciplina = {
               `→ Mundo dividido entre EUA e URSS\n` +
               `→ **Guerra Fria** (1947–1991)\n` +
               `→ Queda da URSS → Globalização → Mundo atual\n\n` +
-              `> **Para o vestibular:** Se a questão pedir para "relacionar" ou "contextualizar" um evento, use essa cadeia. Exemplo: *"O Imperialismo foi consequência da Revolução Industrial e causa das Guerras Mundiais."* — essa frase simples demonstra compreensão histórica e rende pontos.`,
+              `> **Para o vestibular:** Se a questão pedir para "relacionar" ou "contextualizar" um evento, use essa cadeia. Exemplo: *"O Imperialismo foi consequência da Revolução Industrial e causa das Guerras Mundiais."*: essa frase simples demonstra compreensão histórica e rende pontos.`,
           },
         ],
         imagemDescricao: 'Mapa-múndi dividido em blocos da Guerra Fria com eventos-chave indicados por marcadores',
@@ -584,14 +584,14 @@ export const disciplinaHistoria: Disciplina = {
         dicasProva: [
           'Se a questão mencionar "revolução burguesa" ou "queda do Antigo Regime", é Revolução Francesa.',
           'Imperialismo e neocolonialismo são temas que a UNIVESP conecta com problemas atuais da África.',
-          'Guerra Fria: nunca houve confronto direto EUA × URSS — as guerras eram "por procuração" (Coreia, Vietnã).',
+          'Guerra Fria: nunca houve confronto direto EUA × URSS: as guerras eram "por procuração" (Coreia, Vietnã).',
           'Revolução Industrial: associe urbanização + condições precárias de trabalho + surgimento de sindicatos.',
           'Conecte eventos: Rev. Industrial → Imperialismo → Guerras Mundiais → Guerra Fria.',
         ],
         errosComuns: [
-          'Achar que na Guerra Fria houve guerra direta entre EUA e URSS — o conflito era ideológico e indireto.',
+          'Achar que na Guerra Fria houve guerra direta entre EUA e URSS: o conflito era ideológico e indireto.',
           'Confundir Revolução Industrial (econômica/tecnológica) com Revolução Francesa (política/social).',
-          'Pensar que o Imperialismo foi "benéfico" para as colônias — foi exploração e dominação.',
+          'Pensar que o Imperialismo foi "benéfico" para as colônias: foi exploração e dominação.',
           'Ignorar o papel do Iluminismo como base intelectual da Revolução Francesa.',
           'Esquecer que a Revolução Industrial teve DUAS fases: 1ª (vapor, têxtil) e 2ª (eletricidade, aço, petróleo).',
         ],
@@ -674,52 +674,52 @@ export const disciplinaHistoria: Disciplina = {
       titulo: 'Antiguidade e Idade Média',
       peso: 20,
       conteudo: {
-        resumo: 'Roma (República e Império), Feudalismo e Igreja Medieval — organização social, economia e legados históricos.',
+        resumo: 'Roma (República e Império), Feudalismo e Igreja Medieval: organização social, economia e legados históricos.',
         explicacao:
-          'Este tópico abrange dois grandes períodos que fundamentam a compreensão da civilização ocidental.\n\n**Roma — República (509-27 a.C.):**\n• Governo: Senado + Cônsules + Assembleias\n• Sociedade: patrícios (elite) × plebeus (povo)\n• Conquistas: expansão territorial pelo Mediterrâneo\n• Crise: guerras civis, concentração de poder → fim da República\n\n**Roma — Império (27 a.C. - 476 d.C.):**\n• Governo: poder centralizado no imperador\n• Auge: Pax Romana (estabilidade e expansão)\n• Legados: direito romano, latim (origem das línguas românicas), engenharia (estradas, aquedutos)\n• Queda: invasões bárbaras, crise econômica, divisão do império\n\n**Feudalismo (séc. V-XV):**\n• Contexto: queda de Roma → descentralização do poder\n• Estrutura: rei → suserano → vassalo → servos\n• Economia: autossuficiente, baseada na terra (feudo)\n• Relações: suserania-vassalagem (proteção em troca de serviço)\n• Servos: presos à terra, pagavam impostos ao senhor feudal\n\n**Igreja Medieval:**\n• Papel: maior instituição da Idade Média, unificadora cultural\n• Poder: terras, cobrança de dízimos, Tribunal da Inquisição\n• Influência: controlava educação, arte e moral\n• Cruzadas (séc. XI-XIII): expedições militares-religiosas para retomar Jerusalém',
+          'Este tópico abrange dois grandes períodos que fundamentam a compreensão da civilização ocidental.\n\n**Roma: República (509-27 a.C.):**\n• Governo: Senado + Cônsules + Assembleias\n• Sociedade: patrícios (elite) × plebeus (povo)\n• Conquistas: expansão territorial pelo Mediterrâneo\n• Crise: guerras civis, concentração de poder → fim da República\n\n**Roma: Império (27 a.C. - 476 d.C.):**\n• Governo: poder centralizado no imperador\n• Auge: Pax Romana (estabilidade e expansão)\n• Legados: direito romano, latim (origem das línguas românicas), engenharia (estradas, aquedutos)\n• Queda: invasões bárbaras, crise econômica, divisão do império\n\n**Feudalismo (séc. V-XV):**\n• Contexto: queda de Roma → descentralização do poder\n• Estrutura: rei → suserano → vassalo → servos\n• Economia: autossuficiente, baseada na terra (feudo)\n• Relações: suserania-vassalagem (proteção em troca de serviço)\n• Servos: presos à terra, pagavam impostos ao senhor feudal\n\n**Igreja Medieval:**\n• Papel: maior instituição da Idade Média, unificadora cultural\n• Poder: terras, cobrança de dízimos, Tribunal da Inquisição\n• Influência: controlava educação, arte e moral\n• Cruzadas (séc. XI-XIII): expedições militares-religiosas para retomar Jerusalém',
         secoes: [
           {
             titulo: 'Introdução: Das Origens de Roma à Idade Moderna',
             tipo: 'texto',
             corpo:
-              `Este tópico percorre quase **dois mil anos** de história — da fundação de Roma (753 a.C.) até a transição para a Idade Moderna (séc. XV). Embora pareça um período distante, seus legados estão presentes no cotidiano: o **direito romano** fundamenta sistemas jurídicos no mundo todo, o **latim** originou o português, espanhol, francês e italiano, e conceitos como **república**, **senado** e **cidadania** foram inventados em Roma.\n\n` +
-              `O **Feudalismo** — sistema que dominou a Europa por séculos após a queda de Roma — moldou a organização social, a relação com a terra e as hierarquias de poder que persistiram até as revoluções modernas. Por fim, as **Cruzadas**, a **Peste Negra** e o **Renascimento Comercial** encerraram a Idade Média e abriram caminho para as Grandes Navegações e o mundo que conhecemos.\n\n` +
-              `> **Dica de estudo:** A UNIVESP cobra a compreensão de **processos longos** — como um sistema nasce, funciona, entra em crise e é substituído por outro. Foque nos *porquês*, não nas datas isoladas.`,
+              `Este tópico percorre quase **dois mil anos** de história: da fundação de Roma (753 a.C.) até a transição para a Idade Moderna (séc. XV). Embora pareça um período distante, seus legados estão presentes no cotidiano: o **direito romano** fundamenta sistemas jurídicos no mundo todo, o **latim** originou o português, espanhol, francês e italiano, e conceitos como **república**, **senado** e **cidadania** foram inventados em Roma.\n\n` +
+              `O **Feudalismo**: sistema que dominou a Europa por séculos após a queda de Roma: moldou a organização social, a relação com a terra e as hierarquias de poder que persistiram até as revoluções modernas. Por fim, as **Cruzadas**, a **Peste Negra** e o **Renascimento Comercial** encerraram a Idade Média e abriram caminho para as Grandes Navegações e o mundo que conhecemos.\n\n` +
+              `> **Dica de estudo:** A UNIVESP cobra a compreensão de **processos longos**: como um sistema nasce, funciona, entra em crise e é substituído por outro. Foque nos *porquês*, não nas datas isoladas.`,
           },
           {
             titulo: 'Roma — Da Monarquia à República (753–27 a.C.)',
             tipo: 'texto',
             corpo:
               `## A Monarquia (753–509 a.C.)\n\n` +
-              `Segundo a tradição, Roma foi fundada em **753 a.C.** por **Rômulo** (a lenda dos gêmeos amamentados por uma loba). Na prática, era uma pequena cidade-estado no centro da Península Itálica, governada por **reis** — os últimos dos quais eram etruscos.\n\n` +
-              `A Monarquia romana tinha três pilares: o **Rei** (poder executivo e religioso), o **Senado** (conselho de anciãos patrícios) e a **Assembleia Curiata** (representação do povo). O último rei, **Tarquínio, o Soberbo**, foi deposto em **509 a.C.** por sua tirania — e os romanos juraram nunca mais ter reis.\n\n` +
+              `Segundo a tradição, Roma foi fundada em **753 a.C.** por **Rômulo** (a lenda dos gêmeos amamentados por uma loba). Na prática, era uma pequena cidade-estado no centro da Península Itálica, governada por **reis**: os últimos dos quais eram etruscos.\n\n` +
+              `A Monarquia romana tinha três pilares: o **Rei** (poder executivo e religioso), o **Senado** (conselho de anciãos patrícios) e a **Assembleia Curiata** (representação do povo). O último rei, **Tarquínio, o Soberbo**, foi deposto em **509 a.C.** por sua tirania: e os romanos juraram nunca mais ter reis.\n\n` +
               `## A República (509–27 a.C.)\n\n` +
               `A República substituiu o poder de um homem só por um sistema de **poder dividido**:\n\n` +
-              `- **Cônsules (2):** eleitos anualmente, governavam juntos — um podia vetar o outro\n` +
+              `- **Cônsules (2):** eleitos anualmente, governavam juntos: um podia vetar o outro\n` +
               `- **Senado:** controlado pelos **patrícios** (aristocracia fundiária), era o verdadeiro centro de poder\n` +
               `- **Assembleias populares:** representavam os **plebeus** (cidadãos comuns)\n` +
               `- **Tribunos da Plebe:** magistrados com poder de **veto** para proteger os plebeus contra abusos dos patrícios\n\n` +
-              `A tensão entre patrícios e plebeus marcou toda a República. Ao longo dos séculos, os plebeus conquistaram direitos: as **Leis das Doze Tábuas** (450 a.C.) — primeiro código escrito de Roma — e o acesso a cargos públicos.\n\n` +
+              `A tensão entre patrícios e plebeus marcou toda a República. Ao longo dos séculos, os plebeus conquistaram direitos: as **Leis das Doze Tábuas** (450 a.C.): primeiro código escrito de Roma: e o acesso a cargos públicos.\n\n` +
               `## Expansão e crise\n\n` +
               `Roma expandiu-se agressivamente, conquistando toda a Península Itálica, o Mediterrâneo (após as **Guerras Púnicas** contra Cartago) e vastos territórios na Europa, Ásia Menor e norte da África. Mas a expansão gerou crises internas:\n\n` +
               `- **Concentração de terras:** generais vitoriosos acumulavam terras, formando latifúndios\n` +
               `- **Exército profissional:** soldados leais aos generais, não à República\n` +
               `- **Guerras civis:** **Mário × Sila**, depois **César × Pompeu**, depois **Otávio × Marco Antônio**\n\n` +
-              `**Júlio César** cruzou o rio Rubicão (49 a.C.), tornou-se ditador perpétuo e foi **assassinado no Senado** em 44 a.C. (os famosos "Idos de Março"). Seu sobrinho-neto **Otávio** venceu as guerras subsequentes e, em **27 a.C.**, recebeu o título de **Augusto** — nasceu o Império.`,
+              `**Júlio César** cruzou o rio Rubicão (49 a.C.), tornou-se ditador perpétuo e foi **assassinado no Senado** em 44 a.C. (os famosos "Idos de Março"). Seu sobrinho-neto **Otávio** venceu as guerras subsequentes e, em **27 a.C.**, recebeu o título de **Augusto**: nasceu o Império.`,
           },
           {
             titulo: 'Roma Imperial — Auge e Declínio (27 a.C.–476 d.C.)',
             tipo: 'texto',
             corpo:
               `## A Pax Romana (27 a.C.–180 d.C.)\n\n` +
-              `Sob **Augusto** e seus sucessores, Roma viveu cerca de dois séculos de relativa estabilidade — a **Pax Romana**. O império atingiu sua extensão máxima sob **Trajano** (98–117 d.C.), abrangendo da Britânia (Inglaterra) à Mesopotâmia (Iraque). As características do período incluem:\n\n` +
+              `Sob **Augusto** e seus sucessores, Roma viveu cerca de dois séculos de relativa estabilidade: a **Pax Romana**. O império atingiu sua extensão máxima sob **Trajano** (98–117 d.C.), abrangendo da Britânia (Inglaterra) à Mesopotâmia (Iraque). As características do período incluem:\n\n` +
               `- **Centralização:** o imperador acumulava poderes executivos, legislativos, militares e religiosos\n` +
               `- **Infraestrutura monumental:** estradas pavimentadas (50.000 km de *viae*), aquedutos, termas, anfiteatros (Coliseu, 80 d.C.)\n` +
               `- **"Pão e Circo" (*panem et circenses*):** distribuição gratuita de grãos e espetáculos no Coliseu para manter a população urbana satisfeita\n` +
               `- **Direito romano:** sistema jurídico sofisticado, com conceitos que fundamentam o direito civil moderno (propriedade, contratos, testamentos, defesa no tribunal)\n\n` +
               `## A crise do século III (235–284 d.C.)\n\n` +
               `A partir do século III, o Império entrou em crise profunda:\n\n` +
-              `- **Instabilidade política:** em 50 anos, Roma teve mais de 20 imperadores — a maioria assassinada\n` +
+              `- **Instabilidade política:** em 50 anos, Roma teve mais de 20 imperadores: a maioria assassinada\n` +
               `- **Crise econômica:** inflação, queda da produção agrícola, interrupção do comércio\n` +
               `- **Pressão nas fronteiras:** povos germânicos (os chamados "bárbaros") pressionavam as fronteiras do Reno e do Danúbio\n` +
               `- **Epidemias:** a Praga de Cipriano (250–270 d.C.) matou milhões\n\n` +
@@ -738,7 +738,7 @@ export const disciplinaHistoria: Disciplina = {
               `- **Latim:** língua oficial do Império, originou as **línguas românicas**: português, espanhol, francês, italiano, romeno.\n` +
               `- **Engenharia e urbanismo:** estradas, aquedutos, esgotos (a *Cloaca Máxima* de Roma ainda funciona), arcos, abóbadas e concreto romano.\n` +
               `- **República como forma de governo:** o conceito de poder dividido, eleições e mandatos limitados.\n` +
-              `- **Arquitetura monumental:** o Coliseu, o Panteão, os arcos do triunfo — modelos copiados por séculos.\n` +
+              `- **Arquitetura monumental:** o Coliseu, o Panteão, os arcos do triunfo: modelos copiados por séculos.\n` +
               `- **Calendário:** o calendário juliano (Júlio César, 46 a.C.) é a base do calendário gregoriano que usamos hoje. Os nomes dos meses vêm do latim (janeiro = *Ianuarius*, março = *Martius*).`,
           },
           {
@@ -761,34 +761,34 @@ export const disciplinaHistoria: Disciplina = {
               `## Contexto: o mundo pós-Roma\n\n` +
               `Com a queda do Império Romano do Ocidente (476 d.C.), a Europa mergulhou em um longo período de **descentralização política, ruralização e insegurança**. Não havia mais um Estado centralizado capaz de manter estradas, cobrar impostos ou garantir segurança. Cidades esvaziaram-se; o comércio praticamente desapareceu; a moeda perdeu função. Nesse vácuo de poder, emergiu o **Feudalismo**.\n\n` +
               `## O que era o Feudalismo?\n\n` +
-              `O Feudalismo não foi um sistema planejado — surgiu organicamente da necessidade de **proteção e sobrevivência**. Seu funcionamento baseava-se em três pilares:\n\n` +
+              `O Feudalismo não foi um sistema planejado: surgiu organicamente da necessidade de **proteção e sobrevivência**. Seu funcionamento baseava-se em três pilares:\n\n` +
               `**1. A terra (feudo)**\n` +
-              `A terra era a base de tudo — riqueza, poder e prestígio. Quem tinha terra, tinha poder. O **feudo** era uma propriedade agrícola concedida por um **suserano** a um **vassalo** em troca de lealdade e serviço.\n\n` +
+              `A terra era a base de tudo: riqueza, poder e prestígio. Quem tinha terra, tinha poder. O **feudo** era uma propriedade agrícola concedida por um **suserano** a um **vassalo** em troca de lealdade e serviço.\n\n` +
               `**2. As relações de suserania e vassalagem**\n` +
               `Eram relações **pessoais e recíprocas** entre nobres:\n` +
               `- O **suserano** concedia terras e proteção\n` +
               `- O **vassalo** jurava fidelidade e oferecia serviço militar\n` +
               `- A cerimônia de **homenagem** selava o pacto\n` +
-              `- Um mesmo nobre podia ser suserano de uns e vassalo de outros — criando uma cadeia hierárquica complexa\n\n` +
+              `- Um mesmo nobre podia ser suserano de uns e vassalo de outros: criando uma cadeia hierárquica complexa\n\n` +
               `**3. A sociedade estamental**\n` +
               `A sociedade feudal era dividida em **estamentos** (camadas rígidas, sem mobilidade social):\n` +
-              `- **Clero** (os que rezam): monges, padres, bispos, o Papa — primeiro estamento\n` +
-              `- **Nobreza** (os que lutam): reis, duques, condes, barões, cavaleiros — segundo estamento\n` +
-              `- **Servos e camponeses** (os que trabalham): a imensa maioria da população — terceiro estamento\n\n` +
-              `> **Conceito fundamental:** A sociedade feudal era **estática** — nascia-se servo, morria-se servo. A posição social era determinada pelo nascimento, não pelo mérito.`,
+              `- **Clero** (os que rezam): monges, padres, bispos, o Papa: primeiro estamento\n` +
+              `- **Nobreza** (os que lutam): reis, duques, condes, barões, cavaleiros: segundo estamento\n` +
+              `- **Servos e camponeses** (os que trabalham): a imensa maioria da população: terceiro estamento\n\n` +
+              `> **Conceito fundamental:** A sociedade feudal era **estática**: nascia-se servo, morria-se servo. A posição social era determinada pelo nascimento, não pelo mérito.`,
           },
           {
             titulo: 'A Economia Feudal e a Vida dos Servos',
             tipo: 'texto',
             corpo:
               `## Economia autossuficiente\n\n` +
-              `Cada feudo funcionava como uma unidade econômica quase **autossuficiente**. Produzia-se internamente quase tudo o que era necessário: alimentos, roupas, ferramentas, móveis. O comércio externo era mínimo — limitado a produtos como sal, ferro e especiarias.\n\n` +
+              `Cada feudo funcionava como uma unidade econômica quase **autossuficiente**. Produzia-se internamente quase tudo o que era necessário: alimentos, roupas, ferramentas, móveis. O comércio externo era mínimo: limitado a produtos como sal, ferro e especiarias.\n\n` +
               `A base produtiva era a **agricultura de subsistência**. As terras do feudo dividiam-se em:\n\n` +
               `- **Manso senhorial (reserva):** terras do senhor feudal, trabalhadas gratuitamente pelos servos\n` +
               `- **Manso servil (tenências):** lotes cedidos aos servos para seu próprio sustento\n` +
               `- **Terras comunais:** pastagens e florestas de uso coletivo\n\n` +
               `## A vida dos servos\n\n` +
-              `Os servos **não eram escravos** — essa distinção é importante e cobrada em provas. Diferenças cruciais:\n\n` +
+              `Os servos **não eram escravos**: essa distinção é importante e cobrada em provas. Diferenças cruciais:\n\n` +
               `- Servos estavam **vinculados à terra**, não ao senhor. Se a terra mudasse de dono, os servos iam junto.\n` +
               `- Servos **não podiam ser comprados ou vendidos** individualmente\n` +
               `- Servos tinham direito a uma porção de terra para seu sustento\n` +
@@ -812,21 +812,21 @@ export const disciplinaHistoria: Disciplina = {
               `| **3º nível** | Grandes nobres (duques, condes) | Governar; guerrear | Suseranos de outros nobres |\n` +
               `| **4º nível** | Pequenos nobres (barões, cavaleiros) | Lutar; administrar feudos | Vassalos dos grandes nobres |\n` +
               `| **Base** | Servos e camponeses (~90% da população) | Trabalhar a terra | Sem mobilidade social; presos ao feudo |\n\n` +
-              `> **Atenção:** O rei feudal **não** era um monarca absolutista. Seu poder dependia da lealdade dos nobres — se os vassalos se rebelassem, o rei ficava sem exército.`,
+              `> **Atenção:** O rei feudal **não** era um monarca absolutista. Seu poder dependia da lealdade dos nobres: se os vassalos se rebelassem, o rei ficava sem exército.`,
           },
           {
             titulo: 'A Igreja Medieval — Poder Espiritual e Temporal',
             tipo: 'texto',
             corpo:
-              `A **Igreja Católica** foi a instituição mais poderosa da Idade Média europeia. Enquanto reinos surgiam e desmoronavam, a Igreja permanecia — oferecendo **continuidade, unidade cultural e legitimidade** em um mundo fragmentado.\n\n` +
+              `A **Igreja Católica** foi a instituição mais poderosa da Idade Média europeia. Enquanto reinos surgiam e desmoronavam, a Igreja permanecia: oferecendo **continuidade, unidade cultural e legitimidade** em um mundo fragmentado.\n\n` +
               `## Fontes de poder\n\n` +
               `- **Terra:** a Igreja era a **maior proprietária de terras** da Europa medieval. Mosteiros e dioceses possuíam feudos imensos.\n` +
               `- **Dízimo:** cobrança obrigatória de 10% da produção de todos os cristãos\n` +
               `- **Monopólio educacional:** praticamente toda a educação (nas universidades medievais e escolas monásticas) estava sob controle da Igreja. O clero era a única camada letrada da sociedade.\n` +
-              `- **Legitimação do poder:** reis eram coroados pelo Papa ou por bispos. A teoria do **direito divino** afirmava que o poder dos reis vinha de Deus — e a Igreja era intermediária.\n` +
-              `- **Tribunal da Inquisição:** criado no séc. XIII para combater heresias. Julgava e punia quem questionasse os dogmas da fé — incluindo a tortura e a execução na fogueira.\n\n` +
+              `- **Legitimação do poder:** reis eram coroados pelo Papa ou por bispos. A teoria do **direito divino** afirmava que o poder dos reis vinha de Deus: e a Igreja era intermediária.\n` +
+              `- **Tribunal da Inquisição:** criado no séc. XIII para combater heresias. Julgava e punia quem questionasse os dogmas da fé: incluindo a tortura e a execução na fogueira.\n\n` +
               `## Poder temporal\n\n` +
-              `O poder da Igreja não era apenas espiritual. Bispos e abades governavam territórios, cobravam impostos, tinham exércitos. O **Papa** rivalizava com imperadores e reis — e frequentemente os derrotava. O exemplo mais famoso é a **Questão das Investiduras** (séc. XI–XII): a disputa entre o Papa Gregório VII e o imperador Henrique IV sobre quem tinha o direito de nomear bispos. Henrique IV foi obrigado a pedir perdão ao Papa de joelhos na neve (episódio de **Canossa**, 1077).\n\n` +
+              `O poder da Igreja não era apenas espiritual. Bispos e abades governavam territórios, cobravam impostos, tinham exércitos. O **Papa** rivalizava com imperadores e reis: e frequentemente os derrotava. O exemplo mais famoso é a **Questão das Investiduras** (séc. XI–XII): a disputa entre o Papa Gregório VII e o imperador Henrique IV sobre quem tinha o direito de nomear bispos. Henrique IV foi obrigado a pedir perdão ao Papa de joelhos na neve (episódio de **Canossa**, 1077).\n\n` +
               `> **Para o vestibular:** A Igreja Medieval tinha poder **espiritual** (fé, sacramentos, salvação) **e temporal** (terras, tribunais, influência política). Questões que cobram o papel da Igreja esperam que você cite **ambas** as dimensões.`,
           },
           {
@@ -844,7 +844,7 @@ export const disciplinaHistoria: Disciplina = {
               `## Principais Cruzadas\n\n` +
               `Foram **oito cruzadas principais** entre 1096 e 1270. A **Primeira Cruzada** (1096–1099) foi a mais bem-sucedida militarmente: conquistou Jerusalém e estabeleceu reinos cristãos no Oriente Médio. A **Quarta Cruzada** (1202–1204) desviou-se completamente e saqueou **Constantinopla** (aliada cristã!), enfraquecendo o Império Bizantino.\n\n` +
               `## Consequências das Cruzadas\n\n` +
-              `As Cruzadas **falharam** em seu objetivo religioso — Jerusalém foi perdida definitivamente. Porém, suas consequências foram **transformadoras** para a Europa:\n\n` +
+              `As Cruzadas **falharam** em seu objetivo religioso: Jerusalém foi perdida definitivamente. Porém, suas consequências foram **transformadoras** para a Europa:\n\n` +
               `- **Reabertura do comércio** com o Oriente: especiarias, seda, perfumes, tecnologias\n` +
               `- **Enriquecimento das cidades italianas** (Veneza, Gênova, Pisa) como intermediárias comerciais\n` +
               `- **Enfraquecimento da nobreza feudal:** muitos senhores morreram ou se endividaram\n` +
@@ -856,12 +856,12 @@ export const disciplinaHistoria: Disciplina = {
             titulo: 'A Transição para a Idade Moderna (séc. XIV–XV)',
             tipo: 'texto',
             corpo:
-              `O Feudalismo não desapareceu de repente — foi sendo corroído por transformações graduais e crises catastróficas entre os séculos XIV e XV.\n\n` +
+              `O Feudalismo não desapareceu de repente: foi sendo corroído por transformações graduais e crises catastróficas entre os séculos XIV e XV.\n\n` +
               `## O Renascimento Comercial e Urbano (séc. XI–XIII)\n\n` +
-              `As Cruzadas reabriram rotas comerciais com o Oriente. O comércio trouxe riqueza, e a riqueza trouxe o crescimento das **cidades** (*burgos*). Uma nova classe social emergiu: a **burguesia** — comerciantes, banqueiros e artesãos que não se encaixavam na lógica feudal (não eram nobres, clero nem servos).\n\n` +
+              `As Cruzadas reabriram rotas comerciais com o Oriente. O comércio trouxe riqueza, e a riqueza trouxe o crescimento das **cidades** (*burgos*). Uma nova classe social emergiu: a **burguesia**: comerciantes, banqueiros e artesãos que não se encaixavam na lógica feudal (não eram nobres, clero nem servos).\n\n` +
               `As cidades medievais (como Florença, Bruges, Paris) obtiveram **cartas de franquia** dos reis, ganhando autonomia política e econômica. Feiras comerciais como as de **Champagne** conectavam o comércio europeu. O uso da **moeda** voltou a crescer, substituindo o escambo.\n\n` +
               `## A Peste Negra (1347–1353)\n\n` +
-              `A **Peste Negra** (peste bubônica) chegou à Europa em 1347, vinda da Ásia Central por navios genoveses. Em seis anos, matou entre **30% e 60% da população europeia** — estima-se entre 75 e 200 milhões de pessoas.\n\n` +
+              `A **Peste Negra** (peste bubônica) chegou à Europa em 1347, vinda da Ásia Central por navios genoveses. Em seis anos, matou entre **30% e 60% da população europeia**: estima-se entre 75 e 200 milhões de pessoas.\n\n` +
               `As consequências foram profundas:\n\n` +
               `- **Escassez de mão de obra:** com menos servos, os sobreviventes ganharam poder de barganha. Senhores feudais foram forçados a oferecer melhores condições ou salários.\n` +
               `- **Revoltas camponesas:** a Jacquerie (França, 1358) e a Revolta dos Camponeses (Inglaterra, 1381) desafiaram a ordem feudal.\n` +
@@ -869,7 +869,7 @@ export const disciplinaHistoria: Disciplina = {
               `- **Aceleração da transição:** a combinação de menos trabalhadores + mais comércio + crise da Igreja enfraqueceu irreversivelmente o sistema feudal.\n\n` +
               `## A formação dos Estados Nacionais\n\n` +
               `Com a nobreza feudal enfraquecida e a burguesia em ascensão, os **reis** aproveitaram para centralizar o poder. Alianças entre monarquias e burguesia (reis ofereciam proteção e estabilidade; burgueses financiavam exércitos e administração) levaram à formação dos **Estados Nacionais**: Portugal, Espanha, França e Inglaterra consolidaram-se como reinos unificados entre os séculos XIV e XV.\n\n` +
-              `Esses novos Estados — especialmente **Portugal** e **Espanha** — lançariam as **Grandes Navegações** nos séculos XV e XVI, conectando a história da Europa… à história do Brasil.\n\n` +
+              `Esses novos Estados: especialmente **Portugal** e **Espanha**: lançariam as **Grandes Navegações** nos séculos XV e XVI, conectando a história da Europa… à história do Brasil.\n\n` +
               `> **Conexão com o vestibular:** A transição Idade Média → Idade Moderna é diretamente ligada ao Período Colonial brasileiro. Portugal só pôde colonizar o Brasil porque formou um Estado Nacional centralizado, financiado pela burguesia comercial, e lançou-se ao mar.`,
           },
           {
@@ -894,14 +894,14 @@ export const disciplinaHistoria: Disciplina = {
             tipo: 'destaque',
             corpo:
               `Revise estes conceitos essenciais para o vestibular:\n\n` +
-              `- **Patrícios × Plebeus:** aristocracia fundiária vs. cidadãos comuns de Roma — tensão política permanente na República.\n` +
+              `- **Patrícios × Plebeus:** aristocracia fundiária vs. cidadãos comuns de Roma: tensão política permanente na República.\n` +
               `- **Pax Romana:** período de estabilidade e expansão do Império (27 a.C.–180 d.C.).\n` +
-              `- **Suserania-vassalagem:** relação recíproca entre nobres feudais — terras em troca de lealdade e serviço militar.\n` +
+              `- **Suserania-vassalagem:** relação recíproca entre nobres feudais: terras em troca de lealdade e serviço militar.\n` +
               `- **Servo ≠ Escravo:** servo está preso à terra e paga tributos; escravo é propriedade de outra pessoa.\n` +
-              `- **Estamentos:** camadas sociais fixas do feudalismo — clero, nobreza e servos. Sem mobilidade social.\n` +
-              `- **Poder temporal × espiritual:** a Igreja exercia ambos — governava terras e almas.\n` +
-              `- **Burguesia:** classe comercial emergente nas cidades medievais — não se encaixa no sistema feudal e será protagonista das revoluções modernas.\n` +
-              `- **Peste Negra:** catalisador da crise feudal — matou milhões e alterou as relações de trabalho.\n\n` +
+              `- **Estamentos:** camadas sociais fixas do feudalismo: clero, nobreza e servos. Sem mobilidade social.\n` +
+              `- **Poder temporal × espiritual:** a Igreja exercia ambos: governava terras e almas.\n` +
+              `- **Burguesia:** classe comercial emergente nas cidades medievais: não se encaixa no sistema feudal e será protagonista das revoluções modernas.\n` +
+              `- **Peste Negra:** catalisador da crise feudal: matou milhões e alterou as relações de trabalho.\n\n` +
               `> **Para o vestibular:** Se a questão pedir para "comparar", "diferenciar" ou "relacionar", use estes conceitos como base. A UNIVESP valoriza respostas que demonstrem **domínio de vocabulário histórico** aliado à compreensão de processos.`,
           },
         ],
@@ -915,15 +915,15 @@ export const disciplinaHistoria: Disciplina = {
         ],
         dicasProva: [
           'Se a questão mencionar Senado e patrícios, é Roma Republicana.',
-          'Feudalismo: a terra é a base de TUDO — poder, economia e relações sociais.',
+          'Feudalismo: a terra é a base de TUDO: poder, economia e relações sociais.',
           'A Igreja Medieval acumulava poder espiritual E temporal (político e econômico).',
           'Legados romanos cobrados: direito, latim, engenharia, república como forma de governo.',
           'Servos ≠ escravos: servos tinham obrigações, mas não eram propriedade; eram presos à terra.',
         ],
         errosComuns: [
-          'Confundir República Romana com Império Romano — são períodos distintos com governos diferentes.',
-          'Achar que servos eram escravos — servos estavam vinculados à terra, não eram propriedade.',
-          'Pensar que o feudalismo tinha um governo centralizado — o poder era fragmentado entre senhores feudais.',
+          'Confundir República Romana com Império Romano: são períodos distintos com governos diferentes.',
+          'Achar que servos eram escravos: servos estavam vinculados à terra, não eram propriedade.',
+          'Pensar que o feudalismo tinha um governo centralizado: o poder era fragmentado entre senhores feudais.',
           'Esquecer que a Igreja Medieval tinha poder político além do religioso.',
           'Confundir a queda de Roma (476 d.C.) com a queda de Constantinopla (1453).',
         ],

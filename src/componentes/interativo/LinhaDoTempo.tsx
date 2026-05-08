@@ -168,7 +168,7 @@ const EVENTOS_VARGAS: readonly EventoHistorico[] = [
     descricaoCurta: 'Vargas instaura uma ditadura inspirada no fascismo europeu.',
     periodo: 'Era Vargas',
     detalhe:
-      'Usando o pretexto do Plano Cohen — um documento forjado sobre uma suposta revolução comunista — Vargas fechou o Congresso, cancelou as eleições e outorgou uma nova Constituição centralista. O DIP (Departamento de Imprensa e Propaganda) controlava a imprensa e promovia o culto à personalidade.',
+      'Usando o pretexto do Plano Cohen, um documento forjado sobre uma suposta revolução comunista, Vargas fechou o Congresso, cancelou as eleições e outorgou uma nova Constituição centralista. O DIP (Departamento de Imprensa e Propaganda) controlava a imprensa e promovia o culto à personalidade.',
     consequencias:
       'Supressão das liberdades civis, mas também modernização industrial e criação de empresas estatais como a CSN e a Vale do Rio Doce.',
   },
@@ -236,7 +236,7 @@ const EVENTOS_VARGAS: readonly EventoHistorico[] = [
     detalhe:
       'A Lei nº 6.683 permitiu o retorno de exilados políticos, mas também garantiu impunidade aos agentes do Estado que praticaram tortura e assassinatos. O presidente Figueiredo conduzia a "abertura lenta, gradual e segura". A lei foi resultado de intensa mobilização dos Comitês Brasileiros pela Anistia.',
     consequencias:
-      'Retorno de líderes como Leonel Brizola e Luís Carlos Prestes, mas sem responsabilização dos torturadores — debate que persiste até hoje.',
+      'Retorno de líderes como Leonel Brizola e Luís Carlos Prestes, mas sem responsabilização dos torturadores. Esse debate persiste até hoje.',
   },
   {
     id: 'var-1984',

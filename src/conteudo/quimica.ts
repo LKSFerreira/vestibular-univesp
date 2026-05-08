@@ -17,7 +17,7 @@ export const disciplinaQuimica: Disciplina = {
           {
             titulo: 'Introdução à Química Orgânica',
             tipo: 'texto',
-            corpo: `A **Química Orgânica** é o ramo da Química dedicado ao estudo dos compostos de carbono. Embora existam exceções — como $CO_2$, $CO$, carbonatos e cianetos, estudados na Química Inorgânica — a grande maioria dos compostos de carbono é considerada orgânica.
+            corpo: `A **Química Orgânica** é o ramo da Química dedicado ao estudo dos compostos de carbono. Embora existam exceções: como $CO_2$, $CO$, carbonatos e cianetos, estudados na Química Inorgânica: a grande maioria dos compostos de carbono é considerada orgânica.
 
 Compostos orgânicos estão por toda parte: medicamentos, combustíveis, polímeros, alimentos, cosméticos e até o DNA. No vestibular, os temas mais cobrados são:
 
@@ -81,7 +81,7 @@ onde $C$ = carbonos, $N$ = nitrogênios, $H$ = hidrogênios e $X$ = halogênios.
 
 $$\\text{PREFIXO} + \\text{INFIXO} + \\text{SUFIXO}$$
 
-**Prefixo** — indica o número de carbonos da cadeia principal:
+**Prefixo**: indica o número de carbonos da cadeia principal:
 
 | Carbonos | Prefixo | Carbonos | Prefixo |
 |----------|---------|----------|---------|
@@ -91,12 +91,12 @@ $$\\text{PREFIXO} + \\text{INFIXO} + \\text{SUFIXO}$$
 | 4 | but- | 9 | non- |
 | 5 | pent- | 10 | dec- |
 
-**Infixo** — indica o tipo de ligação entre carbonos:
+**Infixo**: indica o tipo de ligação entre carbonos:
 - $-an-$: apenas ligações simples (saturada)
 - $-en-$: presença de ligação dupla $C = C$
 - $-in-$: presença de ligação tripla $C \\equiv C$
 
-**Sufixo** — indica a função orgânica:
+**Sufixo**: indica a função orgânica:
 - $-o$: hidrocarboneto | $-ol$: álcool | $-al$: aldeído
 - $-ona$: cetona | $-oico$: ácido carboxílico | $-ato\\ de...$: éster
 
@@ -131,7 +131,7 @@ $$\\text{PREFIXO} + \\text{INFIXO} + \\text{SUFIXO}$$
 - Classificação: primário (1°), secundário (2°) ou terciário (3°), conforme o carbono que porta o $-OH$
 
 **Fenol:** $-OH$ ligado diretamente a carbono de **anel aromático**.
-- Exemplo: fenol ($C_6H_5OH$) — usado como antisséptico
+- Exemplo: fenol ($C_6H_5OH$): usado como antisséptico
 
 **Enol:** $-OH$ ligado a carbono com **ligação dupla** ($sp^2$).
 - Geralmente instável; converte-se em aldeído ou cetona (tautomeria ceto-enólica)
@@ -143,21 +143,21 @@ A **solubilidade em água** dos álcoois diminui com o aumento da cadeia carbôn
             tipo: 'texto',
             corpo: `Ambas possuem o grupo **carbonila** ($C=O$), mas a posição na cadeia é diferente:
 
-**Aldeído** — carbonila no carbono **terminal** (extremidade da cadeia):
+**Aldeído**: carbonila no carbono **terminal** (extremidade da cadeia):
 
 $$R - CHO \\quad \\text{(grupo formila)}$$
 
 Exemplos:
-- Metanal ($HCHO$) — formol, usado em conservação
-- Etanal ($CH_3CHO$) — acetaldeído
+- Metanal ($HCHO$): formol, usado em conservação
+- Etanal ($CH_3CHO$): acetaldeído
 - Sufixo IUPAC: **-al**
 
-**Cetona** — carbonila em carbono **intermediário** (entre dois carbonos):
+**Cetona**: carbonila em carbono **intermediário** (entre dois carbonos):
 
 $$R - CO - R' \\quad \\text{(grupo carbonila entre C)}$$
 
 Exemplos:
-- Propanona ($CH_3COCH_3$) — acetona, solvente comum
+- Propanona ($CH_3COCH_3$): acetona, solvente comum
 - Butanona ($CH_3COCH_2CH_3$)
 - Sufixo IUPAC: **-ona**
 
@@ -166,16 +166,16 @@ Exemplos:
           {
             titulo: 'Ácidos Carboxílicos e Ésteres',
             tipo: 'texto',
-            corpo: `**Ácido Carboxílico** — possui o grupo **carboxila** ($-COOH$), que combina uma carbonila ($C=O$) com uma hidroxila ($-OH$) no mesmo carbono:
+            corpo: `**Ácido Carboxílico**: possui o grupo **carboxila** ($-COOH$), que combina uma carbonila ($C=O$) com uma hidroxila ($-OH$) no mesmo carbono:
 
 $$R - COOH$$
 
 Exemplos:
-- Ácido metanoico ($HCOOH$) — ácido fórmico (picada de formiga)
-- Ácido etanoico ($CH_3COOH$) — ácido acético (vinagre)
+- Ácido metanoico ($HCOOH$): ácido fórmico (picada de formiga)
+- Ácido etanoico ($CH_3COOH$): ácido acético (vinagre)
 - Sufixo IUPAC: **ácido ...-oico**
 
-**Éster** — derivado da reação entre um ácido carboxílico e um álcool, com perda de água:
+**Éster**: derivado da reação entre um ácido carboxílico e um álcool, com perda de água:
 
 $$R - COO - R'$$
 
@@ -190,24 +190,24 @@ Exemplo: $CH_3COOH + CH_3OH \\rightleftharpoons CH_3COOCH_3 + H_2O$
           {
             titulo: 'Éteres, Aminas e Amidas',
             tipo: 'texto',
-            corpo: `**Éter** — possui um átomo de oxigênio entre dois carbonos ($C - O - C$):
+            corpo: `**Éter**: possui um átomo de oxigênio entre dois carbonos ($C - O - C$):
 
 $$R - O - R'$$
 
-- Exemplo: etóxi-etano ($CH_3CH_2OCH_2CH_3$) — éter dietílico, antigo anestésico
+- Exemplo: etóxi-etano ($CH_3CH_2OCH_2CH_3$): éter dietílico, antigo anestésico
 - Nomenclatura IUPAC: menor cadeia + **óxi** + maior cadeia
 
-**Amina** — derivada da amônia ($NH_3$) pela substituição de hidrogênios por grupos orgânicos:
+**Amina**: derivada da amônia ($NH_3$) pela substituição de hidrogênios por grupos orgânicos:
 - Amina primária: $R - NH_2$
 - Amina secundária: $R_2NH$
 - Amina terciária: $R_3N$
 - Exemplo: metilamina ($CH_3NH_2$), presente na decomposição de peixes
 
-**Amida** — possui o grupo $-CONH_2$ (carbonila ligada a nitrogênio):
+**Amida**: possui o grupo $-CONH_2$ (carbonila ligada a nitrogênio):
 
 $$R - CO - NH_2$$
 
-- Exemplo: etanamida ($CH_3CONH_2$), ureia ($H_2NCONH_2$) — excretada pelos rins
+- Exemplo: etanamida ($CH_3CONH_2$), ureia ($H_2NCONH_2$): excretada pelos rins
 - A amida é a única função nitrogenada que possui **carbonila**; isso a diferencia das aminas`,
           },
           {
@@ -237,28 +237,28 @@ $$R - CO - NH_2$$
             tipo: 'texto',
             corpo: `As reações orgânicas mais cobradas nos vestibulares são:
 
-**1. Combustão completa** — hidrocarboneto reage com $O_2$ em excesso:
+**1. Combustão completa**: hidrocarboneto reage com $O_2$ em excesso:
 
 $$C_xH_y + \\left(x + \\frac{y}{4}\\right) O_2 \\rightarrow x \\, CO_2 + \\frac{y}{2} \\, H_2O$$
 
 Exemplo: $CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$
 
-**2. Oxidação de álcoois** — agentes oxidantes ($KMnO_4$, $K_2Cr_2O_7$):
+**2. Oxidação de álcoois**: agentes oxidantes ($KMnO_4$, $K_2Cr_2O_7$):
 - Álcool **primário** → aldeído → ácido carboxílico
 - Álcool **secundário** → cetona
 - Álcool **terciário** → não oxida em condições brandas
 
-**3. Esterificação de Fischer** — ácido carboxílico + álcool → éster + água (catálise ácida):
+**3. Esterificação de Fischer**: ácido carboxílico + álcool → éster + água (catálise ácida):
 
 $$R-COOH + R'-OH \\xrightleftharpoons{H^+} R-COOR' + H_2O$$
 
-**4. Saponificação (hidrólise alcalina)** — éster (gordura) + base forte → sal orgânico (sabão) + glicerol:
+**4. Saponificação (hidrólise alcalina)**: éster (gordura) + base forte → sal orgânico (sabão) + glicerol:
 
 $$\\text{gordura} + NaOH \\rightarrow \\text{sabão} + \\text{glicerol}$$
 
 É a reação inversa da esterificação, usada na fabricação de sabões.
 
-**5. Reação de substituição em aromáticos** — um $H$ do anel é substituído por outro grupo (halogenação, nitração, sulfonação).`,
+**5. Reação de substituição em aromáticos**: um $H$ do anel é substituído por outro grupo (halogenação, nitração, sulfonação).`,
           },
           {
             titulo: 'Isomeria Plana — Visão Geral',
@@ -280,9 +280,9 @@ $$\\text{gordura} + NaOH \\rightarrow \\text{sabão} + \\text{glicerol}$$
             tipo: 'destaque',
             corpo: `**Checklist rápido para questões de Química Orgânica:**
 
-1. **Identifique o grupo funcional** — use o roteiro de identificação (procure $N$, depois $O$, depois classifique)
-2. **Encontre a cadeia principal** — a mais longa que contém o grupo funcional
-3. **Numere a cadeia** — a partir da extremidade mais próxima do grupo funcional
+1. **Identifique o grupo funcional**: use o roteiro de identificação (procure $N$, depois $O$, depois classifique)
+2. **Encontre a cadeia principal**: a mais longa que contém o grupo funcional
+3. **Numere a cadeia**: a partir da extremidade mais próxima do grupo funcional
 4. **Monte o nome IUPAC:** prefixo (nº de C) + infixo (ligação) + sufixo (função)
 5. **Em reações:** identifique os reagentes e o tipo de reação (combustão, oxidação, esterificação, saponificação)
 6. **Em isomeria:** mesma fórmula molecular → compare estruturas → classifique o tipo
@@ -292,9 +292,9 @@ $$\\text{gordura} + NaOH \\rightarrow \\text{sabão} + \\text{glicerol}$$
         ],
         imagemDescricao: 'Tabela visual com as principais funções orgânicas, seus grupos funcionais e exemplos do cotidiano',
         formulasChave: [
-          'CₙH₂ₙ₊₂ (fórmula geral dos alcanos — cadeia aberta saturada)',
-          'CₙH₂ₙ (fórmula geral dos alcenos — uma dupla ligação)',
-          'CₙH₂ₙ₋₂ (fórmula geral dos alcinos — uma tripla ligação)',
+          'CₙH₂ₙ₊₂ (fórmula geral dos alcanos: cadeia aberta saturada)',
+          'CₙH₂ₙ (fórmula geral dos alcenos: uma dupla ligação)',
+          'CₙH₂ₙ₋₂ (fórmula geral dos alcinos: uma tripla ligação)',
           'Grau de insaturação: GI = (2C + 2 + N - H - X) / 2',
         ],
         dicasProva: [
@@ -305,7 +305,7 @@ $$\\text{gordura} + NaOH \\rightarrow \\text{sabão} + \\text{glicerol}$$
         ],
         errosComuns: [
           'Confundir aldeído (carbonila no carbono terminal) com cetona (carbonila em carbono intermediário)',
-          'Esquecer que álcool e fenol são funções diferentes — fenol tem OH ligado ao anel aromático',
+          'Esquecer que álcool e fenol são funções diferentes: fenol tem OH ligado ao anel aromático',
           'Errar a nomenclatura por não identificar a cadeia principal corretamente',
           'Confundir isomeria de posição com isomeria de cadeia',
         ],
@@ -383,7 +383,7 @@ Em outras palavras, a estequiometria permite calcular *quanto* de cada substânc
 
 $$N_A = 6{,}022 \\times 10^{23} \\text{ entidades (átomos, moléculas, íons...)}$$
 
-Esse valor é o **Número de Avogadro** ($N_A$). Assim como uma dúzia sempre representa 12 unidades, um mol sempre representa $6{,}022 \\times 10^{23}$ entidades — independentemente do tipo de substância.
+Esse valor é o **Número de Avogadro** ($N_A$). Assim como uma dúzia sempre representa 12 unidades, um mol sempre representa $6{,}022 \\times 10^{23}$ entidades: independentemente do tipo de substância.
 
 **Exemplos:**
 - 1 mol de átomos de $Fe$ = $6{,}022 \\times 10^{23}$ átomos de ferro
@@ -442,7 +442,7 @@ Onde:
           {
             titulo: 'Balanceamento de Equações Químicas',
             tipo: 'texto',
-            corpo: `Antes de qualquer cálculo estequiométrico, a equação deve estar **balanceada** — o número de átomos de cada elemento deve ser igual nos dois lados.
+            corpo: `Antes de qualquer cálculo estequiométrico, a equação deve estar **balanceada**: o número de átomos de cada elemento deve ser igual nos dois lados.
 
 **Método da tentativa (mais usado):**
 
@@ -468,13 +468,13 @@ $$C_2H_5OH + 3\\,O_2 \\rightarrow 2\\,CO_2 + 3\\,H_2O \\quad \\checkmark$$`,
             tipo: 'texto',
             corpo: `Todo cálculo estequiométrico segue um roteiro de **quatro passos**:
 
-**Passo 1 — Balanceie** a equação química.
+**Passo 1: Balanceie** a equação química.
 
-**Passo 2 — Identifique** os dados do problema (o que é dado e o que se pede).
+**Passo 2: Identifique** os dados do problema (o que é dado e o que se pede).
 
-**Passo 3 — Estabeleça a proporção molar** usando os coeficientes estequiométricos.
+**Passo 3: Estabeleça a proporção molar** usando os coeficientes estequiométricos.
 
-**Passo 4 — Converta** as unidades conforme necessário (g, mol, L, moléculas).
+**Passo 4: Converta** as unidades conforme necessário (g, mol, L, moléculas).
 
 **Exemplo completo:**
 *Quantos gramas de $CO_2$ são produzidos na combustão de 88 g de propano ($C_3H_8$)?* Dados: $M_{C_3H_8} = 44$ g/mol; $M_{CO_2} = 44$ g/mol.
@@ -491,7 +491,7 @@ $$C_3H_8 + 5\\,O_2 \\rightarrow 3\\,CO_2 + 4\\,H_2O$$
           {
             titulo: 'Reagente Limitante e Reagente em Excesso',
             tipo: 'texto',
-            corpo: `Quando os reagentes **não estão na proporção estequiométrica**, um deles se esgota primeiro — é o **reagente limitante**. O outro sobra parcialmente — é o **reagente em excesso**.
+            corpo: `Quando os reagentes **não estão na proporção estequiométrica**, um deles se esgota primeiro: é o **reagente limitante**. O outro sobra parcialmente: é o **reagente em excesso**.
 
 **Como identificar o reagente limitante:**
 
@@ -523,7 +523,7 @@ O excesso de $O_2$: foram necessários $\\frac{3}{2} = 1{,}5$ mol de $O_2$. Exce
 |------|-----------|
 | **Insaturada** | Contém menos soluto do que o coeficiente de solubilidade permite |
 | **Saturada** | Contém a quantidade máxima de soluto dissolvido (no limite) |
-| **Supersaturada** | Contém mais soluto do que o normal — sistema instável |
+| **Supersaturada** | Contém mais soluto do que o normal: sistema instável |
 
 O **coeficiente de solubilidade** (Cs) indica a quantidade máxima de soluto que pode ser dissolvida em uma quantidade definida de solvente, a determinada temperatura. Para a maioria dos sólidos, a solubilidade **aumenta** com a temperatura.`,
           },
@@ -532,13 +532,13 @@ O **coeficiente de solubilidade** (Cs) indica a quantidade máxima de soluto que
             tipo: 'formula',
             corpo: `As duas formas mais cobradas de expressar a concentração:
 
-**Concentração comum** (em massa) — expressa em g/L:
+**Concentração comum** (em massa): expressa em g/L:
 
 $$\\boxed{C = \\frac{m_1}{V}}$$
 
 onde $m_1$ = massa do soluto (g) e $V$ = volume da solução (L).
 
-**Molaridade** (concentração em mol/L) — expressa em mol/L:
+**Molaridade** (concentração em mol/L): expressa em mol/L:
 
 $$\\boxed{M = \\frac{n}{V} = \\frac{m_1}{M_1 \\cdot V}}$$
 
@@ -555,7 +555,7 @@ $$C = M \\times M_1$$
           {
             titulo: 'Diluição de Soluções',
             tipo: 'texto',
-            corpo: `Na **diluição**, adicionamos mais solvente a uma solução, diminuindo sua concentração. O ponto-chave é que a **quantidade de soluto permanece constante** — apenas o volume aumenta.
+            corpo: `Na **diluição**, adicionamos mais solvente a uma solução, diminuindo sua concentração. O ponto-chave é que a **quantidade de soluto permanece constante**: apenas o volume aumenta.
 
 A fórmula da diluição é:
 
@@ -594,7 +594,7 @@ $$C_f = \\frac{1{,}2}{0{,}5} = 2{,}4 \\text{ mol/L}$$
           {
             titulo: 'Titulação — Conceito Básico',
             tipo: 'texto',
-            corpo: `A **titulação** é uma técnica de laboratório usada para determinar a concentração desconhecida de uma solução. O procedimento envolve adicionar uma solução de concentração conhecida (**titulante**) a uma solução de concentração desconhecida (**titulado**) até que a reação se complete — o chamado **ponto de equivalência**.
+            corpo: `A **titulação** é uma técnica de laboratório usada para determinar a concentração desconhecida de uma solução. O procedimento envolve adicionar uma solução de concentração conhecida (**titulante**) a uma solução de concentração desconhecida (**titulado**) até que a reação se complete: o chamado **ponto de equivalência**.
 
 No ponto de equivalência, as quantidades de reagentes estão na proporção estequiométrica:
 
@@ -639,7 +639,7 @@ $$M_a = \\frac{0{,}002}{0{,}025} = 0{,}08 \\text{ mol/L}$$`,
         dicasProva: [
           'Sempre balanceie a equação antes de qualquer cálculo estequiométrico',
           'Use regra de três baseada nos coeficientes estequiométricos da equação balanceada',
-          'Atenção às unidades — converta tudo para a mesma unidade antes de calcular',
+          'Atenção às unidades: converta tudo para a mesma unidade antes de calcular',
           'Na diluição, o número de mols do soluto permanece constante',
         ],
         errosComuns: [
@@ -727,11 +727,11 @@ $$M_a = \\frac{0{,}002}{0{,}025} = 0{,}08 \\text{ mol/L}$$`,
             corpo: `A **Química Geral** estuda os fundamentos da matéria: do que são feitos os átomos, como eles se organizam na tabela periódica e como se ligam para formar substâncias. Esse é um dos temas de base mais importantes para o vestibular, pois permeia praticamente todos os outros assuntos da Química.
 
 Os principais tópicos cobrados são:
-- **Modelos atômicos** — evolução histórica de Dalton a Bohr
-- **Distribuição eletrônica** — diagrama de Linus Pauling
-- **Tabela periódica** — organização e propriedades periódicas
-- **Ligações químicas** — iônica, covalente e metálica
-- **Forças intermoleculares** — van der Waals, dipolo-dipolo e ligação de hidrogênio`,
+- **Modelos atômicos**: evolução histórica de Dalton a Bohr
+- **Distribuição eletrônica**: diagrama de Linus Pauling
+- **Tabela periódica**: organização e propriedades periódicas
+- **Ligações químicas**: iônica, covalente e metálica
+- **Forças intermoleculares**: van der Waals, dipolo-dipolo e ligação de hidrogênio`,
           },
           {
             titulo: 'Modelo Atômico de Dalton (1808)',
@@ -741,7 +741,7 @@ Os principais tópicos cobrados são:
 - O átomo é uma **esfera maciça, indivisível e indestrutível** (modelo "bola de bilhar")
 - Átomos de um mesmo elemento são **idênticos** em massa e propriedades
 - Átomos de elementos diferentes possuem massas diferentes
-- As reações químicas são **rearranjos** de átomos — eles não são criados nem destruídos
+- As reações químicas são **rearranjos** de átomos: eles não são criados nem destruídos
 
 **Limitação:** o modelo não explicava fenômenos elétricos (como a condutividade de soluções iônicas) nem a existência de partículas subatômicas. A descoberta do elétron por J.J. Thomson, em 1897, mostrou que o átomo *não* era indivisível.`,
           },
@@ -781,7 +781,7 @@ Com base nesses dados, Rutherford propôs:
             corpo: `Niels Bohr aprimorou o modelo de Rutherford incorporando ideias da **mecânica quântica**. Seus postulados:
 
 1. Os elétrons se movem em **órbitas circulares definidas** (camadas ou níveis de energia), denominadas $K, L, M, N, O, P, Q$ (ou $n = 1, 2, 3...$)
-2. Cada órbita possui uma **energia fixa** — o elétron **não** perde energia enquanto permanece em sua órbita
+2. Cada órbita possui uma **energia fixa**: o elétron **não** perde energia enquanto permanece em sua órbita
 3. O elétron pode **saltar** de uma órbita para outra:
    - **Absorve** energia → salta para nível mais externo (estado excitado)
    - **Emite** energia (fóton) → retorna ao nível mais interno (estado fundamental)
@@ -792,7 +792,7 @@ $$\\Delta E = E_f - E_i = h \\cdot f$$
 
 onde $h$ é a constante de Planck e $f$ é a frequência da radiação.
 
-O modelo de Bohr explicou com sucesso o **espectro de emissão do hidrogênio** — as linhas coloridas discretas quando o gás é excitado.`,
+O modelo de Bohr explicou com sucesso o **espectro de emissão do hidrogênio**: as linhas coloridas discretas quando o gás é excitado.`,
           },
           {
             titulo: 'Evolução dos Modelos Atômicos — Resumo',
@@ -804,7 +804,7 @@ O modelo de Bohr explicou com sucesso o **espectro de emissão do hidrogênio** 
 | **Rutherford** | 1911 | Núcleo positivo e denso + eletrosfera vazia | Elétron colapsaria sobre o núcleo |
 | **Bohr** | 1913 | Órbitas quantizadas com energia definida | Funciona bem apenas para o hidrogênio |
 
-> **Modelo atual (mecânico-quântico):** os elétrons não possuem órbitas definidas, mas **orbitais** — regiões de probabilidade de encontrar o elétron. Esse modelo é baseado na equação de Schrödinger e descreve os elétrons por **números quânticos**.`,
+> **Modelo atual (mecânico-quântico):** os elétrons não possuem órbitas definidas, mas **orbitais**: regiões de probabilidade de encontrar o elétron. Esse modelo é baseado na equação de Schrödinger e descreve os elétrons por **números quânticos**.`,
           },
           {
             titulo: 'Distribuição Eletrônica — Diagrama de Linus Pauling',
@@ -877,21 +877,21 @@ $$1s^2 \\, 2s^2 \\, 2p^6 \\, 3s^2 \\, 3p^6 \\, 4s^2 \\, 3d^6$$
             tipo: 'texto',
             corpo: `As **propriedades periódicas** variam de forma previsível ao longo da tabela:
 
-**Raio atômico** — tamanho do átomo:
+**Raio atômico**: tamanho do átomo:
 - **No período** (→): **diminui** (mais prótons atraem os elétrons da mesma camada)
 - **No grupo** (↓): **aumenta** (mais camadas eletrônicas)
 
-**Energia de ionização** — energia para remover 1 elétron do átomo neutro gasoso:
+**Energia de ionização**: energia para remover 1 elétron do átomo neutro gasoso:
 - **No período** (→): **aumenta** (átomos menores seguram elétrons com mais força)
 - **No grupo** (↓): **diminui** (elétrons mais afastados do núcleo são removidos mais facilmente)
 
-**Eletronegatividade** — tendência de atrair elétrons em uma ligação:
+**Eletronegatividade**: tendência de atrair elétrons em uma ligação:
 - **No período** (→): **aumenta**
 - **No grupo** (↓): **diminui**
 - Elemento mais eletronegativo: **flúor** ($F$)
 - Gases nobres não possuem eletronegatividade definida
 
-**Afinidade eletrônica (eletroafinidade)** — energia liberada ao receber 1 elétron:
+**Afinidade eletrônica (eletroafinidade)**: energia liberada ao receber 1 elétron:
 - Segue a mesma tendência da eletronegatividade
 
 > **Macete:** raio atômico tem tendência **oposta** às demais propriedades.`,
@@ -934,11 +934,11 @@ $$Na^+ + Cl^- \\rightarrow NaCl$$
 - $H_2$: $H - H$ (ligação simples apolar)
 - $H_2O$: $O$ compartilha elétrons com dois $H$ (ligação polar)
 - $O_2$: $O = O$ (ligação dupla)
-- $N_2$: $N \\equiv N$ (ligação tripla — muito estável)
+- $N_2$: $N \\equiv N$ (ligação tripla: muito estável)
 
 **Polaridade da ligação:**
-- **Apolar:** entre átomos iguais ($H_2$, $O_2$, $Cl_2$) — $\\Delta \\chi = 0$
-- **Polar:** entre átomos diferentes ($HCl$, $H_2O$) — $\\Delta \\chi > 0$
+- **Apolar:** entre átomos iguais ($H_2$, $O_2$, $Cl_2$): $\\Delta \\chi = 0$
+- **Polar:** entre átomos diferentes ($HCl$, $H_2O$): $\\Delta \\chi > 0$
 
 A polaridade depende da diferença de **eletronegatividade** ($\\Delta \\chi$) entre os átomos. Quanto maior $\\Delta \\chi$, mais polar a ligação.`,
           },
@@ -1007,7 +1007,7 @@ Uma molécula é **apolar** quando o vetor soma dos momentos de dipolo ($\\vec{\
 Uma molécula é **polar** quando a soma dos vetores $\\neq 0$:
 - Moléculas **assimétricas** com ligações polares ($H_2O$, $NH_3$, $HCl$)
 
-> **Regra prática:** semelhante dissolve semelhante — solventes polares (água) dissolvem solutos polares ou iônicos; solventes apolares dissolvem solutos apolares.`,
+> **Regra prática:** semelhante dissolve semelhante: solventes polares (água) dissolvem solutos polares ou iônicos; solventes apolares dissolvem solutos apolares.`,
           },
         ],
         imagemDescricao: 'Tabela periódica com setas indicando as tendências das propriedades periódicas e esquema dos modelos atômicos',
@@ -1015,7 +1015,7 @@ Uma molécula é **polar** quando a soma dos vetores $\\neq 0$:
           'Saiba a ordem cronológica dos modelos atômicos e a contribuição de cada cientista',
           'Domine a distribuição eletrônica pelo diagrama de Linus Pauling',
           'Identifique o tipo de ligação pela natureza dos átomos envolvidos (metal ou não-metal)',
-          'Propriedades periódicas são muito cobradas — memorize as tendências nos períodos e grupos',
+          'Propriedades periódicas são muito cobradas: memorize as tendências nos períodos e grupos',
         ],
         errosComuns: [
           'Confundir o modelo de Thomson (pudim de passas) com o de Rutherford (núcleo e eletrosfera)',
@@ -1078,7 +1078,7 @@ Uma molécula é **polar** quando a soma dos vetores $\\neq 0$:
       titulo: 'Físico-Química',
       peso: 15,
       conteudo: {
-        resumo: 'Termoquímica, cinética química e equilíbrio químico — entalpia, velocidade de reações e princípio de Le Chatelier.',
+        resumo: 'Termoquímica, cinética química e equilíbrio químico: entalpia, velocidade de reações e princípio de Le Chatelier.',
         explicacao:
           'A Físico-Química une conceitos de física e química para explicar transformações energéticas e equilíbrios.\n\nTermoquímica:\n• Reação exotérmica: libera calor para o ambiente (ΔH < 0)\n• Reação endotérmica: absorve calor do ambiente (ΔH > 0)\n• Lei de Hess: o ΔH da reação global é a soma dos ΔH das etapas intermediárias\n\nCinética química:\n• Velocidade de reação depende de: temperatura, concentração, superfície de contato e catalisador\n• Catalisador: aumenta a velocidade sem ser consumido (diminui a energia de ativação)\n\nEquilíbrio químico:\n• Ocorre quando as velocidades direta e inversa se igualam\n• Princípio de Le Chatelier: o sistema se desloca para compensar perturbações externas\n• Constante de equilíbrio: Kc = [produtos]^coef / [reagentes]^coef',
         secoes: [
@@ -1166,7 +1166,7 @@ $$\\Delta H = -393 + 283 = -110 \\text{ kJ}$$`,
           {
             titulo: 'Energia de Ligação e Cálculo de ΔH',
             tipo: 'texto',
-            corpo: `Toda ligação química possui uma **energia de ligação** — a energia necessária para rompê-la (em kJ/mol). Essa abordagem permite calcular o $\\Delta H$ de uma reação quando as entalpias de formação não estão disponíveis.
+            corpo: `Toda ligação química possui uma **energia de ligação**: a energia necessária para rompê-la (em kJ/mol). Essa abordagem permite calcular o $\\Delta H$ de uma reação quando as entalpias de formação não estão disponíveis.
 
 $$\\boxed{\\Delta H = \\sum E_{\\text{lig. rompidas}} - \\sum E_{\\text{lig. formadas}}}$$
 
@@ -1212,7 +1212,7 @@ $$a\\,A + b\\,B \\rightleftharpoons c\\,C + d\\,D$$
 
 $$\\boxed{K_c = \\frac{[C]^c \\cdot [D]^d}{[A]^a \\cdot [B]^b}}$$
 
-**Constante em termos de pressão parcial ($K_p$)** — para equilíbrios gasosos:
+**Constante em termos de pressão parcial ($K_p$)**: para equilíbrios gasosos:
 
 $$K_p = \\frac{(P_C)^c \\cdot (P_D)^d}{(P_A)^a \\cdot (P_B)^b}$$
 
@@ -1226,7 +1226,7 @@ onde $\\Delta n = (c + d) - (a + b)$ = diferença de mols gasosos (produtos - re
 - **Sólidos e líquidos puros** não entram na expressão de $K$ (suas concentrações são constantes)
 - $K$ grande → equilíbrio favorece os **produtos**
 - $K$ pequeno → equilíbrio favorece os **reagentes**
-- $K$ depende **apenas da temperatura** — não varia com concentração ou pressão`,
+- $K$ depende **apenas da temperatura**: não varia com concentração ou pressão`,
           },
           {
             titulo: 'Princípio de Le Chatelier',
@@ -1279,31 +1279,31 @@ onde $k$ é a constante de velocidade e $x$, $y$ são as ordens de reação (det
             tipo: 'texto',
             corpo: `Os principais fatores que influenciam a velocidade de uma reação são:
 
-**1. Temperatura** — aumentar a temperatura **aumenta** a velocidade, pois:
+**1. Temperatura**: aumentar a temperatura **aumenta** a velocidade, pois:
 - As moléculas se movem mais rapidamente
 - Maior fração de colisões possui energia $\\geq E_a$
 - Regra prática: um aumento de 10 °C pode **dobrar** a velocidade
 
-**2. Concentração dos reagentes** — aumentar a concentração geralmente **aumenta** a velocidade:
+**2. Concentração dos reagentes**: aumentar a concentração geralmente **aumenta** a velocidade:
 - Mais moléculas por unidade de volume → mais colisões efetivas
 
-**3. Superfície de contato** — quanto mais dividido o sólido, **maior** a área exposta e mais rápida a reação:
+**3. Superfície de contato**: quanto mais dividido o sólido, **maior** a área exposta e mais rápida a reação:
 - Ex.: ferro em pó reage mais rápido que ferro em barra
 
-**4. Catalisador** — substância que **aumenta** a velocidade ao fornecer um caminho alternativo com **menor energia de ativação** ($E_a$):
+**4. Catalisador**: substância que **aumenta** a velocidade ao fornecer um caminho alternativo com **menor energia de ativação** ($E_a$):
 - O catalisador **não é consumido** na reação
 - **Não altera** o $\\Delta H$ da reação
 - **Não desloca** o equilíbrio químico (acelera igualmente os dois sentidos)
 - **Não altera** a composição de equilíbrio
 
-**5. Pressão (para gases)** — aumentar a pressão equivale a aumentar a concentração → mais colisões → maior velocidade.`,
+**5. Pressão (para gases)**: aumentar a pressão equivale a aumentar a concentração → mais colisões → maior velocidade.`,
           },
           {
             titulo: 'Eletroquímica — Fundamentos',
             tipo: 'texto',
             corpo: `A **Eletroquímica** estuda a relação entre reações químicas e corrente elétrica. Divide-se em:
 
-**Pilhas (células galvânicas)** — reações espontâneas que geram corrente elétrica:
+**Pilhas (células galvânicas)**: reações espontâneas que geram corrente elétrica:
 - O eletrodo que **oxida** (perde elétrons) é o **ânodo** (polo negativo)
 - O eletrodo que **reduz** (ganha elétrons) é o **cátodo** (polo positivo)
 - O fluxo de elétrons vai do ânodo para o cátodo pelo fio externo
@@ -1314,7 +1314,7 @@ $$\\Delta E° = E°_{\\text{cátodo}} - E°_{\\text{ânodo}}$$
 
 Para a pilha ser espontânea: $\\Delta E° > 0$.
 
-**Eletrólise** — processo **não espontâneo** (requer energia elétrica externa):
+**Eletrólise**: processo **não espontâneo** (requer energia elétrica externa):
 - Utilizada para decompor substâncias (ex.: eletrólise da água: $2\\,H_2O \\rightarrow 2\\,H_2 + O_2$)
 - Na eletrólise, a **oxidação** ocorre no **ânodo** e a **redução** no **cátodo** (mesma convenção)
 
@@ -1359,7 +1359,7 @@ $$Li > K > Ca > Na > Mg > Al > Zn > Fe > Ni > Sn > Pb > H > Cu > Ag > Pt > Au$$
           'Se ΔH < 0, a reação é exotérmica (libera calor); se ΔH > 0, é endotérmica (absorve calor)',
           'Na Lei de Hess, ao inverter uma reação, troque o sinal de ΔH',
           'Aumento de temperatura desloca o equilíbrio para o lado endotérmico',
-          'Catalisador NÃO desloca o equilíbrio — apenas acelera igualmente os dois sentidos',
+          'Catalisador NÃO desloca o equilíbrio: apenas acelera igualmente os dois sentidos',
         ],
         errosComuns: [
           'Afirmar que catalisador desloca o equilíbrio (ele apenas acelera ambos os sentidos)',
